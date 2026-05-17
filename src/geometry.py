@@ -2,20 +2,26 @@ import math
 
 EPS = 1e-6
 
+
 def cross(a, b):
-    return a[0]*b[1] - a[1]*b[0]
+    return a[0] * b[1] - a[1] * b[0]
+
 
 def sub(a, b):
-    return (a[0]-b[0], a[1]-b[1])
+    return (a[0] - b[0], a[1] - b[1])
+
 
 def add(a, b):
-    return (a[0]+b[0], a[1]+b[1])
+    return (a[0] + b[0], a[1] + b[1])
+
 
 def scale(v, t):
-    return (v[0]*t, v[1]*t)
+    return (v[0] * t, v[1] * t)
+
 
 def midpoint(a, b):
-    return ((a[0]+b[0])/2, (a[1]+b[1])/2)
+    return ((a[0] + b[0]) / 2, (a[1] + b[1]) / 2)
+
 
 def points_equal(a, b):
     return math.dist(a, b) < EPS
@@ -31,7 +37,7 @@ def point_on_segment(p, a, b):
         t = (p[0] - a[0]) / dx if abs(dx) > EPS else 0
     else:
         t = (p[1] - a[1]) / dy if abs(dy) > EPS else 0
-    return -EPS <= t <= 1+EPS
+    return -EPS <= t <= 1 + EPS
 
 
 def point_in_polygon(p, poly):
@@ -40,11 +46,11 @@ def point_in_polygon(p, poly):
     n = len(poly)
     for i in range(n):
         a = poly[i]
-        b = poly[(i+1) % n]
+        b = poly[(i + 1) % n]
         if point_on_segment(p, a, b):
             return True
         if (a[1] > y) != (b[1] > y):
-            xcut = (b[0]-a[0]) * (y-a[1]) / (b[1]-a[1]) + a[0]
+            xcut = (b[0] - a[0]) * (y - a[1]) / (b[1] - a[1]) + a[0]
             if x < xcut:
                 inside = not inside
     return inside
@@ -58,7 +64,7 @@ def proper_intersect(p, r, q, s):
     diff = sub(q, p)
     t = cross(diff, s) / denom
     u = cross(diff, r) / denom
-    if EPS < t < 1-EPS and EPS < u < 1-EPS:
+    if EPS < t < 1 - EPS and EPS < u < 1 - EPS:
         return True, t, u
     return False, None, None
 
@@ -68,7 +74,7 @@ def segment_in_polygon(a, b, poly):
     n = len(poly)
     for i in range(n):
         p = poly[i]
-        q = poly[(i+1) % n]
+        q = poly[(i + 1) % n]
         hit, _, _ = proper_intersect(a, r, p, sub(q, p))
         if hit:
             return False
