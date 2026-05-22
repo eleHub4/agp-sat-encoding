@@ -1,4 +1,4 @@
-from geometry import cross, sub, add, scale, points_equal, segment_in_polygon, point_in_polygon
+from src.geometry import cross, sub, add, scale, points_equal, segment_in_polygon, point_in_polygon
 
 EPS = 1e-6
 
