@@ -40,8 +40,8 @@ def build_candidates(vertices, poly, max_rounds=3):
     for r in range(max_rounds):
         new_pts = []
         for i, j in visible_pairs(candidates, poly):
-            for k in range(n_edges):
-                p = line_edge_intersection(candidates[i], candidates[j], poly[k], poly[(k + 1) % n_edges])
+            for edge_idx in range(n_edges):
+                p = line_edge_intersection(candidates[i], candidates[j], poly[edge_idx], poly[(edge_idx + 1) % n_edges])
                 if p is None:
                     continue
                 if any(points_equal(p, q) for q in candidates + new_pts):

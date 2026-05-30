@@ -8,7 +8,6 @@ POLYGONS = {
 
 
 def test_visibility(name, poly, max_rounds=3):
-    print(f"=== {name} ===")
     pts = build_candidates(poly, poly, max_rounds=max_rounds)
     V = compute_visibility(pts, poly)
     n = len(pts)
