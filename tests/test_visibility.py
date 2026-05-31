@@ -1,11 +1,6 @@
 from src.candidates import build_candidates
 from src.visibility import compute_visibility
-
-POLYGONS = {
-    "L-Polygon": [(0, 2), (1, 2), (1, 1), (2, 1), (2, 0), (0, 0)],
-    "S-Polygon": [(0, 1), (0, 3), (1, 3), (1, 2), (3, 2), (3, 0), (2, 0), (2, 1)],
-}
-
+from tests.polygons import POLYGONS
 
 def test_visibility(name, poly, max_rounds=3):
     pts = build_candidates(poly, poly, max_rounds=max_rounds)
@@ -35,7 +30,6 @@ def test_visibility(name, poly, max_rounds=3):
         print(f"  {i:2} <-> {j:2}:  ({pts[i][0]:.1f},{pts[i][1]:.1f}) <-> ({pts[j][0]:.1f},{pts[j][1]:.1f})")
     print()
 
-
 if __name__ == "__main__":
-    for name, poly in POLYGONS.items():
+    for name, (poly, _) in POLYGONS.items():
         test_visibility(name, poly)
