@@ -57,7 +57,7 @@ def point_in_polygon(p, poly):
 
 
 def proper_intersect(p, r, q, s):
-    # returns (hit, t, u) -> only true if intersection is strictly interior
+    # returns (hit, t, u), strictly interior
     denom = cross(r, s)
     if abs(denom) < EPS:
         return False, None, None
@@ -72,11 +72,28 @@ def proper_intersect(p, r, q, s):
 def segment_in_polygon(a, b, poly):
     r = sub(b, a)
     n = len(poly)
+
+    # all t-parameters where segment touches polygon boundary
+    ts = [0.0, 1.0]
     for i in range(n):
         p = poly[i]
         q = poly[(i + 1) % n]
-        hit, _, _ = proper_intersect(a, r, p, sub(q, p))
-        if hit:
+        s_edge = sub(q, p)
+        denom = cross(r, s_edge)
+        if abs(denom) < EPS:
+            continue
+        diff = sub(p, a)
+        t = cross(diff, s_edge) / denom
+        u = cross(diff, r) / denom
+        if -EPS <= t <= 1 + EPS and -EPS <= u <= 1 + EPS:
+            ts.append(t)
+
+    ts = sorted(set(ts))
+
+    # check midpoint of each sub-segment
+    for i in range(len(ts) - 1):
+        mid_t = (ts[i] + ts[i + 1]) / 2
+        mid = add(a, scale(r, mid_t))
+        if not point_in_polygon(mid, poly):
             return False
-    mid = midpoint(a, b)
-    return point_in_polygon(mid, poly)
+    return True
