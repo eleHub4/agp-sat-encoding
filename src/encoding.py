@@ -43,3 +43,18 @@ def write_dimacs(clauses, num_vars, filepath, comments=None):
         f.write(f"p cnf {num_vars} {len(clauses)}\n")
         for clause in clauses:
             f.write(" ".join(map(str, clause)) + " 0\n")
+
+
+def soft_clauses(n):
+    return [[-(j + 1)] for j in range(n)]
+
+
+def write_wcnf(hard_clauses, soft_clauses, num_vars, filepath, comments=None):
+    with open(filepath, "w") as f:
+        if comments:
+            for line in comments:
+                f.write(f"c {line}\n")
+        for clause in hard_clauses:
+            f.write("h " + " ".join(map(str, clause)) + " 0\n")
+        for clause in soft_clauses:
+            f.write("1 " + " ".join(map(str, clause)) + " 0\n")
