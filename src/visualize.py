@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 from matplotlib.patches import Polygon as MplPolygon
 from matplotlib.collections import LineCollection
+from pathlib import Path
 from src.candidates import build_candidates
 from src.visibility import compute_visibility
 from main import load_polygon
@@ -14,6 +15,7 @@ def plot(poly, candidates, V, guards=None, title="AGP Visualization"):
     fig.suptitle(title)
     plt.tight_layout()
     plt.show()
+    return fig
 
 
 def _plot_visibility(ax, poly, candidates, V):
@@ -75,11 +77,20 @@ def _draw_candidates(ax, poly, candidates):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="AGP Visualizer")
     parser.add_argument("polygon", help="CSV file with polygon vertices")
-    parser.add_argument("--rounds", type=int, default=3, help="max rounds for candidates")
+    parser.add_argument("--rounds", type=int, default=2, help="max rounds for candidates")
     parser.add_argument("--guards", type=int, nargs="*", default=None)
+    parser.add_argument("--out", default=None, help="output image file")
     args = parser.parse_args()
 
     poly = load_polygon(args.polygon)
     pts = build_candidates(poly, poly, max_rounds=args.rounds)
     V = compute_visibility(pts, poly)
-    plot(poly, pts, V, guards=args.guards, title=args.polygon)
+
+    fig = plot(poly, pts, V, guards=args.guards, title=args.polygon)
+
+    if args.out:
+        Path(args.out).parent.mkdir(parents=True, exist_ok=True)
+        fig.savefig(args.out, dpi=300, bbox_inches="tight")
+        print(f"saved {args.out}")
+
+    plt.show()

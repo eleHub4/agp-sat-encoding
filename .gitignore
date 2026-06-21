@@ -12,6 +12,23 @@ env/
 # Output files
 output/
 
+# Data files
+data/
+
+cache/
+cache_rounds/
+
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.nav
+*.snm
+
 # OS
 .DS_Store
 
