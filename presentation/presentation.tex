@@ -64,11 +64,7 @@ Betreuer: Mathias Fleury}
 \begin{frame}
   \titlepage
 \end{frame}
-% ============================================================
 
-\begin{frame}{Inhalt}
-  \tableofcontents
-\end{frame}
 
 % ============================================================
 \section{Art Gallery Problem}
@@ -583,8 +579,60 @@ Betreuer: Mathias Fleury}
   Kandidatenanzahl treibt auch die WCNF-Größe.}
 \end{frame}
 
+
+\begin{frame}{Solver-Vergleich: Kleine Instanzen}
+\centering\small
+
+\begin{tabular}{lcccccc}
+\toprule
+Instanz & Größe & Runden & $k_{\min}$ &
+MaxHS (s) & Kissat (s) & Gelöst \\
+\midrule
+comb   & 6  & 0 & 6  & 0.19 & \textbf{0.03} & 1/1 \\
+comb   & 12 & 1 & 12 & 39.07 & \textbf{25.66} & 1/1 \\
+comb   & 8  & 2 & 8  & 2.55 & \textbf{2.19} & 1/1 \\
+\midrule
+random & 20 & 2 & 2 & 0.08 & \textbf{0.04} & 3/3 \\
+random & 30 & 2 & 2 & 0.11 & \textbf{0.01} & 3/3 \\
+random & 40 & 2 & 2--3 & 0.19 & \textbf{0.11} & 3/3 \\
+\bottomrule
+\end{tabular}
+
+\vspace{0.5em}
+
+\textbf{Beobachtung:}
+Bei kleinen Instanzen kann die iterative SAT-Suche schneller sein als MaxSAT.
+\end{frame}
+
+
+
+\begin{frame}{Solver-Vergleich: Skalierung}
+\centering\small
+
+\begin{tabular}{lcccccc}
+\toprule
+Instanz & Größe & Runden & $k_{\min}$ &
+MaxHS (s) & Kissat (s) & Gelöst \\
+\midrule
+random & 80  & 1 & 5--7  & 0.09 & 0.60 & 3/3 \\
+random & 100 & 1 & 5--8  & 0.17 & 50.95 & 3/3 \\
+random & 120 & 1 & 8--11 & 0.23 & \textcolor{myred}{Timeout} & 0/3 \\
+\midrule
+random & 60  & 2 & 4--5 & 0.55 & 7.19 & 3/3 \\
+random & 80  & 2 & 5--7 & 1.10 & 34.97 & 2/3 \\
+random & 100 & 2 & 5--8 & 1.85 & \textcolor{myred}{Timeout} & 1/3 \\
+\bottomrule
+\end{tabular}
+
+\vspace{0.5em}
+
+\textbf{Beobachtung:}
+Mit wachsender Instanzgröße werden die vielen UNSAT-Tests der iterativen
+SAT-Suche teuer. MaxHS skaliert deutlich besser.
+\end{frame}
+
 \fi
- 
+
 % ============================================================
 \section{Diskussion}
 % ============================================================
@@ -635,12 +683,6 @@ Betreuer: Mathias Fleury}
       \item \textbf{Rundenvergleich}: 1 vs.\ 2 vs.\ mehr Runden — bessere Optima?
     \end{itemize}
   \end{block}
-\end{frame}
-
-\begin{frame}{}
-  \centering
-  \Large Vielen Dank!\\[1em]
-  \normalsize Fragen?
 \end{frame}
 
 
