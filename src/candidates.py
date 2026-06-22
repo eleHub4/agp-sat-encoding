@@ -46,8 +46,11 @@ def build_candidates(vertices, poly, max_rounds=3):
                     continue
                 if any(points_equal(p, q) for q in candidates + new_pts):
                     continue  # duplicate
-                if point_in_polygon(p, poly):
-                    new_pts.append(p)
+                if not point_in_polygon(p, poly):
+                    continue
+                if not (segment_in_polygon(candidates[i], p, poly) or segment_in_polygon(candidates[j], p, poly)):
+                    continue
+                new_pts.append(p)
 
         if not new_pts:
             print(f"Converged after {r + 1} round(s)")

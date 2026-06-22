@@ -1,782 +1,1925 @@
-[2026-06-19 05:53:41] === Benchmark run started (mode=all) ===
-[2026-06-19 05:53:41] === PREPROCESS stage: 52 instances, 0 already cached ===
-[2026-06-19 05:53:41] --- Preprocessing comb_3_r0 ---
-[2026-06-19 05:53:41] comb_3_r0: done in 0.2245s (12 candidates)
-[2026-06-19 05:53:41] --- Preprocessing comb_4_r0 ---
-[2026-06-19 05:53:41] comb_4_r0: done in 0.0988s (16 candidates)
-[2026-06-19 05:53:41] --- Preprocessing comb_5_r0 ---
-[2026-06-19 05:53:41] comb_5_r0: done in 0.1018s (20 candidates)
-[2026-06-19 05:53:41] --- Preprocessing comb_6_r0 ---
-[2026-06-19 05:53:41] comb_6_r0: done in 0.1088s (24 candidates)
-[2026-06-19 05:53:41] --- Preprocessing comb_3_r1 ---
-[2026-06-19 05:53:41] comb_3_r1: done in 0.1129s (34 candidates)
-[2026-06-19 05:53:41] --- Preprocessing comb_4_r1 ---
-[2026-06-19 05:53:41] comb_4_r1: done in 0.1582s (55 candidates)
-[2026-06-19 05:53:41] --- Preprocessing comb_5_r1 ---
-[2026-06-19 05:53:42] comb_5_r1: done in 0.2560s (80 candidates)
-[2026-06-19 05:53:42] --- Preprocessing comb_6_r1 ---
-[2026-06-19 05:53:42] comb_6_r1: done in 0.5012s (115 candidates)
-[2026-06-19 05:53:42] --- Preprocessing comb_3_r2 ---
-[2026-06-19 05:53:42] comb_3_r2: done in 0.2324s (89 candidates)
-[2026-06-19 05:53:42] --- Preprocessing comb_4_r2 ---
-[2026-06-19 05:53:44] comb_4_r2: done in 1.5636s (266 candidates)
-[2026-06-19 05:53:44] --- Preprocessing comb_5_r2 ---
-[2026-06-19 05:53:52] comb_5_r2: done in 8.0684s (562 candidates)
-[2026-06-19 05:53:52] --- Preprocessing comb_6_r2 ---
-[2026-06-19 05:54:35] comb_6_r2: done in 43.0789s (1194 candidates)
-[2026-06-19 05:54:35] --- Preprocessing random_10_seed1_r0 ---
-[2026-06-19 05:54:35] random_10_seed1_r0: done in 0.1586s (10 candidates)
-[2026-06-19 05:54:35] --- Preprocessing random_10_seed2_r0 ---
-[2026-06-19 05:54:35] random_10_seed2_r0: done in 0.1055s (10 candidates)
-[2026-06-19 05:54:35] --- Preprocessing random_10_seed3_r0 ---
-[2026-06-19 05:54:36] random_10_seed3_r0: done in 0.1048s (10 candidates)
-[2026-06-19 05:54:36] --- Preprocessing random_10_seed4_r0 ---
-[2026-06-19 05:54:36] random_10_seed4_r0: done in 0.1062s (10 candidates)
-[2026-06-19 05:54:36] --- Preprocessing random_10_seed5_r0 ---
-[2026-06-19 05:54:36] random_10_seed5_r0: done in 0.0975s (10 candidates)
-[2026-06-19 05:54:36] --- Preprocessing random_20_seed1_r0 ---
-[2026-06-19 05:54:36] random_20_seed1_r0: done in 0.1055s (20 candidates)
-[2026-06-19 05:54:36] --- Preprocessing random_20_seed2_r0 ---
-[2026-06-19 05:54:36] random_20_seed2_r0: done in 0.1065s (20 candidates)
-[2026-06-19 05:54:36] --- Preprocessing random_20_seed3_r0 ---
-[2026-06-19 05:54:36] random_20_seed3_r0: done in 0.1054s (20 candidates)
-[2026-06-19 05:54:36] --- Preprocessing random_20_seed4_r0 ---
-[2026-06-19 05:54:36] random_20_seed4_r0: done in 0.1035s (20 candidates)
-[2026-06-19 05:54:36] --- Preprocessing random_20_seed5_r0 ---
-[2026-06-19 05:54:36] random_20_seed5_r0: done in 0.1061s (20 candidates)
-[2026-06-19 05:54:36] --- Preprocessing random_30_seed1_r0 ---
-[2026-06-19 05:54:36] random_30_seed1_r0: done in 0.1260s (30 candidates)
-[2026-06-19 05:54:36] --- Preprocessing random_30_seed2_r0 ---
-[2026-06-19 05:54:37] random_30_seed2_r0: done in 0.1296s (30 candidates)
-[2026-06-19 05:54:37] --- Preprocessing random_30_seed3_r0 ---
-[2026-06-19 05:54:37] random_30_seed3_r0: done in 0.1300s (30 candidates)
-[2026-06-19 05:54:37] --- Preprocessing random_30_seed4_r0 ---
-[2026-06-19 05:54:37] random_30_seed4_r0: done in 0.1761s (30 candidates)
-[2026-06-19 05:54:37] --- Preprocessing random_30_seed5_r0 ---
-[2026-06-19 05:54:37] random_30_seed5_r0: done in 0.1306s (30 candidates)
-[2026-06-19 05:54:37] --- Preprocessing random_40_seed1_r0 ---
-[2026-06-19 05:54:37] random_40_seed1_r0: done in 0.1786s (40 candidates)
-[2026-06-19 05:54:37] --- Preprocessing random_40_seed2_r0 ---
-[2026-06-19 05:54:37] random_40_seed2_r0: done in 0.1745s (40 candidates)
-[2026-06-19 05:54:37] --- Preprocessing random_40_seed3_r0 ---
-[2026-06-19 05:54:38] random_40_seed3_r0: done in 0.1725s (40 candidates)
-[2026-06-19 05:54:38] --- Preprocessing random_40_seed4_r0 ---
-[2026-06-19 05:54:38] random_40_seed4_r0: done in 0.1713s (40 candidates)
-[2026-06-19 05:54:38] --- Preprocessing random_40_seed5_r0 ---
-[2026-06-19 05:54:38] random_40_seed5_r0: done in 0.1745s (40 candidates)
-[2026-06-19 05:54:38] --- Preprocessing random_10_seed1_r1 ---
-[2026-06-19 05:54:38] random_10_seed1_r1: done in 0.1034s (24 candidates)
-[2026-06-19 05:54:38] --- Preprocessing random_10_seed2_r1 ---
-[2026-06-19 05:54:38] random_10_seed2_r1: done in 0.1124s (29 candidates)
-[2026-06-19 05:54:38] --- Preprocessing random_10_seed3_r1 ---
-[2026-06-19 05:54:38] random_10_seed3_r1: done in 0.1109s (24 candidates)
-[2026-06-19 05:54:38] --- Preprocessing random_10_seed4_r1 ---
-[2026-06-19 05:54:38] random_10_seed4_r1: done in 0.1108s (26 candidates)
-[2026-06-19 05:54:38] --- Preprocessing random_10_seed5_r1 ---
-[2026-06-19 05:54:38] random_10_seed5_r1: done in 0.1124s (29 candidates)
-[2026-06-19 05:54:38] --- Preprocessing random_20_seed1_r1 ---
-[2026-06-19 05:54:39] random_20_seed1_r1: done in 0.5727s (127 candidates)
-[2026-06-19 05:54:39] --- Preprocessing random_20_seed2_r1 ---
-[2026-06-19 05:54:40] random_20_seed2_r1: done in 0.6117s (134 candidates)
-[2026-06-19 05:54:40] --- Preprocessing random_20_seed3_r1 ---
-[2026-06-19 05:54:40] random_20_seed3_r1: done in 0.4701s (115 candidates)
-[2026-06-19 05:54:40] --- Preprocessing random_20_seed4_r1 ---
-[2026-06-19 05:54:40] random_20_seed4_r1: done in 0.3764s (100 candidates)
-[2026-06-19 05:54:40] --- Preprocessing random_20_seed5_r1 ---
-[2026-06-19 05:54:41] random_20_seed5_r1: done in 0.3542s (95 candidates)
-[2026-06-19 05:54:41] --- Preprocessing random_30_seed1_r1 ---
-[2026-06-19 05:54:44] random_30_seed1_r1: done in 2.9471s (259 candidates)
-[2026-06-19 05:54:44] --- Preprocessing random_30_seed2_r1 ---
-[2026-06-19 05:54:47] random_30_seed2_r1: done in 3.6256s (294 candidates)
-[2026-06-19 05:54:47] --- Preprocessing random_30_seed3_r1 ---
-[2026-06-19 05:54:50] random_30_seed3_r1: done in 2.7530s (253 candidates)
-[2026-06-19 05:54:50] --- Preprocessing random_30_seed4_r1 ---
-[2026-06-19 05:54:54] random_30_seed4_r1: done in 3.4366s (285 candidates)
-[2026-06-19 05:54:54] --- Preprocessing random_30_seed5_r1 ---
-[2026-06-19 05:54:57] random_30_seed5_r1: done in 3.4136s (281 candidates)
-[2026-06-19 05:54:57] --- Preprocessing random_40_seed1_r1 ---
-[2026-06-19 05:55:10] random_40_seed1_r1: done in 12.8903s (482 candidates)
-[2026-06-19 05:55:10] --- Preprocessing random_40_seed2_r1 ---
-[2026-06-19 05:55:20] random_40_seed2_r1: done in 10.4499s (435 candidates)
-[2026-06-19 05:55:20] --- Preprocessing random_40_seed3_r1 ---
-[2026-06-19 05:55:29] random_40_seed3_r1: done in 8.8507s (398 candidates)
-[2026-06-19 05:55:29] --- Preprocessing random_40_seed4_r1 ---
-[2026-06-19 05:55:38] random_40_seed4_r1: done in 9.0531s (404 candidates)
-[2026-06-19 05:55:38] --- Preprocessing random_40_seed5_r1 ---
-[2026-06-19 05:55:50] random_40_seed5_r1: done in 12.0442s (469 candidates)
-[2026-06-19 05:55:50] === PREPROCESS stage finished ===
-[2026-06-19 05:55:50] === SOLVE stage: 52 instances, 0 already done ===
-[2026-06-19 05:55:50] --- Solving comb_3_r0 ---
-[2026-06-19 05:55:50] comb_3_r0: MaxHS -> OPTIMUM FOUND (o=3) in 0.0992s
-[2026-06-19 05:55:50] comb_3_r0: Kissat -> k_opt=3 total=0.0150s (calls=3)
-[2026-06-19 05:55:50] --- Solving comb_4_r0 ---
-[2026-06-19 05:55:50] comb_4_r0: MaxHS -> OPTIMUM FOUND (o=4) in 0.0384s
-[2026-06-19 05:55:50] comb_4_r0: Kissat -> k_opt=4 total=0.0162s (calls=4)
-[2026-06-19 05:55:50] --- Solving comb_5_r0 ---
-[2026-06-19 05:55:50] comb_5_r0: MaxHS -> OPTIMUM FOUND (o=5) in 0.0351s
-[2026-06-19 05:55:51] comb_5_r0: Kissat -> k_opt=5 total=0.0249s (calls=5)
-[2026-06-19 05:55:51] --- Solving comb_6_r0 ---
-[2026-06-19 05:55:51] comb_6_r0: MaxHS -> OPTIMUM FOUND (o=6) in 0.0353s
-[2026-06-19 05:55:51] comb_6_r0: Kissat -> k_opt=6 total=0.0339s (calls=6)
-[2026-06-19 05:55:51] --- Solving comb_3_r1 ---
-[2026-06-19 05:55:51] comb_3_r1: MaxHS -> OPTIMUM FOUND (o=3) in 0.0365s
-[2026-06-19 05:55:51] comb_3_r1: Kissat -> k_opt=3 total=0.0159s (calls=3)
-[2026-06-19 05:55:51] --- Solving comb_4_r1 ---
-[2026-06-19 05:55:51] comb_4_r1: MaxHS -> OPTIMUM FOUND (o=4) in 0.0389s
-[2026-06-19 05:55:51] comb_4_r1: Kissat -> k_opt=4 total=0.0349s (calls=4)
-[2026-06-19 05:55:51] --- Solving comb_5_r1 ---
-[2026-06-19 05:55:51] comb_5_r1: MaxHS -> OPTIMUM FOUND (o=5) in 0.0876s
-[2026-06-19 05:55:51] comb_5_r1: Kissat -> k_opt=5 total=0.0873s (calls=5)
-[2026-06-19 05:55:51] --- Solving comb_6_r1 ---
-[2026-06-19 05:55:51] comb_6_r1: MaxHS -> OPTIMUM FOUND (o=6) in 0.3601s
-[2026-06-19 05:55:52] comb_6_r1: Kissat -> k_opt=6 total=0.2801s (calls=6)
-[2026-06-19 05:55:52] --- Solving comb_3_r2 ---
-[2026-06-19 05:55:52] comb_3_r2: MaxHS -> OPTIMUM FOUND (o=3) in 0.0489s
-[2026-06-19 05:55:52] comb_3_r2: Kissat -> k_opt=3 total=0.0315s (calls=3)
-[2026-06-19 05:55:52] --- Solving comb_4_r2 ---
-[2026-06-19 05:55:52] comb_4_r2: MaxHS -> OPTIMUM FOUND (o=4) in 0.1029s
-[2026-06-19 05:55:52] comb_4_r2: Kissat -> k_opt=4 total=0.2287s (calls=4)
-[2026-06-19 05:55:52] --- Solving comb_5_r2 ---
-[2026-06-19 05:55:52] comb_5_r2: MaxHS -> OPTIMUM FOUND (o=5) in 0.0730s
-[2026-06-19 05:56:43] comb_5_r2: Kissat -> k_opt=5 total=51.2849s (calls=5)
-[2026-06-19 05:56:43] --- Solving comb_6_r2 ---
-[2026-06-19 05:56:44] comb_6_r2: MaxHS -> OPTIMUM FOUND (o=6) in 0.3679s
-[2026-06-19 05:58:53] comb_6_r2: Kissat -> k_opt=None total=129.6015s (calls=4)
-[2026-06-19 05:58:53] --- Solving random_10_seed1_r0 ---
-[2026-06-19 05:58:53] random_10_seed1_r0: MaxHS -> OPTIMUM FOUND (o=1) in 0.0690s
-[2026-06-19 05:58:53] random_10_seed1_r0: Kissat -> k_opt=1 total=0.0053s (calls=1)
-[2026-06-19 05:58:53] --- Solving random_10_seed2_r0 ---
-[2026-06-19 05:58:53] random_10_seed2_r0: MaxHS -> OPTIMUM FOUND (o=2) in 0.0339s
-[2026-06-19 05:58:53] random_10_seed2_r0: Kissat -> k_opt=2 total=0.0074s (calls=2)
-[2026-06-19 05:58:53] --- Solving random_10_seed3_r0 ---
-[2026-06-19 05:58:53] random_10_seed3_r0: MaxHS -> OPTIMUM FOUND (o=2) in 0.0344s
-[2026-06-19 05:58:53] random_10_seed3_r0: Kissat -> k_opt=2 total=0.0091s (calls=2)
-[2026-06-19 05:58:53] --- Solving random_10_seed4_r0 ---
-[2026-06-19 05:58:53] random_10_seed4_r0: MaxHS -> OPTIMUM FOUND (o=1) in 0.0334s
-[2026-06-19 05:58:53] random_10_seed4_r0: Kissat -> k_opt=1 total=0.0054s (calls=1)
-[2026-06-19 05:58:53] --- Solving random_10_seed5_r0 ---
-[2026-06-19 05:58:53] random_10_seed5_r0: MaxHS -> OPTIMUM FOUND (o=1) in 0.0340s
-[2026-06-19 05:58:53] random_10_seed5_r0: Kissat -> k_opt=1 total=0.0047s (calls=1)
-[2026-06-19 05:58:53] --- Solving random_20_seed1_r0 ---
-[2026-06-19 05:58:54] random_20_seed1_r0: MaxHS -> OPTIMUM FOUND (o=2) in 0.0337s
-[2026-06-19 05:58:54] random_20_seed1_r0: Kissat -> k_opt=2 total=0.0068s (calls=2)
-[2026-06-19 05:58:54] --- Solving random_20_seed2_r0 ---
-[2026-06-19 05:58:54] random_20_seed2_r0: MaxHS -> OPTIMUM FOUND (o=2) in 0.0340s
-[2026-06-19 05:58:54] random_20_seed2_r0: Kissat -> k_opt=2 total=0.0100s (calls=2)
-[2026-06-19 05:58:54] --- Solving random_20_seed3_r0 ---
-[2026-06-19 05:58:54] random_20_seed3_r0: MaxHS -> OPTIMUM FOUND (o=2) in 0.0347s
-[2026-06-19 05:58:54] random_20_seed3_r0: Kissat -> k_opt=2 total=0.0085s (calls=2)
-[2026-06-19 05:58:54] --- Solving random_20_seed4_r0 ---
-[2026-06-19 05:58:54] random_20_seed4_r0: MaxHS -> OPTIMUM FOUND (o=2) in 0.0351s
-[2026-06-19 05:58:54] random_20_seed4_r0: Kissat -> k_opt=2 total=0.0074s (calls=2)
-[2026-06-19 05:58:54] --- Solving random_20_seed5_r0 ---
-[2026-06-19 05:58:54] random_20_seed5_r0: MaxHS -> OPTIMUM FOUND (o=2) in 0.0338s
-[2026-06-19 05:58:54] random_20_seed5_r0: Kissat -> k_opt=2 total=0.0082s (calls=2)
-[2026-06-19 05:58:54] --- Solving random_30_seed1_r0 ---
-[2026-06-19 05:58:54] random_30_seed1_r0: MaxHS -> OPTIMUM FOUND (o=2) in 0.0346s
-[2026-06-19 05:58:54] random_30_seed1_r0: Kissat -> k_opt=2 total=0.0087s (calls=2)
-[2026-06-19 05:58:54] --- Solving random_30_seed2_r0 ---
-[2026-06-19 05:58:54] random_30_seed2_r0: MaxHS -> OPTIMUM FOUND (o=2) in 0.0343s
-[2026-06-19 05:58:54] random_30_seed2_r0: Kissat -> k_opt=2 total=0.0084s (calls=2)
-[2026-06-19 05:58:54] --- Solving random_30_seed3_r0 ---
-[2026-06-19 05:58:54] random_30_seed3_r0: MaxHS -> OPTIMUM FOUND (o=2) in 0.0349s
-[2026-06-19 05:58:54] random_30_seed3_r0: Kissat -> k_opt=2 total=0.0109s (calls=2)
-[2026-06-19 05:58:54] --- Solving random_30_seed4_r0 ---
-[2026-06-19 05:58:54] random_30_seed4_r0: MaxHS -> OPTIMUM FOUND (o=2) in 0.0347s
-[2026-06-19 05:58:54] random_30_seed4_r0: Kissat -> k_opt=2 total=0.0098s (calls=2)
-[2026-06-19 05:58:54] --- Solving random_30_seed5_r0 ---
-[2026-06-19 05:58:54] random_30_seed5_r0: MaxHS -> OPTIMUM FOUND (o=3) in 0.0346s
-[2026-06-19 05:58:54] random_30_seed5_r0: Kissat -> k_opt=3 total=0.0142s (calls=3)
-[2026-06-19 05:58:54] --- Solving random_40_seed1_r0 ---
-[2026-06-19 05:58:54] random_40_seed1_r0: MaxHS -> OPTIMUM FOUND (o=2) in 0.0351s
-[2026-06-19 05:58:54] random_40_seed1_r0: Kissat -> k_opt=2 total=0.0087s (calls=2)
-[2026-06-19 05:58:54] --- Solving random_40_seed2_r0 ---
-[2026-06-19 05:58:54] random_40_seed2_r0: MaxHS -> OPTIMUM FOUND (o=3) in 0.0345s
-[2026-06-19 05:58:54] random_40_seed2_r0: Kissat -> k_opt=3 total=0.0166s (calls=3)
-[2026-06-19 05:58:54] --- Solving random_40_seed3_r0 ---
-[2026-06-19 05:58:54] random_40_seed3_r0: MaxHS -> OPTIMUM FOUND (o=3) in 0.0348s
-[2026-06-19 05:58:54] random_40_seed3_r0: Kissat -> k_opt=3 total=0.0209s (calls=3)
-[2026-06-19 05:58:54] --- Solving random_40_seed4_r0 ---
-[2026-06-19 05:58:54] random_40_seed4_r0: MaxHS -> OPTIMUM FOUND (o=3) in 0.0350s
-[2026-06-19 05:58:54] random_40_seed4_r0: Kissat -> k_opt=3 total=0.0162s (calls=3)
-[2026-06-19 05:58:54] --- Solving random_40_seed5_r0 ---
-[2026-06-19 05:58:54] random_40_seed5_r0: MaxHS -> OPTIMUM FOUND (o=3) in 0.0349s
-[2026-06-19 05:58:54] random_40_seed5_r0: Kissat -> k_opt=3 total=0.0163s (calls=3)
-[2026-06-19 05:58:54] --- Solving random_10_seed1_r1 ---
-[2026-06-19 05:58:54] random_10_seed1_r1: MaxHS -> OPTIMUM FOUND (o=1) in 0.0341s
-[2026-06-19 05:58:54] random_10_seed1_r1: Kissat -> k_opt=1 total=0.0055s (calls=1)
-[2026-06-19 05:58:54] --- Solving random_10_seed2_r1 ---
-[2026-06-19 05:58:54] random_10_seed2_r1: MaxHS -> OPTIMUM FOUND (o=2) in 0.0342s
-[2026-06-19 05:58:54] random_10_seed2_r1: Kissat -> k_opt=2 total=0.0088s (calls=2)
-[2026-06-19 05:58:54] --- Solving random_10_seed3_r1 ---
-[2026-06-19 05:58:54] random_10_seed3_r1: MaxHS -> OPTIMUM FOUND (o=2) in 0.0346s
-[2026-06-19 05:58:54] random_10_seed3_r1: Kissat -> k_opt=2 total=0.0088s (calls=2)
-[2026-06-19 05:58:54] --- Solving random_10_seed4_r1 ---
-[2026-06-19 05:58:54] random_10_seed4_r1: MaxHS -> OPTIMUM FOUND (o=1) in 0.0341s
-[2026-06-19 05:58:54] random_10_seed4_r1: Kissat -> k_opt=1 total=0.0060s (calls=1)
-[2026-06-19 05:58:54] --- Solving random_10_seed5_r1 ---
-[2026-06-19 05:58:54] random_10_seed5_r1: MaxHS -> OPTIMUM FOUND (o=1) in 0.0345s
-[2026-06-19 05:58:54] random_10_seed5_r1: Kissat -> k_opt=1 total=0.0054s (calls=1)
-[2026-06-19 05:58:54] --- Solving random_20_seed1_r1 ---
-[2026-06-19 05:58:54] random_20_seed1_r1: MaxHS -> OPTIMUM FOUND (o=2) in 0.0378s
-[2026-06-19 05:58:54] random_20_seed1_r1: Kissat -> k_opt=2 total=0.0343s (calls=2)
-[2026-06-19 05:58:54] --- Solving random_20_seed2_r1 ---
-[2026-06-19 05:58:55] random_20_seed2_r1: MaxHS -> OPTIMUM FOUND (o=2) in 0.0388s
-[2026-06-19 05:58:55] random_20_seed2_r1: Kissat -> k_opt=2 total=0.0096s (calls=2)
-[2026-06-19 05:58:55] --- Solving random_20_seed3_r1 ---
-[2026-06-19 05:58:55] random_20_seed3_r1: MaxHS -> OPTIMUM FOUND (o=2) in 0.0386s
-[2026-06-19 05:58:55] random_20_seed3_r1: Kissat -> k_opt=2 total=0.0096s (calls=2)
-[2026-06-19 05:58:55] --- Solving random_20_seed4_r1 ---
-[2026-06-19 05:58:55] random_20_seed4_r1: MaxHS -> OPTIMUM FOUND (o=2) in 0.0368s
-[2026-06-19 05:58:55] random_20_seed4_r1: Kissat -> k_opt=2 total=0.0095s (calls=2)
-[2026-06-19 05:58:55] --- Solving random_20_seed5_r1 ---
-[2026-06-19 05:58:55] random_20_seed5_r1: MaxHS -> OPTIMUM FOUND (o=2) in 0.0366s
-[2026-06-19 05:58:55] random_20_seed5_r1: Kissat -> k_opt=2 total=0.0095s (calls=2)
-[2026-06-19 05:58:55] --- Solving random_30_seed1_r1 ---
-[2026-06-19 05:58:55] random_30_seed1_r1: MaxHS -> OPTIMUM FOUND (o=2) in 0.1096s
-[2026-06-19 05:58:55] random_30_seed1_r1: Kissat -> k_opt=2 total=0.0108s (calls=2)
-[2026-06-19 05:58:55] --- Solving random_30_seed2_r1 ---
-[2026-06-19 05:58:55] random_30_seed2_r1: MaxHS -> OPTIMUM FOUND (o=2) in 0.0576s
-[2026-06-19 05:58:55] random_30_seed2_r1: Kissat -> k_opt=2 total=0.0119s (calls=2)
-[2026-06-19 05:58:55] --- Solving random_30_seed3_r1 ---
-[2026-06-19 05:58:55] random_30_seed3_r1: MaxHS -> OPTIMUM FOUND (o=2) in 0.0452s
-[2026-06-19 05:58:55] random_30_seed3_r1: Kissat -> k_opt=2 total=0.0385s (calls=2)
-[2026-06-19 05:58:55] --- Solving random_30_seed4_r1 ---
-[2026-06-19 05:58:55] random_30_seed4_r1: MaxHS -> OPTIMUM FOUND (o=2) in 0.0547s
-[2026-06-19 05:58:55] random_30_seed4_r1: Kissat -> k_opt=2 total=0.0363s (calls=2)
-[2026-06-19 05:58:55] --- Solving random_30_seed5_r1 ---
-[2026-06-19 05:58:55] random_30_seed5_r1: MaxHS -> OPTIMUM FOUND (o=3) in 0.0563s
-[2026-06-19 05:58:55] random_30_seed5_r1: Kissat -> k_opt=3 total=0.0763s (calls=3)
-[2026-06-19 05:58:55] --- Solving random_40_seed1_r1 ---
-[2026-06-19 05:58:55] random_40_seed1_r1: MaxHS -> OPTIMUM FOUND (o=2) in 0.0785s
-[2026-06-19 05:58:55] random_40_seed1_r1: Kissat -> k_opt=2 total=0.0363s (calls=2)
-[2026-06-19 05:58:55] --- Solving random_40_seed2_r1 ---
-[2026-06-19 05:58:55] random_40_seed2_r1: MaxHS -> OPTIMUM FOUND (o=3) in 0.0740s
-[2026-06-19 05:58:55] random_40_seed2_r1: Kissat -> k_opt=3 total=0.0863s (calls=3)
-[2026-06-19 05:58:55] --- Solving random_40_seed3_r1 ---
-[2026-06-19 05:58:56] random_40_seed3_r1: MaxHS -> OPTIMUM FOUND (o=3) in 0.0717s
-[2026-06-19 05:58:56] random_40_seed3_r1: Kissat -> k_opt=3 total=0.0693s (calls=3)
-[2026-06-19 05:58:56] --- Solving random_40_seed4_r1 ---
-[2026-06-19 05:58:56] random_40_seed4_r1: MaxHS -> OPTIMUM FOUND (o=3) in 0.0758s
-[2026-06-19 05:58:56] random_40_seed4_r1: Kissat -> k_opt=3 total=0.0577s (calls=3)
-[2026-06-19 05:58:56] --- Solving random_40_seed5_r1 ---
-[2026-06-19 05:58:56] random_40_seed5_r1: MaxHS -> OPTIMUM FOUND (o=3) in 0.0824s
-[2026-06-19 05:58:56] random_40_seed5_r1: Kissat -> k_opt=3 total=0.1428s (calls=3)
-[2026-06-19 05:58:56] === SOLVE stage finished ===
-[2026-06-19 05:58:56] === Benchmark run complete ===
-[2026-06-19 09:07:57] === Benchmark run started (mode=all) ===
-[2026-06-19 09:07:57] === PREPROCESS stage: 72 instances, 52 already cached ===
-[2026-06-19 09:07:57] SKIP preprocess comb_3_r0 (cached)
-[2026-06-19 09:07:57] SKIP preprocess comb_4_r0 (cached)
-[2026-06-19 09:07:57] SKIP preprocess comb_5_r0 (cached)
-[2026-06-19 09:07:57] SKIP preprocess comb_6_r0 (cached)
-[2026-06-19 09:07:57] SKIP preprocess comb_3_r1 (cached)
-[2026-06-19 09:07:57] SKIP preprocess comb_4_r1 (cached)
-[2026-06-19 09:07:57] SKIP preprocess comb_5_r1 (cached)
-[2026-06-19 09:07:57] SKIP preprocess comb_6_r1 (cached)
-[2026-06-19 09:07:57] SKIP preprocess comb_3_r2 (cached)
-[2026-06-19 09:07:57] SKIP preprocess comb_4_r2 (cached)
-[2026-06-19 09:07:57] SKIP preprocess comb_5_r2 (cached)
-[2026-06-19 09:07:57] SKIP preprocess comb_6_r2 (cached)
-[2026-06-19 09:07:57] SKIP preprocess random_10_seed1_r0 (cached)
-[2026-06-19 09:07:57] SKIP preprocess random_10_seed2_r0 (cached)
-[2026-06-19 09:07:57] SKIP preprocess random_10_seed3_r0 (cached)
-[2026-06-19 09:07:57] SKIP preprocess random_10_seed4_r0 (cached)
-[2026-06-19 09:07:57] SKIP preprocess random_10_seed5_r0 (cached)
-[2026-06-19 09:07:57] SKIP preprocess random_20_seed1_r0 (cached)
-[2026-06-19 09:07:57] SKIP preprocess random_20_seed2_r0 (cached)
-[2026-06-19 09:07:57] SKIP preprocess random_20_seed3_r0 (cached)
-[2026-06-19 09:07:57] SKIP preprocess random_20_seed4_r0 (cached)
-[2026-06-19 09:07:57] SKIP preprocess random_20_seed5_r0 (cached)
-[2026-06-19 09:07:57] SKIP preprocess random_30_seed1_r0 (cached)
-[2026-06-19 09:07:57] SKIP preprocess random_30_seed2_r0 (cached)
-[2026-06-19 09:07:57] SKIP preprocess random_30_seed3_r0 (cached)
-[2026-06-19 09:07:57] SKIP preprocess random_30_seed4_r0 (cached)
-[2026-06-19 09:07:57] SKIP preprocess random_30_seed5_r0 (cached)
-[2026-06-19 09:07:57] SKIP preprocess random_40_seed1_r0 (cached)
-[2026-06-19 09:07:57] SKIP preprocess random_40_seed2_r0 (cached)
-[2026-06-19 09:07:57] SKIP preprocess random_40_seed3_r0 (cached)
-[2026-06-19 09:07:57] SKIP preprocess random_40_seed4_r0 (cached)
-[2026-06-19 09:07:57] SKIP preprocess random_40_seed5_r0 (cached)
-[2026-06-19 09:07:57] SKIP preprocess random_10_seed1_r1 (cached)
-[2026-06-19 09:07:57] SKIP preprocess random_10_seed2_r1 (cached)
-[2026-06-19 09:07:57] SKIP preprocess random_10_seed3_r1 (cached)
-[2026-06-19 09:07:57] SKIP preprocess random_10_seed4_r1 (cached)
-[2026-06-19 09:07:57] SKIP preprocess random_10_seed5_r1 (cached)
-[2026-06-19 09:07:57] SKIP preprocess random_20_seed1_r1 (cached)
-[2026-06-19 09:07:57] SKIP preprocess random_20_seed2_r1 (cached)
-[2026-06-19 09:07:57] SKIP preprocess random_20_seed3_r1 (cached)
-[2026-06-19 09:07:57] SKIP preprocess random_20_seed4_r1 (cached)
-[2026-06-19 09:07:57] SKIP preprocess random_20_seed5_r1 (cached)
-[2026-06-19 09:07:57] SKIP preprocess random_30_seed1_r1 (cached)
-[2026-06-19 09:07:57] SKIP preprocess random_30_seed2_r1 (cached)
-[2026-06-19 09:07:57] SKIP preprocess random_30_seed3_r1 (cached)
-[2026-06-19 09:07:57] SKIP preprocess random_30_seed4_r1 (cached)
-[2026-06-19 09:07:57] SKIP preprocess random_30_seed5_r1 (cached)
-[2026-06-19 09:07:57] SKIP preprocess random_40_seed1_r1 (cached)
-[2026-06-19 09:07:57] SKIP preprocess random_40_seed2_r1 (cached)
-[2026-06-19 09:07:57] SKIP preprocess random_40_seed3_r1 (cached)
-[2026-06-19 09:07:57] SKIP preprocess random_40_seed4_r1 (cached)
-[2026-06-19 09:07:57] SKIP preprocess random_40_seed5_r1 (cached)
-[2026-06-19 09:07:57] --- Preprocessing random_10_seed1_r2 ---
-[2026-06-19 09:07:57] random_10_seed1_r2: done in 0.2638s (55 candidates)
-[2026-06-19 09:07:57] --- Preprocessing random_10_seed2_r2 ---
-[2026-06-19 09:07:57] random_10_seed2_r2: done in 0.1757s (69 candidates)
-[2026-06-19 09:07:57] --- Preprocessing random_10_seed3_r2 ---
-[2026-06-19 09:07:57] random_10_seed3_r2: done in 0.1241s (41 candidates)
-[2026-06-19 09:07:57] --- Preprocessing random_10_seed4_r2 ---
-[2026-06-19 09:07:57] random_10_seed4_r2: done in 0.1336s (45 candidates)
-[2026-06-19 09:07:57] --- Preprocessing random_10_seed5_r2 ---
-[2026-06-19 09:07:57] random_10_seed5_r2: done in 0.1732s (69 candidates)
-[2026-06-19 09:07:57] --- Preprocessing random_20_seed1_r2 ---
-[2026-06-19 09:10:59] random_20_seed1_r2: done in 181.8718s (2511 candidates)
-[2026-06-19 09:10:59] --- Preprocessing random_20_seed2_r2 ---
-[2026-06-19 09:16:32] random_20_seed2_r2: done in 332.9868s (3406 candidates)
-[2026-06-19 09:16:32] --- Preprocessing random_20_seed3_r2 ---
-[2026-06-19 09:17:28] random_20_seed3_r2: done in 55.9957s (1389 candidates)
-[2026-06-19 09:17:28] --- Preprocessing random_20_seed4_r2 ---
-[2026-06-19 09:18:05] random_20_seed4_r2: done in 36.2429s (1135 candidates)
-[2026-06-19 09:18:05] --- Preprocessing random_20_seed5_r2 ---
-[2026-06-19 09:18:42] random_20_seed5_r2: done in 37.5177s (1148 candidates)
-[2026-06-19 09:18:42] --- Preprocessing random_30_seed1_r2 ---
-[2026-06-19 09:48:42] random_30_seed1_r2: PREPROCESS ERROR WCNF generation timed out after 1800s
-[2026-06-19 09:48:42] --- Preprocessing random_30_seed2_r2 ---
-[2026-06-19 10:18:42] random_30_seed2_r2: PREPROCESS ERROR WCNF generation timed out after 1800s
-[2026-06-19 10:18:42] --- Preprocessing random_30_seed3_r2 ---
-[2026-06-19 11:05:57] === Benchmark run started (mode=all) ===
-[2026-06-19 11:05:57] === PREPROCESS stage: 72 instances, 62 already cached ===
-[2026-06-19 11:05:57] SKIP preprocess comb_3_r0 (cached)
-[2026-06-19 11:05:57] SKIP preprocess comb_4_r0 (cached)
-[2026-06-19 11:05:57] SKIP preprocess comb_5_r0 (cached)
-[2026-06-19 11:05:57] SKIP preprocess comb_6_r0 (cached)
-[2026-06-19 11:05:57] SKIP preprocess comb_3_r1 (cached)
-[2026-06-19 11:05:57] SKIP preprocess comb_4_r1 (cached)
-[2026-06-19 11:05:57] SKIP preprocess comb_5_r1 (cached)
-[2026-06-19 11:05:57] SKIP preprocess comb_6_r1 (cached)
-[2026-06-19 11:05:57] SKIP preprocess comb_3_r2 (cached)
-[2026-06-19 11:05:57] SKIP preprocess comb_4_r2 (cached)
-[2026-06-19 11:05:57] SKIP preprocess comb_5_r2 (cached)
-[2026-06-19 11:05:57] SKIP preprocess comb_6_r2 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_10_seed1_r0 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_10_seed2_r0 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_10_seed3_r0 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_10_seed4_r0 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_10_seed5_r0 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_20_seed1_r0 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_20_seed2_r0 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_20_seed3_r0 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_20_seed4_r0 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_20_seed5_r0 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_30_seed1_r0 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_30_seed2_r0 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_30_seed3_r0 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_30_seed4_r0 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_30_seed5_r0 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_40_seed1_r0 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_40_seed2_r0 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_40_seed3_r0 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_40_seed4_r0 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_40_seed5_r0 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_10_seed1_r1 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_10_seed2_r1 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_10_seed3_r1 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_10_seed4_r1 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_10_seed5_r1 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_20_seed1_r1 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_20_seed2_r1 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_20_seed3_r1 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_20_seed4_r1 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_20_seed5_r1 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_30_seed1_r1 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_30_seed2_r1 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_30_seed3_r1 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_30_seed4_r1 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_30_seed5_r1 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_40_seed1_r1 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_40_seed2_r1 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_40_seed3_r1 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_40_seed4_r1 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_40_seed5_r1 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_10_seed1_r2 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_10_seed2_r2 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_10_seed3_r2 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_10_seed4_r2 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_10_seed5_r2 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_20_seed1_r2 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_20_seed2_r2 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_20_seed3_r2 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_20_seed4_r2 (cached)
-[2026-06-19 11:05:57] SKIP preprocess random_20_seed5_r2 (cached)
-[2026-06-19 11:05:57] --- Preprocessing random_30_seed1_r2 ---
-[2026-06-19 12:05:57] random_30_seed1_r2: PREPROCESS ERROR WCNF generation timed out after 3600s
-[2026-06-19 12:05:57] --- Preprocessing random_30_seed2_r2 ---
-[2026-06-19 13:05:57] random_30_seed2_r2: PREPROCESS ERROR WCNF generation timed out after 3600s
-[2026-06-19 13:05:57] --- Preprocessing random_30_seed3_r2 ---
-[2026-06-19 13:58:27] random_30_seed3_r2: done in 3149.3558s (8745 candidates)
-[2026-06-19 13:58:27] --- Preprocessing random_30_seed4_r2 ---
-[2026-06-19 14:58:27] random_30_seed4_r2: PREPROCESS ERROR WCNF generation timed out after 3600s
-[2026-06-19 14:58:27] --- Preprocessing random_30_seed5_r2 ---
-[2026-06-19 15:58:27] random_30_seed5_r2: PREPROCESS ERROR WCNF generation timed out after 3600s
-[2026-06-19 15:58:27] --- Preprocessing random_40_seed1_r2 ---
-[2026-06-19 16:58:27] random_40_seed1_r2: PREPROCESS ERROR WCNF generation timed out after 3600s
-[2026-06-19 16:58:27] --- Preprocessing random_40_seed2_r2 ---
-[2026-06-19 17:58:27] random_40_seed2_r2: PREPROCESS ERROR WCNF generation timed out after 3600s
-[2026-06-19 17:58:27] --- Preprocessing random_40_seed3_r2 ---
-[2026-06-19 18:58:27] random_40_seed3_r2: PREPROCESS ERROR WCNF generation timed out after 3600s
-[2026-06-19 18:58:27] --- Preprocessing random_40_seed4_r2 ---
-[2026-06-19 19:58:28] random_40_seed4_r2: PREPROCESS ERROR WCNF generation timed out after 3600s
-[2026-06-19 19:58:28] Time budget exceeded, stopping.
-[2026-06-19 19:58:28] === PREPROCESS stage finished ===
-[2026-06-19 19:58:28] === SOLVE stage: 72 instances, 52 already done ===
-[2026-06-19 19:58:28] SKIP solve comb_3_r0 (already done)
-[2026-06-19 19:58:28] SKIP solve comb_4_r0 (already done)
-[2026-06-19 19:58:28] SKIP solve comb_5_r0 (already done)
-[2026-06-19 19:58:28] SKIP solve comb_6_r0 (already done)
-[2026-06-19 19:58:28] SKIP solve comb_3_r1 (already done)
-[2026-06-19 19:58:28] SKIP solve comb_4_r1 (already done)
-[2026-06-19 19:58:28] SKIP solve comb_5_r1 (already done)
-[2026-06-19 19:58:28] SKIP solve comb_6_r1 (already done)
-[2026-06-19 19:58:28] SKIP solve comb_3_r2 (already done)
-[2026-06-19 19:58:28] SKIP solve comb_4_r2 (already done)
-[2026-06-19 19:58:28] SKIP solve comb_5_r2 (already done)
-[2026-06-19 19:58:28] SKIP solve comb_6_r2 (already done)
-[2026-06-19 19:58:28] SKIP solve random_10_seed1_r0 (already done)
-[2026-06-19 19:58:28] SKIP solve random_10_seed2_r0 (already done)
-[2026-06-19 19:58:28] SKIP solve random_10_seed3_r0 (already done)
-[2026-06-19 19:58:28] SKIP solve random_10_seed4_r0 (already done)
-[2026-06-19 19:58:28] SKIP solve random_10_seed5_r0 (already done)
-[2026-06-19 19:58:28] SKIP solve random_20_seed1_r0 (already done)
-[2026-06-19 19:58:28] SKIP solve random_20_seed2_r0 (already done)
-[2026-06-19 19:58:28] SKIP solve random_20_seed3_r0 (already done)
-[2026-06-19 19:58:28] SKIP solve random_20_seed4_r0 (already done)
-[2026-06-19 19:58:28] SKIP solve random_20_seed5_r0 (already done)
-[2026-06-19 19:58:28] SKIP solve random_30_seed1_r0 (already done)
-[2026-06-19 19:58:28] SKIP solve random_30_seed2_r0 (already done)
-[2026-06-19 19:58:28] SKIP solve random_30_seed3_r0 (already done)
-[2026-06-19 19:58:28] SKIP solve random_30_seed4_r0 (already done)
-[2026-06-19 19:58:28] SKIP solve random_30_seed5_r0 (already done)
-[2026-06-19 19:58:28] SKIP solve random_40_seed1_r0 (already done)
-[2026-06-19 19:58:28] SKIP solve random_40_seed2_r0 (already done)
-[2026-06-19 19:58:28] SKIP solve random_40_seed3_r0 (already done)
-[2026-06-19 19:58:28] SKIP solve random_40_seed4_r0 (already done)
-[2026-06-19 19:58:28] SKIP solve random_40_seed5_r0 (already done)
-[2026-06-19 19:58:28] SKIP solve random_10_seed1_r1 (already done)
-[2026-06-19 19:58:28] SKIP solve random_10_seed2_r1 (already done)
-[2026-06-19 19:58:28] SKIP solve random_10_seed3_r1 (already done)
-[2026-06-19 19:58:28] SKIP solve random_10_seed4_r1 (already done)
-[2026-06-19 19:58:28] SKIP solve random_10_seed5_r1 (already done)
-[2026-06-19 19:58:28] SKIP solve random_20_seed1_r1 (already done)
-[2026-06-19 19:58:28] SKIP solve random_20_seed2_r1 (already done)
-[2026-06-19 19:58:28] SKIP solve random_20_seed3_r1 (already done)
-[2026-06-19 19:58:28] SKIP solve random_20_seed4_r1 (already done)
-[2026-06-19 19:58:28] SKIP solve random_20_seed5_r1 (already done)
-[2026-06-19 19:58:28] SKIP solve random_30_seed1_r1 (already done)
-[2026-06-19 19:58:28] SKIP solve random_30_seed2_r1 (already done)
-[2026-06-19 19:58:28] SKIP solve random_30_seed3_r1 (already done)
-[2026-06-19 19:58:28] SKIP solve random_30_seed4_r1 (already done)
-[2026-06-19 19:58:28] SKIP solve random_30_seed5_r1 (already done)
-[2026-06-19 19:58:28] SKIP solve random_40_seed1_r1 (already done)
-[2026-06-19 19:58:28] SKIP solve random_40_seed2_r1 (already done)
-[2026-06-19 19:58:28] SKIP solve random_40_seed3_r1 (already done)
-[2026-06-19 19:58:28] SKIP solve random_40_seed4_r1 (already done)
-[2026-06-19 19:58:28] SKIP solve random_40_seed5_r1 (already done)
-[2026-06-19 19:58:28] --- Solving random_10_seed1_r2 ---
-[2026-06-19 19:58:28] random_10_seed1_r2: MaxHS -> OPTIMUM FOUND (o=1) in 0.0918s
-[2026-06-19 19:58:28] random_10_seed1_r2: Kissat -> k_opt=1 total=0.0068s (calls=1)
-[2026-06-19 19:58:28] --- Solving random_10_seed2_r2 ---
-[2026-06-19 19:58:28] random_10_seed2_r2: MaxHS -> OPTIMUM FOUND (o=2) in 0.0357s
-[2026-06-19 19:58:28] random_10_seed2_r2: Kissat -> k_opt=2 total=0.0082s (calls=2)
-[2026-06-19 19:58:28] --- Solving random_10_seed3_r2 ---
-[2026-06-19 19:58:28] random_10_seed3_r2: MaxHS -> OPTIMUM FOUND (o=2) in 0.0348s
-[2026-06-19 19:58:28] random_10_seed3_r2: Kissat -> k_opt=2 total=0.0077s (calls=2)
-[2026-06-19 19:58:28] --- Solving random_10_seed4_r2 ---
-[2026-06-19 19:58:28] random_10_seed4_r2: MaxHS -> OPTIMUM FOUND (o=1) in 0.0345s
-[2026-06-19 19:58:28] random_10_seed4_r2: Kissat -> k_opt=1 total=0.0040s (calls=1)
-[2026-06-19 19:58:28] --- Solving random_10_seed5_r2 ---
-[2026-06-19 19:58:28] random_10_seed5_r2: MaxHS -> OPTIMUM FOUND (o=1) in 0.0350s
-[2026-06-19 19:58:28] random_10_seed5_r2: Kissat -> k_opt=1 total=0.0041s (calls=1)
-[2026-06-19 19:58:28] --- Solving random_20_seed1_r2 ---
-[2026-06-19 19:58:30] random_20_seed1_r2: MaxHS -> OPTIMUM FOUND (o=2) in 1.7485s
-[2026-06-19 19:58:30] random_20_seed1_r2: Kissat -> k_opt=2 total=0.4749s (calls=2)
-[2026-06-19 19:58:30] --- Solving random_20_seed2_r2 ---
-[2026-06-19 19:58:35] random_20_seed2_r2: MaxHS -> OPTIMUM FOUND (o=2) in 4.7339s
-[2026-06-19 19:58:35] random_20_seed2_r2: Kissat -> k_opt=2 total=0.5486s (calls=2)
-[2026-06-19 19:58:35] --- Solving random_20_seed3_r2 ---
-[2026-06-19 19:58:36] random_20_seed3_r2: MaxHS -> OPTIMUM FOUND (o=2) in 0.7756s
-[2026-06-19 19:58:36] random_20_seed3_r2: Kissat -> k_opt=2 total=0.1853s (calls=2)
-[2026-06-19 19:58:36] --- Solving random_20_seed4_r2 ---
-[2026-06-19 19:58:37] random_20_seed4_r2: MaxHS -> OPTIMUM FOUND (o=2) in 0.4995s
-[2026-06-19 19:58:37] random_20_seed4_r2: Kissat -> k_opt=2 total=0.0676s (calls=2)
-[2026-06-19 19:58:37] --- Solving random_20_seed5_r2 ---
-[2026-06-19 19:58:37] random_20_seed5_r2: MaxHS -> OPTIMUM FOUND (o=2) in 0.3403s
-[2026-06-19 19:58:37] random_20_seed5_r2: Kissat -> k_opt=2 total=0.1190s (calls=2)
-[2026-06-19 19:58:37] SKIP solve random_30_seed1_r2: not cached — run preprocess first
-[2026-06-19 19:58:37] SKIP solve random_30_seed2_r2: not cached — run preprocess first
-[2026-06-19 19:58:37] --- Solving random_30_seed3_r2 ---
-[2026-06-19 19:59:51] random_30_seed3_r2: MaxHS -> OPTIMUM FOUND (o=2) in 73.2415s
-[2026-06-19 20:00:00] random_30_seed3_r2: Kissat -> k_opt=2 total=9.1607s (calls=2)
-[2026-06-19 20:00:00] SKIP solve random_30_seed4_r2: not cached — run preprocess first
-[2026-06-19 20:00:00] SKIP solve random_30_seed5_r2: not cached — run preprocess first
-[2026-06-19 20:00:00] SKIP solve random_40_seed1_r2: not cached — run preprocess first
-[2026-06-19 20:00:00] SKIP solve random_40_seed2_r2: not cached — run preprocess first
-[2026-06-19 20:00:00] SKIP solve random_40_seed3_r2: not cached — run preprocess first
-[2026-06-19 20:00:00] SKIP solve random_40_seed4_r2: not cached — run preprocess first
-[2026-06-19 20:00:00] SKIP solve random_40_seed5_r2: not cached — run preprocess first
-[2026-06-19 20:00:00] === SOLVE stage finished ===
-[2026-06-19 20:00:00] === Benchmark run complete ===
-[2026-06-19 22:12:33] === Benchmark run started (mode=all) ===
-[2026-06-19 22:12:33] === PREPROCESS stage: 57 instances, 63 already cached ===
-[2026-06-19 22:12:33] SKIP preprocess comb_3_r0 (cached)
-[2026-06-19 22:12:33] SKIP preprocess comb_4_r0 (cached)
-[2026-06-19 22:12:33] SKIP preprocess comb_5_r0 (cached)
-[2026-06-19 22:12:33] SKIP preprocess comb_6_r0 (cached)
-[2026-06-19 22:12:33] SKIP preprocess comb_3_r1 (cached)
-[2026-06-19 22:12:33] SKIP preprocess comb_4_r1 (cached)
-[2026-06-19 22:12:33] SKIP preprocess comb_5_r1 (cached)
-[2026-06-19 22:12:33] SKIP preprocess comb_6_r1 (cached)
-[2026-06-19 22:12:33] SKIP preprocess comb_3_r2 (cached)
-[2026-06-19 22:12:33] SKIP preprocess comb_4_r2 (cached)
-[2026-06-19 22:12:33] SKIP preprocess comb_5_r2 (cached)
-[2026-06-19 22:12:33] SKIP preprocess comb_6_r2 (cached)
-[2026-06-19 22:12:33] SKIP preprocess random_10_seed1_r0 (cached)
-[2026-06-19 22:12:33] SKIP preprocess random_10_seed2_r0 (cached)
-[2026-06-19 22:12:33] SKIP preprocess random_10_seed3_r0 (cached)
-[2026-06-19 22:12:33] SKIP preprocess random_10_seed4_r0 (cached)
-[2026-06-19 22:12:33] SKIP preprocess random_10_seed5_r0 (cached)
-[2026-06-19 22:12:33] SKIP preprocess random_20_seed1_r0 (cached)
-[2026-06-19 22:12:33] SKIP preprocess random_20_seed2_r0 (cached)
-[2026-06-19 22:12:33] SKIP preprocess random_20_seed3_r0 (cached)
-[2026-06-19 22:12:33] SKIP preprocess random_20_seed4_r0 (cached)
-[2026-06-19 22:12:33] SKIP preprocess random_20_seed5_r0 (cached)
-[2026-06-19 22:12:33] SKIP preprocess random_30_seed1_r0 (cached)
-[2026-06-19 22:12:33] SKIP preprocess random_30_seed2_r0 (cached)
-[2026-06-19 22:12:33] SKIP preprocess random_30_seed3_r0 (cached)
-[2026-06-19 22:12:33] SKIP preprocess random_30_seed4_r0 (cached)
-[2026-06-19 22:12:33] SKIP preprocess random_30_seed5_r0 (cached)
-[2026-06-19 22:12:33] SKIP preprocess random_10_seed1_r1 (cached)
-[2026-06-19 22:12:33] SKIP preprocess random_10_seed2_r1 (cached)
-[2026-06-19 22:12:33] SKIP preprocess random_10_seed3_r1 (cached)
-[2026-06-19 22:12:33] SKIP preprocess random_10_seed4_r1 (cached)
-[2026-06-19 22:12:33] SKIP preprocess random_10_seed5_r1 (cached)
-[2026-06-19 22:12:33] SKIP preprocess random_20_seed1_r1 (cached)
-[2026-06-19 22:12:33] SKIP preprocess random_20_seed2_r1 (cached)
-[2026-06-19 22:12:33] SKIP preprocess random_20_seed3_r1 (cached)
-[2026-06-19 22:12:33] SKIP preprocess random_20_seed4_r1 (cached)
-[2026-06-19 22:12:33] SKIP preprocess random_20_seed5_r1 (cached)
-[2026-06-19 22:12:33] SKIP preprocess random_30_seed1_r1 (cached)
-[2026-06-19 22:12:33] SKIP preprocess random_30_seed2_r1 (cached)
-[2026-06-19 22:12:33] SKIP preprocess random_30_seed3_r1 (cached)
-[2026-06-19 22:12:33] SKIP preprocess random_30_seed4_r1 (cached)
-[2026-06-19 22:12:33] SKIP preprocess random_30_seed5_r1 (cached)
-[2026-06-19 22:12:33] SKIP preprocess random_10_seed1_r2 (cached)
-[2026-06-19 22:12:33] SKIP preprocess random_10_seed2_r2 (cached)
-[2026-06-19 22:12:33] SKIP preprocess random_10_seed3_r2 (cached)
-[2026-06-19 22:12:33] SKIP preprocess random_10_seed4_r2 (cached)
-[2026-06-19 22:12:33] SKIP preprocess random_10_seed5_r2 (cached)
-[2026-06-19 22:12:33] SKIP preprocess random_20_seed1_r2 (cached)
-[2026-06-19 22:12:33] SKIP preprocess random_20_seed2_r2 (cached)
-[2026-06-19 22:12:33] SKIP preprocess random_20_seed3_r2 (cached)
-[2026-06-19 22:12:33] SKIP preprocess random_20_seed4_r2 (cached)
-[2026-06-19 22:12:33] SKIP preprocess random_20_seed5_r2 (cached)
-[2026-06-19 22:12:33] --- Preprocessing random_30_seed1_r2 ---
-[2026-06-20 00:18:21] random_30_seed1_r2: done in 7546.8603s (13620 candidates)
-[2026-06-20 00:18:21] --- Preprocessing random_30_seed2_r2 ---
-[2026-06-20 02:27:09] random_30_seed2_r2: done in 7727.2196s (13673 candidates)
-[2026-06-20 02:27:09] SKIP preprocess random_30_seed3_r2 (cached)
-[2026-06-20 02:27:09] --- Preprocessing random_30_seed4_r2 ---
-[2026-06-20 05:04:41] random_30_seed4_r2: done in 9450.6140s (15280 candidates)
-[2026-06-20 05:04:41] --- Preprocessing random_30_seed5_r2 ---
-[2026-06-20 07:26:25] random_30_seed5_r2: done in 8503.7400s (14268 candidates)
-[2026-06-20 07:26:25] === PREPROCESS stage finished ===
-[2026-06-20 07:26:25] === SOLVE stage: 57 instances, 63 already done ===
-[2026-06-20 07:26:25] SKIP solve comb_3_r0 (already done)
-[2026-06-20 07:26:25] SKIP solve comb_4_r0 (already done)
-[2026-06-20 07:26:25] SKIP solve comb_5_r0 (already done)
-[2026-06-20 07:26:25] SKIP solve comb_6_r0 (already done)
-[2026-06-20 07:26:25] SKIP solve comb_3_r1 (already done)
-[2026-06-20 07:26:25] SKIP solve comb_4_r1 (already done)
-[2026-06-20 07:26:25] SKIP solve comb_5_r1 (already done)
-[2026-06-20 07:26:25] SKIP solve comb_6_r1 (already done)
-[2026-06-20 07:26:25] SKIP solve comb_3_r2 (already done)
-[2026-06-20 07:26:25] SKIP solve comb_4_r2 (already done)
-[2026-06-20 07:26:25] SKIP solve comb_5_r2 (already done)
-[2026-06-20 07:26:25] SKIP solve comb_6_r2 (already done)
-[2026-06-20 07:26:25] SKIP solve random_10_seed1_r0 (already done)
-[2026-06-20 07:26:25] SKIP solve random_10_seed2_r0 (already done)
-[2026-06-20 07:26:25] SKIP solve random_10_seed3_r0 (already done)
-[2026-06-20 07:26:25] SKIP solve random_10_seed4_r0 (already done)
-[2026-06-20 07:26:25] SKIP solve random_10_seed5_r0 (already done)
-[2026-06-20 07:26:25] SKIP solve random_20_seed1_r0 (already done)
-[2026-06-20 07:26:25] SKIP solve random_20_seed2_r0 (already done)
-[2026-06-20 07:26:25] SKIP solve random_20_seed3_r0 (already done)
-[2026-06-20 07:26:25] SKIP solve random_20_seed4_r0 (already done)
-[2026-06-20 07:26:25] SKIP solve random_20_seed5_r0 (already done)
-[2026-06-20 07:26:25] SKIP solve random_30_seed1_r0 (already done)
-[2026-06-20 07:26:25] SKIP solve random_30_seed2_r0 (already done)
-[2026-06-20 07:26:25] SKIP solve random_30_seed3_r0 (already done)
-[2026-06-20 07:26:25] SKIP solve random_30_seed4_r0 (already done)
-[2026-06-20 07:26:25] SKIP solve random_30_seed5_r0 (already done)
-[2026-06-20 07:26:25] SKIP solve random_10_seed1_r1 (already done)
-[2026-06-20 07:26:25] SKIP solve random_10_seed2_r1 (already done)
-[2026-06-20 07:26:25] SKIP solve random_10_seed3_r1 (already done)
-[2026-06-20 07:26:25] SKIP solve random_10_seed4_r1 (already done)
-[2026-06-20 07:26:25] SKIP solve random_10_seed5_r1 (already done)
-[2026-06-20 07:26:25] SKIP solve random_20_seed1_r1 (already done)
-[2026-06-20 07:26:25] SKIP solve random_20_seed2_r1 (already done)
-[2026-06-20 07:26:25] SKIP solve random_20_seed3_r1 (already done)
-[2026-06-20 07:26:25] SKIP solve random_20_seed4_r1 (already done)
-[2026-06-20 07:26:25] SKIP solve random_20_seed5_r1 (already done)
-[2026-06-20 07:26:25] SKIP solve random_30_seed1_r1 (already done)
-[2026-06-20 07:26:25] SKIP solve random_30_seed2_r1 (already done)
-[2026-06-20 07:26:25] SKIP solve random_30_seed3_r1 (already done)
-[2026-06-20 07:26:25] SKIP solve random_30_seed4_r1 (already done)
-[2026-06-20 07:26:25] SKIP solve random_30_seed5_r1 (already done)
-[2026-06-20 07:26:25] SKIP solve random_10_seed1_r2 (already done)
-[2026-06-20 07:26:25] SKIP solve random_10_seed2_r2 (already done)
-[2026-06-20 07:26:25] SKIP solve random_10_seed3_r2 (already done)
-[2026-06-20 07:26:25] SKIP solve random_10_seed4_r2 (already done)
-[2026-06-20 07:26:25] SKIP solve random_10_seed5_r2 (already done)
-[2026-06-20 07:26:25] SKIP solve random_20_seed1_r2 (already done)
-[2026-06-20 07:26:25] SKIP solve random_20_seed2_r2 (already done)
-[2026-06-20 07:26:25] SKIP solve random_20_seed3_r2 (already done)
-[2026-06-20 07:26:25] SKIP solve random_20_seed4_r2 (already done)
-[2026-06-20 07:26:25] SKIP solve random_20_seed5_r2 (already done)
-[2026-06-20 07:26:25] --- Solving random_30_seed1_r2 ---
-[2026-06-20 07:31:03] random_30_seed1_r2: MaxHS -> OPTIMUM FOUND (o=2) in 277.4074s
-[2026-06-20 07:31:10] random_30_seed1_r2: Kissat -> k_opt=2 total=7.2045s (calls=2)
-[2026-06-20 07:31:10] --- Solving random_30_seed2_r2 ---
-[2026-06-20 07:36:12] random_30_seed2_r2: MaxHS -> OPTIMUM FOUND (o=2) in 302.1507s
-[2026-06-20 07:36:17] random_30_seed2_r2: Kissat -> k_opt=2 total=4.3553s (calls=2)
-[2026-06-20 07:36:17] SKIP solve random_30_seed3_r2 (already done)
-[2026-06-20 07:36:17] --- Solving random_30_seed4_r2 ---
-[2026-06-20 07:42:48] random_30_seed4_r2: MaxHS -> OPTIMUM FOUND (o=2) in 391.2640s
-[2026-06-20 07:43:14] random_30_seed4_r2: Kissat -> k_opt=2 total=26.0904s (calls=2)
-[2026-06-20 07:43:14] --- Solving random_30_seed5_r2 ---
-[2026-06-20 07:51:02] random_30_seed5_r2: MaxHS -> OPTIMUM FOUND (o=3) in 467.9300s
-[2026-06-20 07:53:04] random_30_seed5_r2: Kissat -> k_opt=None total=122.2287s (calls=2)
-[2026-06-20 07:53:04] === SOLVE stage finished ===
-[2026-06-20 07:53:04] === Benchmark run complete ===
-[2026-06-20 14:12:52] === Benchmark run started (mode=all) ===
-[2026-06-20 14:12:52] === PREPROCESS stage: 57 instances, 67 already cached ===
-[2026-06-20 14:12:52] SKIP preprocess comb_3_r0 (cached)
-[2026-06-20 14:12:52] SKIP preprocess comb_4_r0 (cached)
-[2026-06-20 14:12:52] SKIP preprocess comb_5_r0 (cached)
-[2026-06-20 14:12:52] SKIP preprocess comb_6_r0 (cached)
-[2026-06-20 14:12:52] SKIP preprocess comb_3_r1 (cached)
-[2026-06-20 14:12:52] SKIP preprocess comb_4_r1 (cached)
-[2026-06-20 14:12:52] SKIP preprocess comb_5_r1 (cached)
-[2026-06-20 14:12:52] SKIP preprocess comb_6_r1 (cached)
-[2026-06-20 14:12:52] SKIP preprocess comb_3_r2 (cached)
-[2026-06-20 14:12:52] SKIP preprocess comb_4_r2 (cached)
-[2026-06-20 14:12:52] SKIP preprocess comb_5_r2 (cached)
-[2026-06-20 14:12:52] SKIP preprocess comb_6_r2 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_10_seed1_r0 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_10_seed2_r0 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_10_seed3_r0 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_10_seed4_r0 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_10_seed5_r0 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_20_seed1_r0 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_20_seed2_r0 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_20_seed3_r0 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_20_seed4_r0 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_20_seed5_r0 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_30_seed1_r0 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_30_seed2_r0 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_30_seed3_r0 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_30_seed4_r0 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_30_seed5_r0 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_10_seed1_r1 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_10_seed2_r1 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_10_seed3_r1 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_10_seed4_r1 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_10_seed5_r1 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_20_seed1_r1 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_20_seed2_r1 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_20_seed3_r1 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_20_seed4_r1 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_20_seed5_r1 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_30_seed1_r1 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_30_seed2_r1 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_30_seed3_r1 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_30_seed4_r1 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_30_seed5_r1 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_10_seed1_r2 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_10_seed2_r2 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_10_seed3_r2 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_10_seed4_r2 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_10_seed5_r2 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_20_seed1_r2 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_20_seed2_r2 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_20_seed3_r2 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_20_seed4_r2 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_20_seed5_r2 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_30_seed1_r2 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_30_seed2_r2 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_30_seed3_r2 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_30_seed4_r2 (cached)
-[2026-06-20 14:12:52] SKIP preprocess random_30_seed5_r2 (cached)
-[2026-06-20 14:12:52] === PREPROCESS stage finished ===
-[2026-06-20 14:12:52] === SOLVE stage: 57 instances, 65 already done ===
-[2026-06-20 14:12:52] SKIP solve comb_3_r0 (already done)
-[2026-06-20 14:12:52] SKIP solve comb_4_r0 (already done)
-[2026-06-20 14:12:52] SKIP solve comb_5_r0 (already done)
-[2026-06-20 14:12:52] SKIP solve comb_6_r0 (already done)
-[2026-06-20 14:12:52] SKIP solve comb_3_r1 (already done)
-[2026-06-20 14:12:52] SKIP solve comb_4_r1 (already done)
-[2026-06-20 14:12:52] SKIP solve comb_5_r1 (already done)
-[2026-06-20 14:12:52] SKIP solve comb_6_r1 (already done)
-[2026-06-20 14:12:52] SKIP solve comb_3_r2 (already done)
-[2026-06-20 14:12:52] SKIP solve comb_4_r2 (already done)
-[2026-06-20 14:12:52] SKIP solve comb_5_r2 (already done)
-[2026-06-20 14:12:52] --- Solving comb_6_r2 ---
-[2026-06-20 14:12:52] comb_6_r2: MaxHS -> OPTIMUM FOUND (o=6) in 0.3949s
-[2026-06-20 14:23:02] comb_6_r2: Kissat -> k_opt=None total=609.5760s (calls=4)
-[2026-06-20 14:23:02] SKIP solve random_10_seed1_r0 (already done)
-[2026-06-20 14:23:02] SKIP solve random_10_seed2_r0 (already done)
-[2026-06-20 14:23:02] SKIP solve random_10_seed3_r0 (already done)
-[2026-06-20 14:23:02] SKIP solve random_10_seed4_r0 (already done)
-[2026-06-20 14:23:02] SKIP solve random_10_seed5_r0 (already done)
-[2026-06-20 14:23:02] SKIP solve random_20_seed1_r0 (already done)
-[2026-06-20 14:23:02] SKIP solve random_20_seed2_r0 (already done)
-[2026-06-20 14:23:02] SKIP solve random_20_seed3_r0 (already done)
-[2026-06-20 14:23:02] SKIP solve random_20_seed4_r0 (already done)
-[2026-06-20 14:23:02] SKIP solve random_20_seed5_r0 (already done)
-[2026-06-20 14:23:02] SKIP solve random_30_seed1_r0 (already done)
-[2026-06-20 14:23:02] SKIP solve random_30_seed2_r0 (already done)
-[2026-06-20 14:23:02] SKIP solve random_30_seed3_r0 (already done)
-[2026-06-20 14:23:02] SKIP solve random_30_seed4_r0 (already done)
-[2026-06-20 14:23:02] SKIP solve random_30_seed5_r0 (already done)
-[2026-06-20 14:23:02] SKIP solve random_10_seed1_r1 (already done)
-[2026-06-20 14:23:02] SKIP solve random_10_seed2_r1 (already done)
-[2026-06-20 14:23:02] SKIP solve random_10_seed3_r1 (already done)
-[2026-06-20 14:23:02] SKIP solve random_10_seed4_r1 (already done)
-[2026-06-20 14:23:02] SKIP solve random_10_seed5_r1 (already done)
-[2026-06-20 14:23:02] SKIP solve random_20_seed1_r1 (already done)
-[2026-06-20 14:23:02] SKIP solve random_20_seed2_r1 (already done)
-[2026-06-20 14:23:02] SKIP solve random_20_seed3_r1 (already done)
-[2026-06-20 14:23:02] SKIP solve random_20_seed4_r1 (already done)
-[2026-06-20 14:23:02] SKIP solve random_20_seed5_r1 (already done)
-[2026-06-20 14:23:02] SKIP solve random_30_seed1_r1 (already done)
-[2026-06-20 14:23:02] SKIP solve random_30_seed2_r1 (already done)
-[2026-06-20 14:23:02] SKIP solve random_30_seed3_r1 (already done)
-[2026-06-20 14:23:02] SKIP solve random_30_seed4_r1 (already done)
-[2026-06-20 14:23:02] SKIP solve random_30_seed5_r1 (already done)
-[2026-06-20 14:23:02] SKIP solve random_10_seed1_r2 (already done)
-[2026-06-20 14:23:02] SKIP solve random_10_seed2_r2 (already done)
-[2026-06-20 14:23:02] SKIP solve random_10_seed3_r2 (already done)
-[2026-06-20 14:23:02] SKIP solve random_10_seed4_r2 (already done)
-[2026-06-20 14:23:02] SKIP solve random_10_seed5_r2 (already done)
-[2026-06-20 14:23:02] SKIP solve random_20_seed1_r2 (already done)
-[2026-06-20 14:23:02] SKIP solve random_20_seed2_r2 (already done)
-[2026-06-20 14:23:02] SKIP solve random_20_seed3_r2 (already done)
-[2026-06-20 14:23:02] SKIP solve random_20_seed4_r2 (already done)
-[2026-06-20 14:23:02] SKIP solve random_20_seed5_r2 (already done)
-[2026-06-20 14:23:02] SKIP solve random_30_seed1_r2 (already done)
-[2026-06-20 14:23:02] SKIP solve random_30_seed2_r2 (already done)
-[2026-06-20 14:23:02] SKIP solve random_30_seed3_r2 (already done)
-[2026-06-20 14:23:02] SKIP solve random_30_seed4_r2 (already done)
-[2026-06-20 14:23:02] --- Solving random_30_seed5_r2 ---
-[2026-06-20 14:30:55] random_30_seed5_r2: MaxHS -> OPTIMUM FOUND (o=3) in 472.9452s
-[2026-06-20 14:40:57] random_30_seed5_r2: Kissat -> k_opt=None total=602.2389s (calls=2)
-[2026-06-20 14:40:57] === SOLVE stage finished ===
-[2026-06-20 14:40:57] === Benchmark run complete ===
+[2026-06-21 10:17:34] === Benchmark run started (mode=all) ===
+[2026-06-21 10:17:34] === PREPROCESS stage: 72 instances, 0 already cached ===
+[2026-06-21 10:17:34] --- Preprocessing comb_3_r0 ---
+[2026-06-21 10:17:34] comb_3_r0: done in 0.2177s (12 candidates)
+[2026-06-21 10:17:34] --- Preprocessing comb_4_r0 ---
+[2026-06-21 10:17:35] comb_4_r0: done in 0.0949s (16 candidates)
+[2026-06-21 10:17:35] --- Preprocessing comb_5_r0 ---
+[2026-06-21 10:17:35] comb_5_r0: done in 0.0986s (20 candidates)
+[2026-06-21 10:17:35] --- Preprocessing comb_6_r0 ---
+[2026-06-21 10:17:35] comb_6_r0: done in 0.1088s (24 candidates)
+[2026-06-21 10:17:35] --- Preprocessing comb_3_r1 ---
+[2026-06-21 10:17:35] comb_3_r1: done in 0.1039s (24 candidates)
+[2026-06-21 10:17:35] --- Preprocessing comb_4_r1 ---
+[2026-06-21 10:17:35] comb_4_r1: done in 0.1247s (33 candidates)
+[2026-06-21 10:17:35] --- Preprocessing comb_5_r1 ---
+[2026-06-21 10:17:35] comb_5_r1: done in 0.1501s (42 candidates)
+[2026-06-21 10:17:35] --- Preprocessing comb_6_r1 ---
+[2026-06-21 10:17:35] comb_6_r1: done in 0.1977s (51 candidates)
+[2026-06-21 10:17:35] --- Preprocessing comb_3_r2 ---
+[2026-06-21 10:17:35] comb_3_r2: done in 0.1272s (34 candidates)
+[2026-06-21 10:17:35] --- Preprocessing comb_4_r2 ---
+[2026-06-21 10:17:36] comb_4_r2: done in 0.2016s (57 candidates)
+[2026-06-21 10:17:36] --- Preprocessing comb_5_r2 ---
+[2026-06-21 10:17:36] comb_5_r2: done in 0.3799s (86 candidates)
+[2026-06-21 10:17:36] --- Preprocessing comb_6_r2 ---
+[2026-06-21 10:17:37] comb_6_r2: done in 0.7385s (121 candidates)
+[2026-06-21 10:17:37] --- Preprocessing random_10_seed1_r0 ---
+[2026-06-21 10:17:37] random_10_seed1_r0: done in 0.0912s (10 candidates)
+[2026-06-21 10:17:37] --- Preprocessing random_10_seed2_r0 ---
+[2026-06-21 10:17:37] random_10_seed2_r0: done in 0.0923s (10 candidates)
+[2026-06-21 10:17:37] --- Preprocessing random_10_seed3_r0 ---
+[2026-06-21 10:17:37] random_10_seed3_r0: done in 0.0911s (10 candidates)
+[2026-06-21 10:17:37] --- Preprocessing random_10_seed4_r0 ---
+[2026-06-21 10:17:37] random_10_seed4_r0: done in 0.0905s (10 candidates)
+[2026-06-21 10:17:37] --- Preprocessing random_10_seed5_r0 ---
+[2026-06-21 10:17:37] random_10_seed5_r0: done in 0.0904s (10 candidates)
+[2026-06-21 10:17:37] --- Preprocessing random_20_seed1_r0 ---
+[2026-06-21 10:17:37] random_20_seed1_r0: done in 0.0991s (20 candidates)
+[2026-06-21 10:17:37] --- Preprocessing random_20_seed2_r0 ---
+[2026-06-21 10:17:37] random_20_seed2_r0: done in 0.0985s (20 candidates)
+[2026-06-21 10:17:37] --- Preprocessing random_20_seed3_r0 ---
+[2026-06-21 10:17:38] random_20_seed3_r0: done in 0.0995s (20 candidates)
+[2026-06-21 10:17:38] --- Preprocessing random_20_seed4_r0 ---
+[2026-06-21 10:17:38] random_20_seed4_r0: done in 0.0996s (20 candidates)
+[2026-06-21 10:17:38] --- Preprocessing random_20_seed5_r0 ---
+[2026-06-21 10:17:38] random_20_seed5_r0: done in 0.1008s (20 candidates)
+[2026-06-21 10:17:38] --- Preprocessing random_30_seed1_r0 ---
+[2026-06-21 10:17:38] random_30_seed1_r0: done in 0.1218s (30 candidates)
+[2026-06-21 10:17:38] --- Preprocessing random_30_seed2_r0 ---
+[2026-06-21 10:17:38] random_30_seed2_r0: done in 0.1224s (30 candidates)
+[2026-06-21 10:17:38] --- Preprocessing random_30_seed3_r0 ---
+[2026-06-21 10:17:38] random_30_seed3_r0: done in 0.1218s (30 candidates)
+[2026-06-21 10:17:38] --- Preprocessing random_30_seed4_r0 ---
+[2026-06-21 10:17:38] random_30_seed4_r0: done in 0.1224s (30 candidates)
+[2026-06-21 10:17:38] --- Preprocessing random_30_seed5_r0 ---
+[2026-06-21 10:17:38] random_30_seed5_r0: done in 0.1225s (30 candidates)
+[2026-06-21 10:17:38] --- Preprocessing random_40_seed1_r0 ---
+[2026-06-21 10:17:39] random_40_seed1_r0: done in 0.1696s (40 candidates)
+[2026-06-21 10:17:39] --- Preprocessing random_40_seed2_r0 ---
+[2026-06-21 10:17:39] random_40_seed2_r0: done in 0.1674s (40 candidates)
+[2026-06-21 10:17:39] --- Preprocessing random_40_seed3_r0 ---
+[2026-06-21 10:17:39] random_40_seed3_r0: done in 0.1669s (40 candidates)
+[2026-06-21 10:17:39] --- Preprocessing random_40_seed4_r0 ---
+[2026-06-21 10:17:39] random_40_seed4_r0: done in 0.1720s (40 candidates)
+[2026-06-21 10:17:39] --- Preprocessing random_40_seed5_r0 ---
+[2026-06-21 10:17:39] random_40_seed5_r0: done in 0.1694s (40 candidates)
+[2026-06-21 10:17:39] --- Preprocessing random_10_seed1_r1 ---
+[2026-06-21 10:17:39] random_10_seed1_r1: done in 0.0997s (24 candidates)
+[2026-06-21 10:17:39] --- Preprocessing random_10_seed2_r1 ---
+[2026-06-21 10:17:39] random_10_seed2_r1: done in 0.1026s (27 candidates)
+[2026-06-21 10:17:39] --- Preprocessing random_10_seed3_r1 ---
+[2026-06-21 10:17:39] random_10_seed3_r1: done in 0.1000s (24 candidates)
+[2026-06-21 10:17:39] --- Preprocessing random_10_seed4_r1 ---
+[2026-06-21 10:17:40] random_10_seed4_r1: done in 0.0980s (22 candidates)
+[2026-06-21 10:17:40] --- Preprocessing random_10_seed5_r1 ---
+[2026-06-21 10:17:40] random_10_seed5_r1: done in 0.1030s (27 candidates)
+[2026-06-21 10:17:40] --- Preprocessing random_20_seed1_r1 ---
+[2026-06-21 10:17:40] random_20_seed1_r1: done in 0.3043s (85 candidates)
+[2026-06-21 10:17:40] --- Preprocessing random_20_seed2_r1 ---
+[2026-06-21 10:17:40] random_20_seed2_r1: done in 0.3030s (84 candidates)
+[2026-06-21 10:17:40] --- Preprocessing random_20_seed3_r1 ---
+[2026-06-21 10:17:41] random_20_seed3_r1: done in 0.2816s (81 candidates)
+[2026-06-21 10:17:41] --- Preprocessing random_20_seed4_r1 ---
+[2026-06-21 10:17:41] random_20_seed4_r1: done in 0.2484s (74 candidates)
+[2026-06-21 10:17:41] --- Preprocessing random_20_seed5_r1 ---
+[2026-06-21 10:17:41] random_20_seed5_r1: done in 0.2470s (73 candidates)
+[2026-06-21 10:17:41] --- Preprocessing random_30_seed1_r1 ---
+[2026-06-21 10:17:42] random_30_seed1_r1: done in 1.0187s (147 candidates)
+[2026-06-21 10:17:42] --- Preprocessing random_30_seed2_r1 ---
+[2026-06-21 10:17:43] random_30_seed2_r1: done in 1.0869s (154 candidates)
+[2026-06-21 10:17:43] --- Preprocessing random_30_seed3_r1 ---
+[2026-06-21 10:17:44] random_30_seed3_r1: done in 1.1593s (157 candidates)
+[2026-06-21 10:17:44] --- Preprocessing random_30_seed4_r1 ---
+[2026-06-21 10:17:45] random_30_seed4_r1: done in 1.0210s (147 candidates)
+[2026-06-21 10:17:45] --- Preprocessing random_30_seed5_r1 ---
+[2026-06-21 10:17:46] random_30_seed5_r1: done in 1.0789s (151 candidates)
+[2026-06-21 10:17:46] --- Preprocessing random_40_seed1_r1 ---
+[2026-06-21 10:17:50] random_40_seed1_r1: done in 3.1593s (232 candidates)
+[2026-06-21 10:17:50] --- Preprocessing random_40_seed2_r1 ---
+[2026-06-21 10:17:52] random_40_seed2_r1: done in 2.8371s (221 candidates)
+[2026-06-21 10:17:52] --- Preprocessing random_40_seed3_r1 ---
+[2026-06-21 10:17:56] random_40_seed3_r1: done in 3.0715s (232 candidates)
+[2026-06-21 10:17:56] --- Preprocessing random_40_seed4_r1 ---
+[2026-06-21 10:17:58] random_40_seed4_r1: done in 2.4907s (204 candidates)
+[2026-06-21 10:17:58] --- Preprocessing random_40_seed5_r1 ---
+[2026-06-21 10:18:01] random_40_seed5_r1: done in 2.9568s (223 candidates)
+[2026-06-21 10:18:01] --- Preprocessing random_10_seed1_r2 ---
+[2026-06-21 10:18:01] random_10_seed1_r2: done in 0.1232s (35 candidates)
+[2026-06-21 10:18:01] --- Preprocessing random_10_seed2_r2 ---
+[2026-06-21 10:18:01] random_10_seed2_r2: done in 0.1206s (33 candidates)
+[2026-06-21 10:18:01] --- Preprocessing random_10_seed3_r2 ---
+[2026-06-21 10:18:01] random_10_seed3_r2: done in 0.1174s (31 candidates)
+[2026-06-21 10:18:01] --- Preprocessing random_10_seed4_r2 ---
+[2026-06-21 10:18:01] random_10_seed4_r2: done in 0.1093s (23 candidates)
+[2026-06-21 10:18:01] --- Preprocessing random_10_seed5_r2 ---
+[2026-06-21 10:18:02] random_10_seed5_r2: done in 0.1280s (37 candidates)
+[2026-06-21 10:18:02] --- Preprocessing random_20_seed1_r2 ---
+[2026-06-21 10:18:03] random_20_seed1_r2: done in 1.8535s (211 candidates)
+[2026-06-21 10:18:03] --- Preprocessing random_20_seed2_r2 ---
+[2026-06-21 10:18:05] random_20_seed2_r2: done in 1.6601s (190 candidates)
+[2026-06-21 10:18:05] --- Preprocessing random_20_seed3_r2 ---
+[2026-06-21 10:18:07] random_20_seed3_r2: done in 1.6119s (200 candidates)
+[2026-06-21 10:18:07] --- Preprocessing random_20_seed4_r2 ---
+[2026-06-21 10:18:08] random_20_seed4_r2: done in 0.9771s (149 candidates)
+[2026-06-21 10:18:08] --- Preprocessing random_20_seed5_r2 ---
+[2026-06-21 10:18:09] random_20_seed5_r2: done in 1.0413s (154 candidates)
+[2026-06-21 10:18:09] --- Preprocessing random_30_seed1_r2 ---
+[2026-06-21 10:18:19] random_30_seed1_r2: done in 10.5213s (433 candidates)
+[2026-06-21 10:18:19] --- Preprocessing random_30_seed2_r2 ---
+[2026-06-21 10:18:31] random_30_seed2_r2: done in 12.2611s (484 candidates)
+[2026-06-21 10:18:31] --- Preprocessing random_30_seed3_r2 ---
+[2026-06-21 10:18:43] random_30_seed3_r2: done in 11.3543s (466 candidates)
+[2026-06-21 10:18:43] --- Preprocessing random_30_seed4_r2 ---
+[2026-06-21 10:18:53] random_30_seed4_r2: done in 9.7348s (420 candidates)
+[2026-06-21 10:18:53] --- Preprocessing random_30_seed5_r2 ---
+[2026-06-21 10:19:03] random_30_seed5_r2: done in 10.0763s (423 candidates)
+[2026-06-21 10:19:03] --- Preprocessing random_40_seed1_r2 ---
+[2026-06-21 10:19:48] random_40_seed1_r2: done in 45.2684s (818 candidates)
+[2026-06-21 10:19:48] --- Preprocessing random_40_seed2_r2 ---
+[2026-06-21 10:20:23] random_40_seed2_r2: done in 34.8031s (718 candidates)
+[2026-06-21 10:20:23] --- Preprocessing random_40_seed3_r2 ---
+[2026-06-21 10:20:58] random_40_seed3_r2: done in 35.1631s (724 candidates)
+[2026-06-21 10:20:58] --- Preprocessing random_40_seed4_r2 ---
+[2026-06-21 10:21:28] random_40_seed4_r2: done in 30.4351s (672 candidates)
+[2026-06-21 10:21:28] --- Preprocessing random_40_seed5_r2 ---
+[2026-06-21 10:22:08] random_40_seed5_r2: done in 39.2607s (760 candidates)
+[2026-06-21 10:22:08] === PREPROCESS stage finished ===
+[2026-06-21 10:22:08] === SOLVE stage: 72 instances, 0 already done ===
+[2026-06-21 10:22:08] --- Solving comb_3_r0 ---
+[2026-06-21 10:22:08] comb_3_r0: MaxHS -> OPTIMUM FOUND (o=3) in 0.1142s
+[2026-06-21 10:22:08] comb_3_r0: Kissat -> k_opt=3 total=0.0134s (calls=3)
+[2026-06-21 10:22:08] --- Solving comb_4_r0 ---
+[2026-06-21 10:22:08] comb_4_r0: MaxHS -> OPTIMUM FOUND (o=4) in 0.0339s
+[2026-06-21 10:22:08] comb_4_r0: Kissat -> k_opt=4 total=0.0150s (calls=4)
+[2026-06-21 10:22:08] --- Solving comb_5_r0 ---
+[2026-06-21 10:22:08] comb_5_r0: MaxHS -> OPTIMUM FOUND (o=5) in 0.0341s
+[2026-06-21 10:22:08] comb_5_r0: Kissat -> k_opt=5 total=0.0221s (calls=5)
+[2026-06-21 10:22:08] --- Solving comb_6_r0 ---
+[2026-06-21 10:22:08] comb_6_r0: MaxHS -> OPTIMUM FOUND (o=6) in 0.0344s
+[2026-06-21 10:22:08] comb_6_r0: Kissat -> k_opt=6 total=0.0290s (calls=6)
+[2026-06-21 10:22:08] --- Solving comb_3_r1 ---
+[2026-06-21 10:22:08] comb_3_r1: MaxHS -> OPTIMUM FOUND (o=3) in 0.0347s
+[2026-06-21 10:22:08] comb_3_r1: Kissat -> k_opt=3 total=0.0110s (calls=3)
+[2026-06-21 10:22:08] --- Solving comb_4_r1 ---
+[2026-06-21 10:22:08] comb_4_r1: MaxHS -> OPTIMUM FOUND (o=4) in 0.0356s
+[2026-06-21 10:22:08] comb_4_r1: Kissat -> k_opt=4 total=0.0206s (calls=4)
+[2026-06-21 10:22:08] --- Solving comb_5_r1 ---
+[2026-06-21 10:22:08] comb_5_r1: MaxHS -> OPTIMUM FOUND (o=5) in 0.0399s
+[2026-06-21 10:22:08] comb_5_r1: Kissat -> k_opt=5 total=0.0388s (calls=5)
+[2026-06-21 10:22:08] --- Solving comb_6_r1 ---
+[2026-06-21 10:22:08] comb_6_r1: MaxHS -> OPTIMUM FOUND (o=6) in 0.0656s
+[2026-06-21 10:22:08] comb_6_r1: Kissat -> k_opt=6 total=0.0773s (calls=6)
+[2026-06-21 10:22:08] --- Solving comb_3_r2 ---
+[2026-06-21 10:22:08] comb_3_r2: MaxHS -> OPTIMUM FOUND (o=3) in 0.0339s
+[2026-06-21 10:22:08] comb_3_r2: Kissat -> k_opt=3 total=0.0128s (calls=3)
+[2026-06-21 10:22:08] --- Solving comb_4_r2 ---
+[2026-06-21 10:22:08] comb_4_r2: MaxHS -> OPTIMUM FOUND (o=4) in 0.0377s
+[2026-06-21 10:22:08] comb_4_r2: Kissat -> k_opt=4 total=0.0370s (calls=4)
+[2026-06-21 10:22:08] --- Solving comb_5_r2 ---
+[2026-06-21 10:22:08] comb_5_r2: MaxHS -> OPTIMUM FOUND (o=5) in 0.0941s
+[2026-06-21 10:22:09] comb_5_r2: Kissat -> k_opt=5 total=0.0881s (calls=5)
+[2026-06-21 10:22:09] --- Solving comb_6_r2 ---
+[2026-06-21 10:22:09] comb_6_r2: MaxHS -> OPTIMUM FOUND (o=6) in 0.1801s
+[2026-06-21 10:22:09] comb_6_r2: Kissat -> k_opt=6 total=0.1943s (calls=6)
+[2026-06-21 10:22:09] --- Solving random_10_seed1_r0 ---
+[2026-06-21 10:22:09] random_10_seed1_r0: MaxHS -> OPTIMUM FOUND (o=1) in 0.0335s
+[2026-06-21 10:22:09] random_10_seed1_r0: Kissat -> k_opt=1 total=0.0038s (calls=1)
+[2026-06-21 10:22:09] --- Solving random_10_seed2_r0 ---
+[2026-06-21 10:22:09] random_10_seed2_r0: MaxHS -> OPTIMUM FOUND (o=2) in 0.0332s
+[2026-06-21 10:22:09] random_10_seed2_r0: Kissat -> k_opt=2 total=0.0069s (calls=2)
+[2026-06-21 10:22:09] --- Solving random_10_seed3_r0 ---
+[2026-06-21 10:22:09] random_10_seed3_r0: MaxHS -> OPTIMUM FOUND (o=2) in 0.0337s
+[2026-06-21 10:22:09] random_10_seed3_r0: Kissat -> k_opt=2 total=0.0068s (calls=2)
+[2026-06-21 10:22:09] --- Solving random_10_seed4_r0 ---
+[2026-06-21 10:22:09] random_10_seed4_r0: MaxHS -> OPTIMUM FOUND (o=1) in 0.0338s
+[2026-06-21 10:22:09] random_10_seed4_r0: Kissat -> k_opt=1 total=0.0038s (calls=1)
+[2026-06-21 10:22:09] --- Solving random_10_seed5_r0 ---
+[2026-06-21 10:22:09] random_10_seed5_r0: MaxHS -> OPTIMUM FOUND (o=1) in 0.0335s
+[2026-06-21 10:22:09] random_10_seed5_r0: Kissat -> k_opt=1 total=0.0036s (calls=1)
+[2026-06-21 10:22:09] --- Solving random_20_seed1_r0 ---
+[2026-06-21 10:22:09] random_20_seed1_r0: MaxHS -> OPTIMUM FOUND (o=2) in 0.0335s
+[2026-06-21 10:22:09] random_20_seed1_r0: Kissat -> k_opt=2 total=0.0067s (calls=2)
+[2026-06-21 10:22:09] --- Solving random_20_seed2_r0 ---
+[2026-06-21 10:22:09] random_20_seed2_r0: MaxHS -> OPTIMUM FOUND (o=2) in 0.0342s
+[2026-06-21 10:22:09] random_20_seed2_r0: Kissat -> k_opt=2 total=0.0080s (calls=2)
+[2026-06-21 10:22:09] --- Solving random_20_seed3_r0 ---
+[2026-06-21 10:22:09] random_20_seed3_r0: MaxHS -> OPTIMUM FOUND (o=2) in 0.0337s
+[2026-06-21 10:22:09] random_20_seed3_r0: Kissat -> k_opt=2 total=0.0069s (calls=2)
+[2026-06-21 10:22:09] --- Solving random_20_seed4_r0 ---
+[2026-06-21 10:22:09] random_20_seed4_r0: MaxHS -> OPTIMUM FOUND (o=2) in 0.0343s
+[2026-06-21 10:22:09] random_20_seed4_r0: Kissat -> k_opt=2 total=0.0068s (calls=2)
+[2026-06-21 10:22:09] --- Solving random_20_seed5_r0 ---
+[2026-06-21 10:22:09] random_20_seed5_r0: MaxHS -> OPTIMUM FOUND (o=2) in 0.0340s
+[2026-06-21 10:22:09] random_20_seed5_r0: Kissat -> k_opt=2 total=0.0067s (calls=2)
+[2026-06-21 10:22:09] --- Solving random_30_seed1_r0 ---
+[2026-06-21 10:22:09] random_30_seed1_r0: MaxHS -> OPTIMUM FOUND (o=2) in 0.0342s
+[2026-06-21 10:22:09] random_30_seed1_r0: Kissat -> k_opt=2 total=0.0068s (calls=2)
+[2026-06-21 10:22:09] --- Solving random_30_seed2_r0 ---
+[2026-06-21 10:22:09] random_30_seed2_r0: MaxHS -> OPTIMUM FOUND (o=2) in 0.0341s
+[2026-06-21 10:22:09] random_30_seed2_r0: Kissat -> k_opt=2 total=0.0069s (calls=2)
+[2026-06-21 10:22:09] --- Solving random_30_seed3_r0 ---
+[2026-06-21 10:22:09] random_30_seed3_r0: MaxHS -> OPTIMUM FOUND (o=2) in 0.0339s
+[2026-06-21 10:22:09] random_30_seed3_r0: Kissat -> k_opt=2 total=0.0100s (calls=2)
+[2026-06-21 10:22:09] --- Solving random_30_seed4_r0 ---
+[2026-06-21 10:22:09] random_30_seed4_r0: MaxHS -> OPTIMUM FOUND (o=2) in 0.0345s
+[2026-06-21 10:22:09] random_30_seed4_r0: Kissat -> k_opt=2 total=0.0088s (calls=2)
+[2026-06-21 10:22:09] --- Solving random_30_seed5_r0 ---
+[2026-06-21 10:22:10] random_30_seed5_r0: MaxHS -> OPTIMUM FOUND (o=3) in 0.0337s
+[2026-06-21 10:22:10] random_30_seed5_r0: Kissat -> k_opt=3 total=0.0132s (calls=3)
+[2026-06-21 10:22:10] --- Solving random_40_seed1_r0 ---
+[2026-06-21 10:22:10] random_40_seed1_r0: MaxHS -> OPTIMUM FOUND (o=2) in 0.0343s
+[2026-06-21 10:22:10] random_40_seed1_r0: Kissat -> k_opt=2 total=0.0066s (calls=2)
+[2026-06-21 10:22:10] --- Solving random_40_seed2_r0 ---
+[2026-06-21 10:22:10] random_40_seed2_r0: MaxHS -> OPTIMUM FOUND (o=3) in 0.0343s
+[2026-06-21 10:22:10] random_40_seed2_r0: Kissat -> k_opt=3 total=0.0151s (calls=3)
+[2026-06-21 10:22:10] --- Solving random_40_seed3_r0 ---
+[2026-06-21 10:22:10] random_40_seed3_r0: MaxHS -> OPTIMUM FOUND (o=3) in 0.0342s
+[2026-06-21 10:22:10] random_40_seed3_r0: Kissat -> k_opt=3 total=0.0187s (calls=3)
+[2026-06-21 10:22:10] --- Solving random_40_seed4_r0 ---
+[2026-06-21 10:22:10] random_40_seed4_r0: MaxHS -> OPTIMUM FOUND (o=3) in 0.0344s
+[2026-06-21 10:22:10] random_40_seed4_r0: Kissat -> k_opt=3 total=0.0139s (calls=3)
+[2026-06-21 10:22:10] --- Solving random_40_seed5_r0 ---
+[2026-06-21 10:22:10] random_40_seed5_r0: MaxHS -> OPTIMUM FOUND (o=3) in 0.0343s
+[2026-06-21 10:22:10] random_40_seed5_r0: Kissat -> k_opt=3 total=0.0147s (calls=3)
+[2026-06-21 10:22:10] --- Solving random_10_seed1_r1 ---
+[2026-06-21 10:22:10] random_10_seed1_r1: MaxHS -> OPTIMUM FOUND (o=1) in 0.0340s
+[2026-06-21 10:22:10] random_10_seed1_r1: Kissat -> k_opt=1 total=0.0037s (calls=1)
+[2026-06-21 10:22:10] --- Solving random_10_seed2_r1 ---
+[2026-06-21 10:22:10] random_10_seed2_r1: MaxHS -> OPTIMUM FOUND (o=2) in 0.0346s
+[2026-06-21 10:22:10] random_10_seed2_r1: Kissat -> k_opt=2 total=0.0072s (calls=2)
+[2026-06-21 10:22:10] --- Solving random_10_seed3_r1 ---
+[2026-06-21 10:22:10] random_10_seed3_r1: MaxHS -> OPTIMUM FOUND (o=2) in 0.0340s
+[2026-06-21 10:22:10] random_10_seed3_r1: Kissat -> k_opt=2 total=0.0070s (calls=2)
+[2026-06-21 10:22:10] --- Solving random_10_seed4_r1 ---
+[2026-06-21 10:22:10] random_10_seed4_r1: MaxHS -> OPTIMUM FOUND (o=1) in 0.0339s
+[2026-06-21 10:22:10] random_10_seed4_r1: Kissat -> k_opt=1 total=0.0037s (calls=1)
+[2026-06-21 10:22:10] --- Solving random_10_seed5_r1 ---
+[2026-06-21 10:22:10] random_10_seed5_r1: MaxHS -> OPTIMUM FOUND (o=1) in 0.0339s
+[2026-06-21 10:22:10] random_10_seed5_r1: Kissat -> k_opt=1 total=0.0038s (calls=1)
+[2026-06-21 10:22:10] --- Solving random_20_seed1_r1 ---
+[2026-06-21 10:22:10] random_20_seed1_r1: MaxHS -> OPTIMUM FOUND (o=2) in 0.0392s
+[2026-06-21 10:22:10] random_20_seed1_r1: Kissat -> k_opt=2 total=0.0282s (calls=2)
+[2026-06-21 10:22:10] --- Solving random_20_seed2_r1 ---
+[2026-06-21 10:22:10] random_20_seed2_r1: MaxHS -> OPTIMUM FOUND (o=2) in 0.0359s
+[2026-06-21 10:22:10] random_20_seed2_r1: Kissat -> k_opt=2 total=0.0076s (calls=2)
+[2026-06-21 10:22:10] --- Solving random_20_seed3_r1 ---
+[2026-06-21 10:22:10] random_20_seed3_r1: MaxHS -> OPTIMUM FOUND (o=2) in 0.0366s
+[2026-06-21 10:22:10] random_20_seed3_r1: Kissat -> k_opt=2 total=0.0078s (calls=2)
+[2026-06-21 10:22:10] --- Solving random_20_seed4_r1 ---
+[2026-06-21 10:22:10] random_20_seed4_r1: MaxHS -> OPTIMUM FOUND (o=2) in 0.0360s
+[2026-06-21 10:22:10] random_20_seed4_r1: Kissat -> k_opt=2 total=0.0075s (calls=2)
+[2026-06-21 10:22:10] --- Solving random_20_seed5_r1 ---
+[2026-06-21 10:22:10] random_20_seed5_r1: MaxHS -> OPTIMUM FOUND (o=2) in 0.0355s
+[2026-06-21 10:22:10] random_20_seed5_r1: Kissat -> k_opt=2 total=0.0072s (calls=2)
+[2026-06-21 10:22:10] --- Solving random_30_seed1_r1 ---
+[2026-06-21 10:22:10] random_30_seed1_r1: MaxHS -> OPTIMUM FOUND (o=2) in 0.0375s
+[2026-06-21 10:22:10] random_30_seed1_r1: Kissat -> k_opt=2 total=0.0082s (calls=2)
+[2026-06-21 10:22:10] --- Solving random_30_seed2_r1 ---
+[2026-06-21 10:22:10] random_30_seed2_r1: MaxHS -> OPTIMUM FOUND (o=2) in 0.0378s
+[2026-06-21 10:22:10] random_30_seed2_r1: Kissat -> k_opt=2 total=0.0078s (calls=2)
+[2026-06-21 10:22:10] --- Solving random_30_seed3_r1 ---
+[2026-06-21 10:22:10] random_30_seed3_r1: MaxHS -> OPTIMUM FOUND (o=2) in 0.0486s
+[2026-06-21 10:22:10] random_30_seed3_r1: Kissat -> k_opt=2 total=0.0339s (calls=2)
+[2026-06-21 10:22:10] --- Solving random_30_seed4_r1 ---
+[2026-06-21 10:22:10] random_30_seed4_r1: MaxHS -> OPTIMUM FOUND (o=2) in 0.0381s
+[2026-06-21 10:22:10] random_30_seed4_r1: Kissat -> k_opt=2 total=0.0317s (calls=2)
+[2026-06-21 10:22:10] --- Solving random_30_seed5_r1 ---
+[2026-06-21 10:22:11] random_30_seed5_r1: MaxHS -> OPTIMUM FOUND (o=3) in 0.0456s
+[2026-06-21 10:22:11] random_30_seed5_r1: Kissat -> k_opt=3 total=0.0423s (calls=3)
+[2026-06-21 10:22:11] --- Solving random_40_seed1_r1 ---
+[2026-06-21 10:22:11] random_40_seed1_r1: MaxHS -> OPTIMUM FOUND (o=2) in 0.0406s
+[2026-06-21 10:22:11] random_40_seed1_r1: Kissat -> k_opt=2 total=0.0379s (calls=2)
+[2026-06-21 10:22:11] --- Solving random_40_seed2_r1 ---
+[2026-06-21 10:22:11] random_40_seed2_r1: MaxHS -> OPTIMUM FOUND (o=3) in 0.0463s
+[2026-06-21 10:22:11] random_40_seed2_r1: Kissat -> k_opt=3 total=0.0735s (calls=3)
+[2026-06-21 10:22:11] --- Solving random_40_seed3_r1 ---
+[2026-06-21 10:22:11] random_40_seed3_r1: MaxHS -> OPTIMUM FOUND (o=3) in 0.0432s
+[2026-06-21 10:22:11] random_40_seed3_r1: Kissat -> k_opt=3 total=0.0742s (calls=3)
+[2026-06-21 10:22:11] --- Solving random_40_seed4_r1 ---
+[2026-06-21 10:22:11] random_40_seed4_r1: MaxHS -> OPTIMUM FOUND (o=3) in 0.0435s
+[2026-06-21 10:22:11] random_40_seed4_r1: Kissat -> k_opt=3 total=0.0438s (calls=3)
+[2026-06-21 10:22:11] --- Solving random_40_seed5_r1 ---
+[2026-06-21 10:22:11] random_40_seed5_r1: MaxHS -> OPTIMUM FOUND (o=3) in 0.0445s
+[2026-06-21 10:22:11] random_40_seed5_r1: Kissat -> k_opt=3 total=0.0752s (calls=3)
+[2026-06-21 10:22:11] --- Solving random_10_seed1_r2 ---
+[2026-06-21 10:22:11] random_10_seed1_r2: MaxHS -> OPTIMUM FOUND (o=1) in 0.0340s
+[2026-06-21 10:22:11] random_10_seed1_r2: Kissat -> k_opt=1 total=0.0040s (calls=1)
+[2026-06-21 10:22:11] --- Solving random_10_seed2_r2 ---
+[2026-06-21 10:22:11] random_10_seed2_r2: MaxHS -> OPTIMUM FOUND (o=2) in 0.0343s
+[2026-06-21 10:22:11] random_10_seed2_r2: Kissat -> k_opt=2 total=0.0067s (calls=2)
+[2026-06-21 10:22:11] --- Solving random_10_seed3_r2 ---
+[2026-06-21 10:22:11] random_10_seed3_r2: MaxHS -> OPTIMUM FOUND (o=2) in 0.0346s
+[2026-06-21 10:22:11] random_10_seed3_r2: Kissat -> k_opt=2 total=0.0068s (calls=2)
+[2026-06-21 10:22:11] --- Solving random_10_seed4_r2 ---
+[2026-06-21 10:22:11] random_10_seed4_r2: MaxHS -> OPTIMUM FOUND (o=1) in 0.0340s
+[2026-06-21 10:22:11] random_10_seed4_r2: Kissat -> k_opt=1 total=0.0037s (calls=1)
+[2026-06-21 10:22:11] --- Solving random_10_seed5_r2 ---
+[2026-06-21 10:22:11] random_10_seed5_r2: MaxHS -> OPTIMUM FOUND (o=1) in 0.0341s
+[2026-06-21 10:22:11] random_10_seed5_r2: Kissat -> k_opt=1 total=0.0038s (calls=1)
+[2026-06-21 10:22:11] --- Solving random_20_seed1_r2 ---
+[2026-06-21 10:22:11] random_20_seed1_r2: MaxHS -> OPTIMUM FOUND (o=2) in 0.0425s
+[2026-06-21 10:22:11] random_20_seed1_r2: Kissat -> k_opt=2 total=0.0432s (calls=2)
+[2026-06-21 10:22:11] --- Solving random_20_seed2_r2 ---
+[2026-06-21 10:22:11] random_20_seed2_r2: MaxHS -> OPTIMUM FOUND (o=2) in 0.0412s
+[2026-06-21 10:22:11] random_20_seed2_r2: Kissat -> k_opt=2 total=0.0087s (calls=2)
+[2026-06-21 10:22:11] --- Solving random_20_seed3_r2 ---
+[2026-06-21 10:22:11] random_20_seed3_r2: MaxHS -> OPTIMUM FOUND (o=2) in 0.0439s
+[2026-06-21 10:22:11] random_20_seed3_r2: Kissat -> k_opt=2 total=0.0095s (calls=2)
+[2026-06-21 10:22:11] --- Solving random_20_seed4_r2 ---
+[2026-06-21 10:22:12] random_20_seed4_r2: MaxHS -> OPTIMUM FOUND (o=2) in 0.0393s
+[2026-06-21 10:22:12] random_20_seed4_r2: Kissat -> k_opt=2 total=0.0086s (calls=2)
+[2026-06-21 10:22:12] --- Solving random_20_seed5_r2 ---
+[2026-06-21 10:22:12] random_20_seed5_r2: MaxHS -> OPTIMUM FOUND (o=2) in 0.0391s
+[2026-06-21 10:22:12] random_20_seed5_r2: Kissat -> k_opt=2 total=0.0083s (calls=2)
+[2026-06-21 10:22:12] --- Solving random_30_seed1_r2 ---
+[2026-06-21 10:22:12] random_30_seed1_r2: MaxHS -> OPTIMUM FOUND (o=2) in 0.1280s
+[2026-06-21 10:22:12] random_30_seed1_r2: Kissat -> k_opt=2 total=0.0148s (calls=2)
+[2026-06-21 10:22:12] --- Solving random_30_seed2_r2 ---
+[2026-06-21 10:22:12] random_30_seed2_r2: MaxHS -> OPTIMUM FOUND (o=2) in 0.1076s
+[2026-06-21 10:22:12] random_30_seed2_r2: Kissat -> k_opt=2 total=0.0126s (calls=2)
+[2026-06-21 10:22:12] --- Solving random_30_seed3_r2 ---
+[2026-06-21 10:22:12] random_30_seed3_r2: MaxHS -> OPTIMUM FOUND (o=2) in 0.1081s
+[2026-06-21 10:22:12] random_30_seed3_r2: Kissat -> k_opt=2 total=0.0355s (calls=2)
+[2026-06-21 10:22:12] --- Solving random_30_seed4_r2 ---
+[2026-06-21 10:22:12] random_30_seed4_r2: MaxHS -> OPTIMUM FOUND (o=2) in 0.0834s
+[2026-06-21 10:22:12] random_30_seed4_r2: Kissat -> k_opt=2 total=0.0329s (calls=2)
+[2026-06-21 10:22:12] --- Solving random_30_seed5_r2 ---
+[2026-06-21 10:22:12] random_30_seed5_r2: MaxHS -> OPTIMUM FOUND (o=3) in 0.0950s
+[2026-06-21 10:22:12] random_30_seed5_r2: Kissat -> k_opt=3 total=0.0554s (calls=3)
+[2026-06-21 10:22:12] --- Solving random_40_seed1_r2 ---
+[2026-06-21 10:22:12] random_40_seed1_r2: MaxHS -> OPTIMUM FOUND (o=2) in 0.2060s
+[2026-06-21 10:22:13] random_40_seed1_r2: Kissat -> k_opt=2 total=0.0560s (calls=2)
+[2026-06-21 10:22:13] --- Solving random_40_seed2_r2 ---
+[2026-06-21 10:22:13] random_40_seed2_r2: MaxHS -> OPTIMUM FOUND (o=3) in 0.1681s
+[2026-06-21 10:22:13] random_40_seed2_r2: Kissat -> k_opt=3 total=0.1615s (calls=3)
+[2026-06-21 10:22:13] --- Solving random_40_seed3_r2 ---
+[2026-06-21 10:22:13] random_40_seed3_r2: MaxHS -> OPTIMUM FOUND (o=3) in 0.1927s
+[2026-06-21 10:22:13] random_40_seed3_r2: Kissat -> k_opt=3 total=0.1109s (calls=3)
+[2026-06-21 10:22:13] --- Solving random_40_seed4_r2 ---
+[2026-06-21 10:22:13] random_40_seed4_r2: MaxHS -> OPTIMUM FOUND (o=3) in 0.1757s
+[2026-06-21 10:22:13] random_40_seed4_r2: Kissat -> k_opt=3 total=0.0930s (calls=3)
+[2026-06-21 10:22:13] --- Solving random_40_seed5_r2 ---
+[2026-06-21 10:22:14] random_40_seed5_r2: MaxHS -> OPTIMUM FOUND (o=3) in 0.1881s
+[2026-06-21 10:22:14] random_40_seed5_r2: Kissat -> k_opt=3 total=0.2099s (calls=3)
+[2026-06-21 10:22:14] === SOLVE stage finished ===
+[2026-06-21 10:22:14] === Benchmark run complete ===
+[2026-06-21 10:35:30] === Benchmark run started (mode=all) ===
+[2026-06-21 10:35:30] === PREPROCESS stage: 144 instances, 72 already cached ===
+[2026-06-21 10:35:30] SKIP preprocess comb_3_r0 (cached)
+[2026-06-21 10:35:30] SKIP preprocess comb_4_r0 (cached)
+[2026-06-21 10:35:30] SKIP preprocess comb_5_r0 (cached)
+[2026-06-21 10:35:30] SKIP preprocess comb_6_r0 (cached)
+[2026-06-21 10:35:30] --- Preprocessing comb_8_r0 ---
+[2026-06-21 10:35:30] comb_8_r0: done in 0.2696s (32 candidates)
+[2026-06-21 10:35:30] --- Preprocessing comb_10_r0 ---
+[2026-06-21 10:35:30] comb_10_r0: done in 0.1901s (40 candidates)
+[2026-06-21 10:35:30] SKIP preprocess comb_3_r1 (cached)
+[2026-06-21 10:35:30] SKIP preprocess comb_4_r1 (cached)
+[2026-06-21 10:35:30] SKIP preprocess comb_5_r1 (cached)
+[2026-06-21 10:35:30] SKIP preprocess comb_6_r1 (cached)
+[2026-06-21 10:35:30] --- Preprocessing comb_8_r1 ---
+[2026-06-21 10:35:30] comb_8_r1: done in 0.3460s (69 candidates)
+[2026-06-21 10:35:30] --- Preprocessing comb_10_r1 ---
+[2026-06-21 10:35:31] comb_10_r1: done in 0.6153s (87 candidates)
+[2026-06-21 10:35:31] SKIP preprocess comb_3_r2 (cached)
+[2026-06-21 10:35:31] SKIP preprocess comb_4_r2 (cached)
+[2026-06-21 10:35:31] SKIP preprocess comb_5_r2 (cached)
+[2026-06-21 10:35:31] SKIP preprocess comb_6_r2 (cached)
+[2026-06-21 10:35:31] --- Preprocessing comb_8_r2 ---
+[2026-06-21 10:35:34] comb_8_r2: done in 2.4817s (209 candidates)
+[2026-06-21 10:35:34] --- Preprocessing comb_10_r2 ---
+[2026-06-21 10:35:40] comb_10_r2: done in 6.8040s (321 candidates)
+[2026-06-21 10:35:40] --- Preprocessing comb_3_r3 ---
+[2026-06-21 10:35:41] comb_3_r3: done in 0.1550s (34 candidates)
+[2026-06-21 10:35:41] --- Preprocessing comb_4_r3 ---
+[2026-06-21 10:35:41] comb_4_r3: done in 0.3075s (57 candidates)
+[2026-06-21 10:35:41] --- Preprocessing comb_5_r3 ---
+[2026-06-21 10:35:42] comb_5_r3: done in 0.7018s (86 candidates)
+[2026-06-21 10:35:42] --- Preprocessing comb_6_r3 ---
+[2026-06-21 10:35:43] comb_6_r3: done in 1.5584s (121 candidates)
+[2026-06-21 10:35:43] --- Preprocessing comb_8_r3 ---
+[2026-06-21 10:35:49] comb_8_r3: done in 5.9355s (209 candidates)
+[2026-06-21 10:35:49] --- Preprocessing comb_10_r3 ---
+[2026-06-21 10:36:06] comb_10_r3: done in 17.4270s (321 candidates)
+[2026-06-21 10:36:06] SKIP preprocess random_10_seed1_r0 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_10_seed2_r0 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_10_seed3_r0 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_10_seed4_r0 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_10_seed5_r0 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_20_seed1_r0 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_20_seed2_r0 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_20_seed3_r0 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_20_seed4_r0 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_20_seed5_r0 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_30_seed1_r0 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_30_seed2_r0 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_30_seed3_r0 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_30_seed4_r0 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_30_seed5_r0 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_40_seed1_r0 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_40_seed2_r0 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_40_seed3_r0 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_40_seed4_r0 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_40_seed5_r0 (cached)
+[2026-06-21 10:36:06] SKIP random_60_seed1_r0: data/random_60_seed1.csv not found
+[2026-06-21 10:36:06] SKIP random_60_seed2_r0: data/random_60_seed2.csv not found
+[2026-06-21 10:36:06] SKIP random_60_seed3_r0: data/random_60_seed3.csv not found
+[2026-06-21 10:36:06] SKIP random_60_seed4_r0: data/random_60_seed4.csv not found
+[2026-06-21 10:36:06] SKIP random_60_seed5_r0: data/random_60_seed5.csv not found
+[2026-06-21 10:36:06] SKIP random_100_seed1_r0: data/random_100_seed1.csv not found
+[2026-06-21 10:36:06] SKIP random_100_seed2_r0: data/random_100_seed2.csv not found
+[2026-06-21 10:36:06] SKIP random_100_seed3_r0: data/random_100_seed3.csv not found
+[2026-06-21 10:36:06] SKIP random_100_seed4_r0: data/random_100_seed4.csv not found
+[2026-06-21 10:36:06] SKIP random_100_seed5_r0: data/random_100_seed5.csv not found
+[2026-06-21 10:36:06] SKIP preprocess random_10_seed1_r1 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_10_seed2_r1 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_10_seed3_r1 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_10_seed4_r1 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_10_seed5_r1 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_20_seed1_r1 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_20_seed2_r1 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_20_seed3_r1 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_20_seed4_r1 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_20_seed5_r1 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_30_seed1_r1 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_30_seed2_r1 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_30_seed3_r1 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_30_seed4_r1 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_30_seed5_r1 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_40_seed1_r1 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_40_seed2_r1 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_40_seed3_r1 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_40_seed4_r1 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_40_seed5_r1 (cached)
+[2026-06-21 10:36:06] SKIP random_60_seed1_r1: data/random_60_seed1.csv not found
+[2026-06-21 10:36:06] SKIP random_60_seed2_r1: data/random_60_seed2.csv not found
+[2026-06-21 10:36:06] SKIP random_60_seed3_r1: data/random_60_seed3.csv not found
+[2026-06-21 10:36:06] SKIP random_60_seed4_r1: data/random_60_seed4.csv not found
+[2026-06-21 10:36:06] SKIP random_60_seed5_r1: data/random_60_seed5.csv not found
+[2026-06-21 10:36:06] SKIP random_100_seed1_r1: data/random_100_seed1.csv not found
+[2026-06-21 10:36:06] SKIP random_100_seed2_r1: data/random_100_seed2.csv not found
+[2026-06-21 10:36:06] SKIP random_100_seed3_r1: data/random_100_seed3.csv not found
+[2026-06-21 10:36:06] SKIP random_100_seed4_r1: data/random_100_seed4.csv not found
+[2026-06-21 10:36:06] SKIP random_100_seed5_r1: data/random_100_seed5.csv not found
+[2026-06-21 10:36:06] SKIP preprocess random_10_seed1_r2 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_10_seed2_r2 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_10_seed3_r2 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_10_seed4_r2 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_10_seed5_r2 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_20_seed1_r2 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_20_seed2_r2 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_20_seed3_r2 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_20_seed4_r2 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_20_seed5_r2 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_30_seed1_r2 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_30_seed2_r2 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_30_seed3_r2 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_30_seed4_r2 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_30_seed5_r2 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_40_seed1_r2 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_40_seed2_r2 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_40_seed3_r2 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_40_seed4_r2 (cached)
+[2026-06-21 10:36:06] SKIP preprocess random_40_seed5_r2 (cached)
+[2026-06-21 10:36:06] SKIP random_60_seed1_r2: data/random_60_seed1.csv not found
+[2026-06-21 10:36:06] SKIP random_60_seed2_r2: data/random_60_seed2.csv not found
+[2026-06-21 10:36:06] SKIP random_60_seed3_r2: data/random_60_seed3.csv not found
+[2026-06-21 10:36:06] SKIP random_60_seed4_r2: data/random_60_seed4.csv not found
+[2026-06-21 10:36:06] SKIP random_60_seed5_r2: data/random_60_seed5.csv not found
+[2026-06-21 10:36:06] SKIP random_100_seed1_r2: data/random_100_seed1.csv not found
+[2026-06-21 10:36:06] SKIP random_100_seed2_r2: data/random_100_seed2.csv not found
+[2026-06-21 10:36:06] SKIP random_100_seed3_r2: data/random_100_seed3.csv not found
+[2026-06-21 10:36:06] SKIP random_100_seed4_r2: data/random_100_seed4.csv not found
+[2026-06-21 10:36:06] SKIP random_100_seed5_r2: data/random_100_seed5.csv not found
+[2026-06-21 10:36:06] --- Preprocessing random_10_seed1_r3 ---
+[2026-06-21 10:36:07] random_10_seed1_r3: done in 0.1625s (42 candidates)
+[2026-06-21 10:36:07] --- Preprocessing random_10_seed2_r3 ---
+[2026-06-21 10:36:07] random_10_seed2_r3: done in 0.1479s (36 candidates)
+[2026-06-21 10:36:07] --- Preprocessing random_10_seed3_r3 ---
+[2026-06-21 10:36:07] random_10_seed3_r3: done in 0.1370s (34 candidates)
+[2026-06-21 10:36:07] --- Preprocessing random_10_seed4_r3 ---
+[2026-06-21 10:36:07] random_10_seed4_r3: done in 0.1175s (23 candidates)
+[2026-06-21 10:36:07] --- Preprocessing random_10_seed5_r3 ---
+[2026-06-21 10:36:07] random_10_seed5_r3: done in 0.1617s (44 candidates)
+[2026-06-21 10:36:07] --- Preprocessing random_20_seed1_r3 ---
+[2026-06-21 10:36:16] random_20_seed1_r3: done in 8.6996s (432 candidates)
+[2026-06-21 10:36:16] --- Preprocessing random_20_seed2_r3 ---
+[2026-06-21 10:36:24] random_20_seed2_r3: done in 7.8933s (393 candidates)
+[2026-06-21 10:36:24] --- Preprocessing random_20_seed3_r3 ---
+[2026-06-21 10:36:40] random_20_seed3_r3: done in 16.3751s (687 candidates)
+[2026-06-21 10:36:40] --- Preprocessing random_20_seed4_r3 ---
+[2026-06-21 10:36:43] random_20_seed4_r3: done in 3.2180s (243 candidates)
+[2026-06-21 10:36:43] --- Preprocessing random_20_seed5_r3 ---
+[2026-06-21 10:36:47] random_20_seed5_r3: done in 3.6286s (255 candidates)
+[2026-06-21 10:36:47] --- Preprocessing random_30_seed1_r3 ---
+[2026-06-21 10:38:08] random_30_seed1_r3: done in 80.6687s (1081 candidates)
+[2026-06-21 10:38:08] --- Preprocessing random_30_seed2_r3 ---
+[2026-06-21 10:40:01] random_30_seed2_r3: done in 113.1099s (1349 candidates)
+[2026-06-21 10:40:01] --- Preprocessing random_30_seed3_r3 ---
+[2026-06-21 10:41:31] random_30_seed3_r3: done in 90.5701s (1215 candidates)
+[2026-06-21 10:41:31] --- Preprocessing random_30_seed4_r3 ---
+[2026-06-21 10:42:40] random_30_seed4_r3: done in 69.0468s (1015 candidates)
+[2026-06-21 10:42:40] --- Preprocessing random_30_seed5_r3 ---
+[2026-06-21 10:43:55] random_30_seed5_r3: done in 74.6951s (1060 candidates)
+[2026-06-21 10:43:55] --- Preprocessing random_40_seed1_r3 ---
+[2026-06-21 10:52:29] random_40_seed1_r3: done in 514.0344s (2517 candidates)
+[2026-06-21 10:52:29] --- Preprocessing random_40_seed2_r3 ---
+[2026-06-21 10:57:52] random_40_seed2_r3: done in 323.1479s (1989 candidates)
+[2026-06-21 10:57:52] --- Preprocessing random_40_seed3_r3 ---
+[2026-06-21 11:03:28] random_40_seed3_r3: done in 335.4556s (2084 candidates)
+[2026-06-21 11:03:28] --- Preprocessing random_40_seed4_r3 ---
+[2026-06-21 11:08:12] random_40_seed4_r3: done in 283.6690s (1880 candidates)
+[2026-06-21 11:08:12] --- Preprocessing random_40_seed5_r3 ---
+[2026-06-21 11:15:32] random_40_seed5_r3: done in 440.7362s (2346 candidates)
+[2026-06-21 11:15:32] SKIP random_60_seed1_r3: data/random_60_seed1.csv not found
+[2026-06-21 11:15:32] SKIP random_60_seed2_r3: data/random_60_seed2.csv not found
+[2026-06-21 11:15:32] SKIP random_60_seed3_r3: data/random_60_seed3.csv not found
+[2026-06-21 11:15:32] SKIP random_60_seed4_r3: data/random_60_seed4.csv not found
+[2026-06-21 11:15:32] SKIP random_60_seed5_r3: data/random_60_seed5.csv not found
+[2026-06-21 11:15:32] SKIP random_100_seed1_r3: data/random_100_seed1.csv not found
+[2026-06-21 11:15:32] SKIP random_100_seed2_r3: data/random_100_seed2.csv not found
+[2026-06-21 11:15:32] SKIP random_100_seed3_r3: data/random_100_seed3.csv not found
+[2026-06-21 11:15:32] SKIP random_100_seed4_r3: data/random_100_seed4.csv not found
+[2026-06-21 11:15:32] SKIP random_100_seed5_r3: data/random_100_seed5.csv not found
+[2026-06-21 11:15:32] === PREPROCESS stage finished ===
+[2026-06-21 11:15:32] === SOLVE stage: 144 instances, 72 already done ===
+[2026-06-21 11:15:32] SKIP solve comb_3_r0 (already done)
+[2026-06-21 11:15:32] SKIP solve comb_4_r0 (already done)
+[2026-06-21 11:15:32] SKIP solve comb_5_r0 (already done)
+[2026-06-21 11:15:32] SKIP solve comb_6_r0 (already done)
+[2026-06-21 11:15:32] --- Solving comb_8_r0 ---
+[2026-06-21 11:15:32] comb_8_r0: MaxHS -> OPTIMUM FOUND (o=8) in 0.1042s
+[2026-06-21 11:15:32] comb_8_r0: Kissat -> k_opt=8 total=0.0624s (calls=8)
+[2026-06-21 11:15:32] --- Solving comb_10_r0 ---
+[2026-06-21 11:15:32] comb_10_r0: MaxHS -> OPTIMUM FOUND (o=10) in 0.0363s
+[2026-06-21 11:15:33] comb_10_r0: Kissat -> k_opt=10 total=0.1039s (calls=10)
+[2026-06-21 11:15:33] SKIP solve comb_3_r1 (already done)
+[2026-06-21 11:15:33] SKIP solve comb_4_r1 (already done)
+[2026-06-21 11:15:33] SKIP solve comb_5_r1 (already done)
+[2026-06-21 11:15:33] SKIP solve comb_6_r1 (already done)
+[2026-06-21 11:15:33] --- Solving comb_8_r1 ---
+[2026-06-21 11:15:33] comb_8_r1: MaxHS -> OPTIMUM FOUND (o=8) in 0.3082s
+[2026-06-21 11:15:33] comb_8_r1: Kissat -> k_opt=8 total=0.4217s (calls=8)
+[2026-06-21 11:15:33] --- Solving comb_10_r1 ---
+[2026-06-21 11:15:35] comb_10_r1: MaxHS -> OPTIMUM FOUND (o=10) in 1.7288s
+[2026-06-21 11:15:38] comb_10_r1: Kissat -> k_opt=10 total=2.8071s (calls=10)
+[2026-06-21 11:15:38] SKIP solve comb_3_r2 (already done)
+[2026-06-21 11:15:38] SKIP solve comb_4_r2 (already done)
+[2026-06-21 11:15:38] SKIP solve comb_5_r2 (already done)
+[2026-06-21 11:15:38] SKIP solve comb_6_r2 (already done)
+[2026-06-21 11:15:38] --- Solving comb_8_r2 ---
+[2026-06-21 11:15:40] comb_8_r2: MaxHS -> OPTIMUM FOUND (o=8) in 2.5661s
+[2026-06-21 11:15:43] comb_8_r2: Kissat -> k_opt=8 total=2.1920s (calls=8)
+[2026-06-21 11:15:43] --- Solving comb_10_r2 ---
+[2026-06-21 11:15:43] comb_10_r2: MaxHS -> OPTIMUM FOUND (o=10) in 0.1037s
+[2026-06-21 11:16:16] comb_10_r2: Kissat -> k_opt=10 total=33.2587s (calls=10)
+[2026-06-21 11:16:16] --- Solving comb_3_r3 ---
+[2026-06-21 11:16:16] comb_3_r3: MaxHS -> OPTIMUM FOUND (o=3) in 0.0668s
+[2026-06-21 11:16:16] comb_3_r3: Kissat -> k_opt=3 total=0.0158s (calls=3)
+[2026-06-21 11:16:16] --- Solving comb_4_r3 ---
+[2026-06-21 11:16:16] comb_4_r3: MaxHS -> OPTIMUM FOUND (o=4) in 0.0400s
+[2026-06-21 11:16:16] comb_4_r3: Kissat -> k_opt=4 total=0.0413s (calls=4)
+[2026-06-21 11:16:16] --- Solving comb_5_r3 ---
+[2026-06-21 11:16:16] comb_5_r3: MaxHS -> OPTIMUM FOUND (o=5) in 0.0962s
+[2026-06-21 11:16:16] comb_5_r3: Kissat -> k_opt=5 total=0.0929s (calls=5)
+[2026-06-21 11:16:16] --- Solving comb_6_r3 ---
+[2026-06-21 11:16:17] comb_6_r3: MaxHS -> OPTIMUM FOUND (o=6) in 0.1811s
+[2026-06-21 11:16:17] comb_6_r3: Kissat -> k_opt=6 total=0.2002s (calls=6)
+[2026-06-21 11:16:17] --- Solving comb_8_r3 ---
+[2026-06-21 11:16:19] comb_8_r3: MaxHS -> OPTIMUM FOUND (o=8) in 2.5602s
+[2026-06-21 11:16:21] comb_8_r3: Kissat -> k_opt=8 total=2.1948s (calls=8)
+[2026-06-21 11:16:21] --- Solving comb_10_r3 ---
+[2026-06-21 11:16:22] comb_10_r3: MaxHS -> OPTIMUM FOUND (o=10) in 0.0865s
+[2026-06-21 11:16:55] comb_10_r3: Kissat -> k_opt=10 total=33.1509s (calls=10)
+[2026-06-21 11:16:55] SKIP solve random_10_seed1_r0 (already done)
+[2026-06-21 11:16:55] SKIP solve random_10_seed2_r0 (already done)
+[2026-06-21 11:16:55] SKIP solve random_10_seed3_r0 (already done)
+[2026-06-21 11:16:55] SKIP solve random_10_seed4_r0 (already done)
+[2026-06-21 11:16:55] SKIP solve random_10_seed5_r0 (already done)
+[2026-06-21 11:16:55] SKIP solve random_20_seed1_r0 (already done)
+[2026-06-21 11:16:55] SKIP solve random_20_seed2_r0 (already done)
+[2026-06-21 11:16:55] SKIP solve random_20_seed3_r0 (already done)
+[2026-06-21 11:16:55] SKIP solve random_20_seed4_r0 (already done)
+[2026-06-21 11:16:55] SKIP solve random_20_seed5_r0 (already done)
+[2026-06-21 11:16:55] SKIP solve random_30_seed1_r0 (already done)
+[2026-06-21 11:16:55] SKIP solve random_30_seed2_r0 (already done)
+[2026-06-21 11:16:55] SKIP solve random_30_seed3_r0 (already done)
+[2026-06-21 11:16:55] SKIP solve random_30_seed4_r0 (already done)
+[2026-06-21 11:16:55] SKIP solve random_30_seed5_r0 (already done)
+[2026-06-21 11:16:55] SKIP solve random_40_seed1_r0 (already done)
+[2026-06-21 11:16:55] SKIP solve random_40_seed2_r0 (already done)
+[2026-06-21 11:16:55] SKIP solve random_40_seed3_r0 (already done)
+[2026-06-21 11:16:55] SKIP solve random_40_seed4_r0 (already done)
+[2026-06-21 11:16:55] SKIP solve random_40_seed5_r0 (already done)
+[2026-06-21 11:16:55] SKIP solve random_60_seed1_r0: not cached — run preprocess first
+[2026-06-21 11:16:55] SKIP solve random_60_seed2_r0: not cached — run preprocess first
+[2026-06-21 11:16:55] SKIP solve random_60_seed3_r0: not cached — run preprocess first
+[2026-06-21 11:16:55] SKIP solve random_60_seed4_r0: not cached — run preprocess first
+[2026-06-21 11:16:55] SKIP solve random_60_seed5_r0: not cached — run preprocess first
+[2026-06-21 11:16:55] SKIP solve random_100_seed1_r0: not cached — run preprocess first
+[2026-06-21 11:16:55] SKIP solve random_100_seed2_r0: not cached — run preprocess first
+[2026-06-21 11:16:55] SKIP solve random_100_seed3_r0: not cached — run preprocess first
+[2026-06-21 11:16:55] SKIP solve random_100_seed4_r0: not cached — run preprocess first
+[2026-06-21 11:16:55] SKIP solve random_100_seed5_r0: not cached — run preprocess first
+[2026-06-21 11:16:55] SKIP solve random_10_seed1_r1 (already done)
+[2026-06-21 11:16:55] SKIP solve random_10_seed2_r1 (already done)
+[2026-06-21 11:16:55] SKIP solve random_10_seed3_r1 (already done)
+[2026-06-21 11:16:55] SKIP solve random_10_seed4_r1 (already done)
+[2026-06-21 11:16:55] SKIP solve random_10_seed5_r1 (already done)
+[2026-06-21 11:16:55] SKIP solve random_20_seed1_r1 (already done)
+[2026-06-21 11:16:55] SKIP solve random_20_seed2_r1 (already done)
+[2026-06-21 11:16:55] SKIP solve random_20_seed3_r1 (already done)
+[2026-06-21 11:16:55] SKIP solve random_20_seed4_r1 (already done)
+[2026-06-21 11:16:55] SKIP solve random_20_seed5_r1 (already done)
+[2026-06-21 11:16:55] SKIP solve random_30_seed1_r1 (already done)
+[2026-06-21 11:16:55] SKIP solve random_30_seed2_r1 (already done)
+[2026-06-21 11:16:55] SKIP solve random_30_seed3_r1 (already done)
+[2026-06-21 11:16:55] SKIP solve random_30_seed4_r1 (already done)
+[2026-06-21 11:16:55] SKIP solve random_30_seed5_r1 (already done)
+[2026-06-21 11:16:55] SKIP solve random_40_seed1_r1 (already done)
+[2026-06-21 11:16:55] SKIP solve random_40_seed2_r1 (already done)
+[2026-06-21 11:16:55] SKIP solve random_40_seed3_r1 (already done)
+[2026-06-21 11:16:55] SKIP solve random_40_seed4_r1 (already done)
+[2026-06-21 11:16:55] SKIP solve random_40_seed5_r1 (already done)
+[2026-06-21 11:16:55] SKIP solve random_60_seed1_r1: not cached — run preprocess first
+[2026-06-21 11:16:55] SKIP solve random_60_seed2_r1: not cached — run preprocess first
+[2026-06-21 11:16:55] SKIP solve random_60_seed3_r1: not cached — run preprocess first
+[2026-06-21 11:16:55] SKIP solve random_60_seed4_r1: not cached — run preprocess first
+[2026-06-21 11:16:55] SKIP solve random_60_seed5_r1: not cached — run preprocess first
+[2026-06-21 11:16:55] SKIP solve random_100_seed1_r1: not cached — run preprocess first
+[2026-06-21 11:16:55] SKIP solve random_100_seed2_r1: not cached — run preprocess first
+[2026-06-21 11:16:55] SKIP solve random_100_seed3_r1: not cached — run preprocess first
+[2026-06-21 11:16:55] SKIP solve random_100_seed4_r1: not cached — run preprocess first
+[2026-06-21 11:16:55] SKIP solve random_100_seed5_r1: not cached — run preprocess first
+[2026-06-21 11:16:55] SKIP solve random_10_seed1_r2 (already done)
+[2026-06-21 11:16:55] SKIP solve random_10_seed2_r2 (already done)
+[2026-06-21 11:16:55] SKIP solve random_10_seed3_r2 (already done)
+[2026-06-21 11:16:55] SKIP solve random_10_seed4_r2 (already done)
+[2026-06-21 11:16:55] SKIP solve random_10_seed5_r2 (already done)
+[2026-06-21 11:16:55] SKIP solve random_20_seed1_r2 (already done)
+[2026-06-21 11:16:55] SKIP solve random_20_seed2_r2 (already done)
+[2026-06-21 11:16:55] SKIP solve random_20_seed3_r2 (already done)
+[2026-06-21 11:16:55] SKIP solve random_20_seed4_r2 (already done)
+[2026-06-21 11:16:55] SKIP solve random_20_seed5_r2 (already done)
+[2026-06-21 11:16:55] SKIP solve random_30_seed1_r2 (already done)
+[2026-06-21 11:16:55] SKIP solve random_30_seed2_r2 (already done)
+[2026-06-21 11:16:55] SKIP solve random_30_seed3_r2 (already done)
+[2026-06-21 11:16:55] SKIP solve random_30_seed4_r2 (already done)
+[2026-06-21 11:16:55] SKIP solve random_30_seed5_r2 (already done)
+[2026-06-21 11:16:55] SKIP solve random_40_seed1_r2 (already done)
+[2026-06-21 11:16:55] SKIP solve random_40_seed2_r2 (already done)
+[2026-06-21 11:16:55] SKIP solve random_40_seed3_r2 (already done)
+[2026-06-21 11:16:55] SKIP solve random_40_seed4_r2 (already done)
+[2026-06-21 11:16:55] SKIP solve random_40_seed5_r2 (already done)
+[2026-06-21 11:16:55] SKIP solve random_60_seed1_r2: not cached — run preprocess first
+[2026-06-21 11:16:55] SKIP solve random_60_seed2_r2: not cached — run preprocess first
+[2026-06-21 11:16:55] SKIP solve random_60_seed3_r2: not cached — run preprocess first
+[2026-06-21 11:16:55] SKIP solve random_60_seed4_r2: not cached — run preprocess first
+[2026-06-21 11:16:55] SKIP solve random_60_seed5_r2: not cached — run preprocess first
+[2026-06-21 11:16:55] SKIP solve random_100_seed1_r2: not cached — run preprocess first
+[2026-06-21 11:16:55] SKIP solve random_100_seed2_r2: not cached — run preprocess first
+[2026-06-21 11:16:55] SKIP solve random_100_seed3_r2: not cached — run preprocess first
+[2026-06-21 11:16:55] SKIP solve random_100_seed4_r2: not cached — run preprocess first
+[2026-06-21 11:16:55] SKIP solve random_100_seed5_r2: not cached — run preprocess first
+[2026-06-21 11:16:55] --- Solving random_10_seed1_r3 ---
+[2026-06-21 11:16:55] random_10_seed1_r3: MaxHS -> OPTIMUM FOUND (o=1) in 0.0639s
+[2026-06-21 11:16:55] random_10_seed1_r3: Kissat -> k_opt=1 total=0.0054s (calls=1)
+[2026-06-21 11:16:55] --- Solving random_10_seed2_r3 ---
+[2026-06-21 11:16:55] random_10_seed2_r3: MaxHS -> OPTIMUM FOUND (o=2) in 0.0378s
+[2026-06-21 11:16:55] random_10_seed2_r3: Kissat -> k_opt=2 total=0.0095s (calls=2)
+[2026-06-21 11:16:55] --- Solving random_10_seed3_r3 ---
+[2026-06-21 11:16:55] random_10_seed3_r3: MaxHS -> OPTIMUM FOUND (o=2) in 0.0367s
+[2026-06-21 11:16:55] random_10_seed3_r3: Kissat -> k_opt=2 total=0.0081s (calls=2)
+[2026-06-21 11:16:55] --- Solving random_10_seed4_r3 ---
+[2026-06-21 11:16:55] random_10_seed4_r3: MaxHS -> OPTIMUM FOUND (o=1) in 0.0348s
+[2026-06-21 11:16:55] random_10_seed4_r3: Kissat -> k_opt=1 total=0.0043s (calls=1)
+[2026-06-21 11:16:55] --- Solving random_10_seed5_r3 ---
+[2026-06-21 11:16:55] random_10_seed5_r3: MaxHS -> OPTIMUM FOUND (o=1) in 0.0345s
+[2026-06-21 11:16:55] random_10_seed5_r3: Kissat -> k_opt=1 total=0.0044s (calls=1)
+[2026-06-21 11:16:55] --- Solving random_20_seed1_r3 ---
+[2026-06-21 11:16:55] random_20_seed1_r3: MaxHS -> OPTIMUM FOUND (o=2) in 0.1471s
+[2026-06-21 11:16:55] random_20_seed1_r3: Kissat -> k_opt=2 total=0.0348s (calls=2)
+[2026-06-21 11:16:55] --- Solving random_20_seed2_r3 ---
+[2026-06-21 11:16:55] random_20_seed2_r3: MaxHS -> OPTIMUM FOUND (o=2) in 0.0966s
+[2026-06-21 11:16:55] random_20_seed2_r3: Kissat -> k_opt=2 total=0.0146s (calls=2)
+[2026-06-21 11:16:55] --- Solving random_20_seed3_r3 ---
+[2026-06-21 11:16:55] random_20_seed3_r3: MaxHS -> OPTIMUM FOUND (o=2) in 0.2193s
+[2026-06-21 11:16:56] random_20_seed3_r3: Kissat -> k_opt=2 total=0.0381s (calls=2)
+[2026-06-21 11:16:56] --- Solving random_20_seed4_r3 ---
+[2026-06-21 11:16:56] random_20_seed4_r3: MaxHS -> OPTIMUM FOUND (o=2) in 0.0457s
+[2026-06-21 11:16:56] random_20_seed4_r3: Kissat -> k_opt=2 total=0.0108s (calls=2)
+[2026-06-21 11:16:56] --- Solving random_20_seed5_r3 ---
+[2026-06-21 11:16:56] random_20_seed5_r3: MaxHS -> OPTIMUM FOUND (o=2) in 0.0443s
+[2026-06-21 11:16:56] random_20_seed5_r3: Kissat -> k_opt=2 total=0.0396s (calls=2)
+[2026-06-21 11:16:56] --- Solving random_30_seed1_r3 ---
+[2026-06-21 11:16:56] random_30_seed1_r3: MaxHS -> OPTIMUM FOUND (o=2) in 0.4315s
+[2026-06-21 11:16:56] random_30_seed1_r3: Kissat -> k_opt=2 total=0.0523s (calls=2)
+[2026-06-21 11:16:56] --- Solving random_30_seed2_r3 ---
+[2026-06-21 11:16:57] random_30_seed2_r3: MaxHS -> OPTIMUM FOUND (o=2) in 0.7055s
+[2026-06-21 11:16:57] random_30_seed2_r3: Kissat -> k_opt=2 total=0.0446s (calls=2)
+[2026-06-21 11:16:57] --- Solving random_30_seed3_r3 ---
+[2026-06-21 11:16:57] random_30_seed3_r3: MaxHS -> OPTIMUM FOUND (o=2) in 0.6063s
+[2026-06-21 11:16:58] random_30_seed3_r3: Kissat -> k_opt=2 total=0.1065s (calls=2)
+[2026-06-21 11:16:58] --- Solving random_30_seed4_r3 ---
+[2026-06-21 11:16:58] random_30_seed4_r3: MaxHS -> OPTIMUM FOUND (o=2) in 0.3546s
+[2026-06-21 11:16:58] random_30_seed4_r3: Kissat -> k_opt=2 total=0.0788s (calls=2)
+[2026-06-21 11:16:58] --- Solving random_30_seed5_r3 ---
+[2026-06-21 11:16:59] random_30_seed5_r3: MaxHS -> OPTIMUM FOUND (o=3) in 0.5077s
+[2026-06-21 11:16:59] random_30_seed5_r3: Kissat -> k_opt=3 total=0.5576s (calls=3)
+[2026-06-21 11:16:59] --- Solving random_40_seed1_r3 ---
+[2026-06-21 11:17:01] random_40_seed1_r3: MaxHS -> OPTIMUM FOUND (o=2) in 2.0800s
+[2026-06-21 11:17:02] random_40_seed1_r3: Kissat -> k_opt=2 total=0.3437s (calls=2)
+[2026-06-21 11:17:02] --- Solving random_40_seed2_r3 ---
+[2026-06-21 11:17:03] random_40_seed2_r3: MaxHS -> OPTIMUM FOUND (o=3) in 1.2588s
+[2026-06-21 11:17:04] random_40_seed2_r3: Kissat -> k_opt=3 total=1.1751s (calls=3)
+[2026-06-21 11:17:04] --- Solving random_40_seed3_r3 ---
+[2026-06-21 11:17:06] random_40_seed3_r3: MaxHS -> OPTIMUM FOUND (o=3) in 1.5343s
+[2026-06-21 11:17:06] random_40_seed3_r3: Kissat -> k_opt=3 total=0.8876s (calls=3)
+[2026-06-21 11:17:06] --- Solving random_40_seed4_r3 ---
+[2026-06-21 11:17:08] random_40_seed4_r3: MaxHS -> OPTIMUM FOUND (o=3) in 1.3261s
+[2026-06-21 11:17:08] random_40_seed4_r3: Kissat -> k_opt=3 total=0.7409s (calls=3)
+[2026-06-21 11:17:08] --- Solving random_40_seed5_r3 ---
+[2026-06-21 11:17:10] random_40_seed5_r3: MaxHS -> OPTIMUM FOUND (o=3) in 1.8190s
+[2026-06-21 11:17:11] random_40_seed5_r3: Kissat -> k_opt=3 total=0.7559s (calls=3)
+[2026-06-21 11:17:11] SKIP solve random_60_seed1_r3: not cached — run preprocess first
+[2026-06-21 11:17:11] SKIP solve random_60_seed2_r3: not cached — run preprocess first
+[2026-06-21 11:17:11] SKIP solve random_60_seed3_r3: not cached — run preprocess first
+[2026-06-21 11:17:11] SKIP solve random_60_seed4_r3: not cached — run preprocess first
+[2026-06-21 11:17:11] SKIP solve random_60_seed5_r3: not cached — run preprocess first
+[2026-06-21 11:17:11] SKIP solve random_100_seed1_r3: not cached — run preprocess first
+[2026-06-21 11:17:11] SKIP solve random_100_seed2_r3: not cached — run preprocess first
+[2026-06-21 11:17:11] SKIP solve random_100_seed3_r3: not cached — run preprocess first
+[2026-06-21 11:17:11] SKIP solve random_100_seed4_r3: not cached — run preprocess first
+[2026-06-21 11:17:11] SKIP solve random_100_seed5_r3: not cached — run preprocess first
+[2026-06-21 11:17:11] === SOLVE stage finished ===
+[2026-06-21 11:17:11] === Benchmark run complete ===
+[2026-06-21 11:48:23] === Benchmark run started (mode=all) ===
+[2026-06-21 11:48:23] === PREPROCESS stage: 172 instances, 104 already cached ===
+[2026-06-21 11:48:23] SKIP preprocess comb_3_r0 (cached)
+[2026-06-21 11:48:23] SKIP preprocess comb_4_r0 (cached)
+[2026-06-21 11:48:23] SKIP preprocess comb_5_r0 (cached)
+[2026-06-21 11:48:23] SKIP preprocess comb_6_r0 (cached)
+[2026-06-21 11:48:23] SKIP preprocess comb_8_r0 (cached)
+[2026-06-21 11:48:23] SKIP preprocess comb_10_r0 (cached)
+[2026-06-21 11:48:23] --- Preprocessing comb_20_r0 ---
+[2026-06-21 11:48:24] comb_20_r0: done in 1.2400s (80 candidates)
+[2026-06-21 11:48:24] --- Preprocessing comb_30_r0 ---
+[2026-06-21 11:48:29] comb_30_r0: done in 4.5771s (120 candidates)
+[2026-06-21 11:48:29] SKIP preprocess comb_3_r1 (cached)
+[2026-06-21 11:48:29] SKIP preprocess comb_4_r1 (cached)
+[2026-06-21 11:48:29] SKIP preprocess comb_5_r1 (cached)
+[2026-06-21 11:48:29] SKIP preprocess comb_6_r1 (cached)
+[2026-06-21 11:48:29] SKIP preprocess comb_8_r1 (cached)
+[2026-06-21 11:48:29] SKIP preprocess comb_10_r1 (cached)
+[2026-06-21 11:48:29] --- Preprocessing comb_20_r1 ---
+[2026-06-21 11:48:34] comb_20_r1: done in 4.9720s (177 candidates)
+[2026-06-21 11:48:34] --- Preprocessing comb_30_r1 ---
+[2026-06-21 11:48:52] comb_30_r1: done in 18.5417s (267 candidates)
+[2026-06-21 11:48:52] SKIP preprocess comb_3_r2 (cached)
+[2026-06-21 11:48:52] SKIP preprocess comb_4_r2 (cached)
+[2026-06-21 11:48:52] SKIP preprocess comb_5_r2 (cached)
+[2026-06-21 11:48:52] SKIP preprocess comb_6_r2 (cached)
+[2026-06-21 11:48:52] SKIP preprocess comb_8_r2 (cached)
+[2026-06-21 11:48:52] SKIP preprocess comb_10_r2 (cached)
+[2026-06-21 11:48:52] --- Preprocessing comb_20_r2 ---
+[2026-06-21 11:51:54] comb_20_r2: done in 181.3725s (1241 candidates)
+[2026-06-21 11:51:54] --- Preprocessing comb_30_r2 ---
+[2026-06-21 12:13:37] comb_30_r2: done in 1303.4609s (2761 candidates)
+[2026-06-21 12:13:37] SKIP preprocess comb_3_r3 (cached)
+[2026-06-21 12:13:37] SKIP preprocess comb_4_r3 (cached)
+[2026-06-21 12:13:37] SKIP preprocess comb_5_r3 (cached)
+[2026-06-21 12:13:37] SKIP preprocess comb_6_r3 (cached)
+[2026-06-21 12:13:37] SKIP preprocess comb_8_r3 (cached)
+[2026-06-21 12:13:37] SKIP preprocess comb_10_r3 (cached)
+[2026-06-21 12:13:37] --- Preprocessing comb_20_r3 ---
+[2026-06-21 12:22:59] comb_20_r3: done in 561.9967s (1241 candidates)
+[2026-06-21 12:22:59] --- Preprocessing comb_30_r3 ---
+[2026-06-21 13:37:23] comb_30_r3: done in 4464.3185s (2761 candidates)
+[2026-06-21 13:37:23] SKIP preprocess random_10_seed1_r0 (cached)
+[2026-06-21 13:37:23] SKIP preprocess random_10_seed2_r0 (cached)
+[2026-06-21 13:37:23] SKIP preprocess random_10_seed3_r0 (cached)
+[2026-06-21 13:37:23] SKIP preprocess random_10_seed4_r0 (cached)
+[2026-06-21 13:37:23] SKIP preprocess random_10_seed5_r0 (cached)
+[2026-06-21 13:37:23] SKIP preprocess random_20_seed1_r0 (cached)
+[2026-06-21 13:37:23] SKIP preprocess random_20_seed2_r0 (cached)
+[2026-06-21 13:37:23] SKIP preprocess random_20_seed3_r0 (cached)
+[2026-06-21 13:37:23] SKIP preprocess random_20_seed4_r0 (cached)
+[2026-06-21 13:37:23] SKIP preprocess random_20_seed5_r0 (cached)
+[2026-06-21 13:37:23] SKIP preprocess random_30_seed1_r0 (cached)
+[2026-06-21 13:37:23] SKIP preprocess random_30_seed2_r0 (cached)
+[2026-06-21 13:37:23] SKIP preprocess random_30_seed3_r0 (cached)
+[2026-06-21 13:37:23] SKIP preprocess random_30_seed4_r0 (cached)
+[2026-06-21 13:37:23] SKIP preprocess random_30_seed5_r0 (cached)
+[2026-06-21 13:37:23] SKIP preprocess random_40_seed1_r0 (cached)
+[2026-06-21 13:37:23] SKIP preprocess random_40_seed2_r0 (cached)
+[2026-06-21 13:37:23] SKIP preprocess random_40_seed3_r0 (cached)
+[2026-06-21 13:37:23] SKIP preprocess random_40_seed4_r0 (cached)
+[2026-06-21 13:37:23] SKIP preprocess random_40_seed5_r0 (cached)
+[2026-06-21 13:37:23] --- Preprocessing random_60_seed1_r0 ---
+[2026-06-21 13:37:24] random_60_seed1_r0: done in 0.4947s (60 candidates)
+[2026-06-21 13:37:24] --- Preprocessing random_60_seed2_r0 ---
+[2026-06-21 13:37:24] random_60_seed2_r0: done in 0.3631s (60 candidates)
+[2026-06-21 13:37:24] --- Preprocessing random_60_seed3_r0 ---
+[2026-06-21 13:37:25] random_60_seed3_r0: done in 0.3590s (60 candidates)
+[2026-06-21 13:37:25] --- Preprocessing random_60_seed4_r0 ---
+[2026-06-21 13:37:25] random_60_seed4_r0: done in 0.3854s (60 candidates)
+[2026-06-21 13:37:25] --- Preprocessing random_60_seed5_r0 ---
+[2026-06-21 13:37:25] random_60_seed5_r0: done in 0.3617s (60 candidates)
+[2026-06-21 13:37:25] --- Preprocessing random_100_seed1_r0 ---
+[2026-06-21 13:37:27] random_100_seed1_r0: done in 1.2743s (100 candidates)
+[2026-06-21 13:37:27] --- Preprocessing random_100_seed2_r0 ---
+[2026-06-21 13:37:28] random_100_seed2_r0: done in 1.2812s (100 candidates)
+[2026-06-21 13:37:28] --- Preprocessing random_100_seed3_r0 ---
+[2026-06-21 13:37:29] random_100_seed3_r0: done in 1.2762s (100 candidates)
+[2026-06-21 13:37:29] --- Preprocessing random_100_seed4_r0 ---
+[2026-06-21 13:37:30] random_100_seed4_r0: done in 1.2842s (100 candidates)
+[2026-06-21 13:37:30] --- Preprocessing random_100_seed5_r0 ---
+[2026-06-21 13:37:32] random_100_seed5_r0: done in 1.2855s (100 candidates)
+[2026-06-21 13:37:32] --- Preprocessing random_150_seed1_r0 ---
+[2026-06-21 13:37:36] random_150_seed1_r0: done in 4.0166s (150 candidates)
+[2026-06-21 13:37:36] --- Preprocessing random_150_seed2_r0 ---
+[2026-06-21 13:37:40] random_150_seed2_r0: done in 4.0350s (150 candidates)
+[2026-06-21 13:37:40] --- Preprocessing random_150_seed3_r0 ---
+[2026-06-21 13:37:44] random_150_seed3_r0: done in 4.0040s (150 candidates)
+[2026-06-21 13:37:44] --- Preprocessing random_150_seed4_r0 ---
+[2026-06-21 13:37:48] random_150_seed4_r0: done in 4.0623s (150 candidates)
+[2026-06-21 13:37:48] --- Preprocessing random_150_seed5_r0 ---
+[2026-06-21 13:37:52] random_150_seed5_r0: done in 4.0710s (150 candidates)
+[2026-06-21 13:37:52] SKIP preprocess random_10_seed1_r1 (cached)
+[2026-06-21 13:37:52] SKIP preprocess random_10_seed2_r1 (cached)
+[2026-06-21 13:37:52] SKIP preprocess random_10_seed3_r1 (cached)
+[2026-06-21 13:37:52] SKIP preprocess random_10_seed4_r1 (cached)
+[2026-06-21 13:37:52] SKIP preprocess random_10_seed5_r1 (cached)
+[2026-06-21 13:37:52] SKIP preprocess random_20_seed1_r1 (cached)
+[2026-06-21 13:37:52] SKIP preprocess random_20_seed2_r1 (cached)
+[2026-06-21 13:37:52] SKIP preprocess random_20_seed3_r1 (cached)
+[2026-06-21 13:37:52] SKIP preprocess random_20_seed4_r1 (cached)
+[2026-06-21 13:37:52] SKIP preprocess random_20_seed5_r1 (cached)
+[2026-06-21 13:37:52] SKIP preprocess random_30_seed1_r1 (cached)
+[2026-06-21 13:37:52] SKIP preprocess random_30_seed2_r1 (cached)
+[2026-06-21 13:37:52] SKIP preprocess random_30_seed3_r1 (cached)
+[2026-06-21 13:37:52] SKIP preprocess random_30_seed4_r1 (cached)
+[2026-06-21 13:37:52] SKIP preprocess random_30_seed5_r1 (cached)
+[2026-06-21 13:37:52] SKIP preprocess random_40_seed1_r1 (cached)
+[2026-06-21 13:37:52] SKIP preprocess random_40_seed2_r1 (cached)
+[2026-06-21 13:37:52] SKIP preprocess random_40_seed3_r1 (cached)
+[2026-06-21 13:37:52] SKIP preprocess random_40_seed4_r1 (cached)
+[2026-06-21 13:37:52] SKIP preprocess random_40_seed5_r1 (cached)
+[2026-06-21 13:37:52] --- Preprocessing random_60_seed1_r1 ---
+[2026-06-21 13:38:03] random_60_seed1_r1: done in 11.1291s (364 candidates)
+[2026-06-21 13:38:03] --- Preprocessing random_60_seed2_r1 ---
+[2026-06-21 13:38:15] random_60_seed2_r1: done in 11.8645s (374 candidates)
+[2026-06-21 13:38:15] --- Preprocessing random_60_seed3_r1 ---
+[2026-06-21 13:38:26] random_60_seed3_r1: done in 11.4555s (368 candidates)
+[2026-06-21 13:38:26] --- Preprocessing random_60_seed4_r1 ---
+[2026-06-21 13:38:39] random_60_seed4_r1: done in 12.9021s (389 candidates)
+[2026-06-21 13:38:39] --- Preprocessing random_60_seed5_r1 ---
+[2026-06-21 13:38:51] random_60_seed5_r1: done in 12.0500s (377 candidates)
+[2026-06-21 13:38:51] --- Preprocessing random_100_seed1_r1 ---
+[2026-06-21 13:39:55] random_100_seed1_r1: done in 64.0152s (686 candidates)
+[2026-06-21 13:39:55] --- Preprocessing random_100_seed2_r1 ---
+[2026-06-21 13:40:59] random_100_seed2_r1: done in 63.9621s (680 candidates)
+[2026-06-21 13:40:59] --- Preprocessing random_100_seed3_r1 ---
+[2026-06-21 13:42:06] random_100_seed3_r1: done in 66.7611s (699 candidates)
+[2026-06-21 13:42:06] --- Preprocessing random_100_seed4_r1 ---
+[2026-06-21 13:43:08] random_100_seed4_r1: done in 61.7871s (673 candidates)
+[2026-06-21 13:43:08] --- Preprocessing random_100_seed5_r1 ---
+[2026-06-21 13:44:23] random_100_seed5_r1: done in 75.3954s (749 candidates)
+[2026-06-21 13:44:23] --- Preprocessing random_150_seed1_r1 ---
+[2026-06-21 13:48:52] random_150_seed1_r1: done in 269.0002s (1161 candidates)
+[2026-06-21 13:48:52] --- Preprocessing random_150_seed2_r1 ---
+[2026-06-21 13:52:58] random_150_seed2_r1: done in 246.1747s (1106 candidates)
+[2026-06-21 13:52:58] --- Preprocessing random_150_seed3_r1 ---
+[2026-06-21 13:57:46] random_150_seed3_r1: done in 287.7342s (1198 candidates)
+[2026-06-21 13:57:46] --- Preprocessing random_150_seed4_r1 ---
+[2026-06-21 14:02:01] random_150_seed4_r1: done in 254.4142s (1125 candidates)
+[2026-06-21 14:02:01] --- Preprocessing random_150_seed5_r1 ---
+[2026-06-21 14:06:20] random_150_seed5_r1: done in 258.9999s (1137 candidates)
+[2026-06-21 14:06:20] SKIP preprocess random_10_seed1_r2 (cached)
+[2026-06-21 14:06:20] SKIP preprocess random_10_seed2_r2 (cached)
+[2026-06-21 14:06:20] SKIP preprocess random_10_seed3_r2 (cached)
+[2026-06-21 14:06:20] SKIP preprocess random_10_seed4_r2 (cached)
+[2026-06-21 14:06:20] SKIP preprocess random_10_seed5_r2 (cached)
+[2026-06-21 14:06:20] SKIP preprocess random_20_seed1_r2 (cached)
+[2026-06-21 14:06:20] SKIP preprocess random_20_seed2_r2 (cached)
+[2026-06-21 14:06:20] SKIP preprocess random_20_seed3_r2 (cached)
+[2026-06-21 14:06:20] SKIP preprocess random_20_seed4_r2 (cached)
+[2026-06-21 14:06:20] SKIP preprocess random_20_seed5_r2 (cached)
+[2026-06-21 14:06:20] SKIP preprocess random_30_seed1_r2 (cached)
+[2026-06-21 14:06:20] SKIP preprocess random_30_seed2_r2 (cached)
+[2026-06-21 14:06:20] SKIP preprocess random_30_seed3_r2 (cached)
+[2026-06-21 14:06:20] SKIP preprocess random_30_seed4_r2 (cached)
+[2026-06-21 14:06:20] SKIP preprocess random_30_seed5_r2 (cached)
+[2026-06-21 14:06:20] SKIP preprocess random_40_seed1_r2 (cached)
+[2026-06-21 14:06:20] SKIP preprocess random_40_seed2_r2 (cached)
+[2026-06-21 14:06:20] SKIP preprocess random_40_seed3_r2 (cached)
+[2026-06-21 14:06:20] SKIP preprocess random_40_seed4_r2 (cached)
+[2026-06-21 14:06:20] SKIP preprocess random_40_seed5_r2 (cached)
+[2026-06-21 14:06:20] --- Preprocessing random_60_seed1_r2 ---
+[2026-06-21 14:09:18] random_60_seed1_r2: done in 178.4655s (1354 candidates)
+[2026-06-21 14:09:18] --- Preprocessing random_60_seed2_r2 ---
+[2026-06-21 14:12:46] random_60_seed2_r2: done in 208.1942s (1471 candidates)
+[2026-06-21 14:12:46] --- Preprocessing random_60_seed3_r2 ---
+[2026-06-21 14:16:07] random_60_seed3_r2: done in 200.5282s (1445 candidates)
+[2026-06-21 14:16:07] --- Preprocessing random_60_seed4_r2 ---
+[2026-06-21 14:20:17] random_60_seed4_r2: done in 250.3793s (1617 candidates)
+[2026-06-21 14:20:17] --- Preprocessing random_60_seed5_r2 ---
+[2026-06-21 14:23:35] random_60_seed5_r2: done in 197.9233s (1421 candidates)
+[2026-06-21 14:23:35] --- Preprocessing random_100_seed1_r2 ---
+[2026-06-21 14:32:22] === Benchmark run started (mode=all) ===
+[2026-06-21 14:32:22] === PREPROCESS stage: 172 instances, 147 already cached ===
+[2026-06-21 14:32:22] SKIP preprocess comb_3_r0 (cached)
+[2026-06-21 14:32:22] SKIP preprocess comb_4_r0 (cached)
+[2026-06-21 14:32:22] SKIP preprocess comb_5_r0 (cached)
+[2026-06-21 14:32:22] SKIP preprocess comb_6_r0 (cached)
+[2026-06-21 14:32:22] SKIP preprocess comb_8_r0 (cached)
+[2026-06-21 14:32:22] SKIP preprocess comb_10_r0 (cached)
+[2026-06-21 14:32:22] SKIP preprocess comb_20_r0 (cached)
+[2026-06-21 14:32:22] SKIP preprocess comb_30_r0 (cached)
+[2026-06-21 14:32:22] SKIP preprocess comb_3_r1 (cached)
+[2026-06-21 14:32:22] SKIP preprocess comb_4_r1 (cached)
+[2026-06-21 14:32:22] SKIP preprocess comb_5_r1 (cached)
+[2026-06-21 14:32:22] SKIP preprocess comb_6_r1 (cached)
+[2026-06-21 14:32:22] SKIP preprocess comb_8_r1 (cached)
+[2026-06-21 14:32:22] SKIP preprocess comb_10_r1 (cached)
+[2026-06-21 14:32:22] SKIP preprocess comb_20_r1 (cached)
+[2026-06-21 14:32:22] SKIP preprocess comb_30_r1 (cached)
+[2026-06-21 14:32:22] SKIP preprocess comb_3_r2 (cached)
+[2026-06-21 14:32:22] SKIP preprocess comb_4_r2 (cached)
+[2026-06-21 14:32:22] SKIP preprocess comb_5_r2 (cached)
+[2026-06-21 14:32:22] SKIP preprocess comb_6_r2 (cached)
+[2026-06-21 14:32:22] SKIP preprocess comb_8_r2 (cached)
+[2026-06-21 14:32:22] SKIP preprocess comb_10_r2 (cached)
+[2026-06-21 14:32:22] SKIP preprocess comb_20_r2 (cached)
+[2026-06-21 14:32:22] SKIP preprocess comb_30_r2 (cached)
+[2026-06-21 14:32:22] SKIP preprocess comb_3_r3 (cached)
+[2026-06-21 14:32:22] SKIP preprocess comb_4_r3 (cached)
+[2026-06-21 14:32:22] SKIP preprocess comb_5_r3 (cached)
+[2026-06-21 14:32:22] SKIP preprocess comb_6_r3 (cached)
+[2026-06-21 14:32:22] SKIP preprocess comb_8_r3 (cached)
+[2026-06-21 14:32:22] SKIP preprocess comb_10_r3 (cached)
+[2026-06-21 14:32:22] SKIP preprocess comb_20_r3 (cached)
+[2026-06-21 14:32:22] SKIP preprocess comb_30_r3 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_10_seed1_r0 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_10_seed2_r0 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_10_seed3_r0 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_10_seed4_r0 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_10_seed5_r0 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_20_seed1_r0 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_20_seed2_r0 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_20_seed3_r0 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_20_seed4_r0 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_20_seed5_r0 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_30_seed1_r0 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_30_seed2_r0 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_30_seed3_r0 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_30_seed4_r0 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_30_seed5_r0 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_40_seed1_r0 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_40_seed2_r0 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_40_seed3_r0 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_40_seed4_r0 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_40_seed5_r0 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_60_seed1_r0 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_60_seed2_r0 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_60_seed3_r0 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_60_seed4_r0 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_60_seed5_r0 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_100_seed1_r0 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_100_seed2_r0 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_100_seed3_r0 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_100_seed4_r0 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_100_seed5_r0 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_150_seed1_r0 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_150_seed2_r0 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_150_seed3_r0 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_150_seed4_r0 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_150_seed5_r0 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_10_seed1_r1 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_10_seed2_r1 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_10_seed3_r1 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_10_seed4_r1 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_10_seed5_r1 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_20_seed1_r1 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_20_seed2_r1 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_20_seed3_r1 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_20_seed4_r1 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_20_seed5_r1 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_30_seed1_r1 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_30_seed2_r1 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_30_seed3_r1 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_30_seed4_r1 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_30_seed5_r1 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_40_seed1_r1 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_40_seed2_r1 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_40_seed3_r1 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_40_seed4_r1 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_40_seed5_r1 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_60_seed1_r1 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_60_seed2_r1 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_60_seed3_r1 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_60_seed4_r1 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_60_seed5_r1 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_100_seed1_r1 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_100_seed2_r1 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_100_seed3_r1 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_100_seed4_r1 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_100_seed5_r1 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_150_seed1_r1 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_150_seed2_r1 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_150_seed3_r1 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_150_seed4_r1 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_150_seed5_r1 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_10_seed1_r2 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_10_seed2_r2 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_10_seed3_r2 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_10_seed4_r2 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_10_seed5_r2 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_20_seed1_r2 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_20_seed2_r2 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_20_seed3_r2 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_20_seed4_r2 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_20_seed5_r2 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_30_seed1_r2 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_30_seed2_r2 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_30_seed3_r2 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_30_seed4_r2 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_30_seed5_r2 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_40_seed1_r2 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_40_seed2_r2 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_40_seed3_r2 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_40_seed4_r2 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_40_seed5_r2 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_60_seed1_r2 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_60_seed2_r2 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_60_seed3_r2 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_60_seed4_r2 (cached)
+[2026-06-21 14:32:22] SKIP preprocess random_60_seed5_r2 (cached)
+[2026-06-21 14:32:22] --- Preprocessing random_100_seed1_r2 ---
+[2026-06-21 14:38:09] === Benchmark run started (mode=solve) ===
+[2026-06-21 14:38:09] === SOLVE stage: 172 instances, 104 already done ===
+[2026-06-21 14:38:09] SKIP solve comb_3_r0 (already done)
+[2026-06-21 14:38:09] SKIP solve comb_4_r0 (already done)
+[2026-06-21 14:38:09] SKIP solve comb_5_r0 (already done)
+[2026-06-21 14:38:09] SKIP solve comb_6_r0 (already done)
+[2026-06-21 14:38:09] SKIP solve comb_8_r0 (already done)
+[2026-06-21 14:38:09] SKIP solve comb_10_r0 (already done)
+[2026-06-21 14:38:09] --- Solving comb_20_r0 ---
+[2026-06-21 14:38:09] comb_20_r0: MaxHS -> OPTIMUM FOUND (o=20) in 0.0821s
+[2026-06-21 14:38:10] comb_20_r0: Kissat -> k_opt=20 total=0.4382s (calls=20)
+[2026-06-21 14:38:10] --- Solving comb_30_r0 ---
+[2026-06-21 14:38:10] comb_30_r0: MaxHS -> OPTIMUM FOUND (o=30) in 0.0388s
+[2026-06-21 14:38:10] comb_30_r0: Kissat -> k_opt=None total=0.5126s (calls=20)
+[2026-06-21 14:38:10] SKIP solve comb_3_r1 (already done)
+[2026-06-21 14:38:10] SKIP solve comb_4_r1 (already done)
+[2026-06-21 14:38:10] SKIP solve comb_5_r1 (already done)
+[2026-06-21 14:38:10] SKIP solve comb_6_r1 (already done)
+[2026-06-21 14:38:10] SKIP solve comb_8_r1 (already done)
+[2026-06-21 14:38:10] SKIP solve comb_10_r1 (already done)
+[2026-06-21 14:38:10] --- Solving comb_20_r1 ---
+[2026-06-21 14:39:01] comb_20_r1: MaxHS -> OPTIMUM FOUND (o=20) in 50.8268s
+[2026-06-21 14:52:05] === Benchmark run started (mode=solve) ===
+[2026-06-21 14:52:05] === SOLVE stage: 172 instances, 106 already done ===
+[2026-06-21 14:52:05] SKIP solve comb_3_r0 (already done)
+[2026-06-21 14:52:05] SKIP solve comb_4_r0 (already done)
+[2026-06-21 14:52:05] SKIP solve comb_5_r0 (already done)
+[2026-06-21 14:52:05] SKIP solve comb_6_r0 (already done)
+[2026-06-21 14:52:05] SKIP solve comb_8_r0 (already done)
+[2026-06-21 14:52:05] SKIP solve comb_10_r0 (already done)
+[2026-06-21 14:52:05] SKIP solve comb_20_r0 (already done)
+[2026-06-21 14:52:05] SKIP solve comb_30_r0 (already done)
+[2026-06-21 14:52:05] SKIP solve comb_3_r1 (already done)
+[2026-06-21 14:52:05] SKIP solve comb_4_r1 (already done)
+[2026-06-21 14:52:05] SKIP solve comb_5_r1 (already done)
+[2026-06-21 14:52:05] SKIP solve comb_6_r1 (already done)
+[2026-06-21 14:52:05] SKIP solve comb_8_r1 (already done)
+[2026-06-21 14:52:05] SKIP solve comb_10_r1 (already done)
+[2026-06-21 14:52:05] --- Solving comb_20_r1 ---
+[2026-06-21 14:52:56] comb_20_r1: MaxHS -> OPTIMUM FOUND (o=20) in 50.9078s
+[2026-06-21 14:58:12] comb_20_r1: Kissat -> k_opt=None total=316.1110s (calls=15)
+[2026-06-21 14:58:12] --- Solving comb_30_r1 ---
+[2026-06-21 14:58:12] comb_30_r1: MaxHS -> OPTIMUM FOUND (o=30) in 0.1205s
+[2026-06-21 15:02:39] comb_30_r1: Kissat -> k_opt=None total=266.4567s (calls=16)
+[2026-06-21 15:02:39] SKIP solve comb_3_r2 (already done)
+[2026-06-21 15:02:39] SKIP solve comb_4_r2 (already done)
+[2026-06-21 15:02:39] SKIP solve comb_5_r2 (already done)
+[2026-06-21 15:02:39] SKIP solve comb_6_r2 (already done)
+[2026-06-21 15:02:39] SKIP solve comb_8_r2 (already done)
+[2026-06-21 15:02:39] SKIP solve comb_10_r2 (already done)
+[2026-06-21 15:02:39] --- Solving comb_20_r2 ---
+[2026-06-21 15:02:39] comb_20_r2: MaxHS -> OPTIMUM FOUND (o=20) in 0.3930s
+[2026-06-21 15:07:32] comb_20_r2: Kissat -> k_opt=None total=292.6118s (calls=12)
+[2026-06-21 15:07:32] --- Solving comb_30_r2 ---
+[2026-06-21 15:07:33] comb_30_r2: MaxHS -> OPTIMUM FOUND (o=30) in 1.1025s
+[2026-06-21 15:11:51] comb_30_r2: Kissat -> k_opt=None total=257.6479s (calls=12)
+[2026-06-21 15:11:51] SKIP solve comb_3_r3 (already done)
+[2026-06-21 15:11:51] SKIP solve comb_4_r3 (already done)
+[2026-06-21 15:11:51] SKIP solve comb_5_r3 (already done)
+[2026-06-21 15:11:51] SKIP solve comb_6_r3 (already done)
+[2026-06-21 15:11:51] SKIP solve comb_8_r3 (already done)
+[2026-06-21 15:11:51] SKIP solve comb_10_r3 (already done)
+[2026-06-21 15:11:51] --- Solving comb_20_r3 ---
+[2026-06-21 15:11:51] comb_20_r3: MaxHS -> OPTIMUM FOUND (o=20) in 0.3216s
+[2026-06-21 15:16:44] comb_20_r3: Kissat -> k_opt=None total=293.2288s (calls=12)
+[2026-06-21 15:16:44] --- Solving comb_30_r3 ---
+[2026-06-21 15:16:45] comb_30_r3: MaxHS -> OPTIMUM FOUND (o=30) in 1.0679s
+[2026-06-21 15:21:02] comb_30_r3: Kissat -> k_opt=None total=257.0357s (calls=12)
+[2026-06-21 15:21:02] SKIP solve random_10_seed1_r0 (already done)
+[2026-06-21 15:21:02] SKIP solve random_10_seed2_r0 (already done)
+[2026-06-21 15:21:02] SKIP solve random_10_seed3_r0 (already done)
+[2026-06-21 15:21:02] SKIP solve random_10_seed4_r0 (already done)
+[2026-06-21 15:21:02] SKIP solve random_10_seed5_r0 (already done)
+[2026-06-21 15:21:02] SKIP solve random_20_seed1_r0 (already done)
+[2026-06-21 15:21:02] SKIP solve random_20_seed2_r0 (already done)
+[2026-06-21 15:21:02] SKIP solve random_20_seed3_r0 (already done)
+[2026-06-21 15:21:02] SKIP solve random_20_seed4_r0 (already done)
+[2026-06-21 15:21:02] SKIP solve random_20_seed5_r0 (already done)
+[2026-06-21 15:21:02] SKIP solve random_30_seed1_r0 (already done)
+[2026-06-21 15:21:02] SKIP solve random_30_seed2_r0 (already done)
+[2026-06-21 15:21:02] SKIP solve random_30_seed3_r0 (already done)
+[2026-06-21 15:21:02] SKIP solve random_30_seed4_r0 (already done)
+[2026-06-21 15:21:02] SKIP solve random_30_seed5_r0 (already done)
+[2026-06-21 15:21:02] SKIP solve random_40_seed1_r0 (already done)
+[2026-06-21 15:21:02] SKIP solve random_40_seed2_r0 (already done)
+[2026-06-21 15:21:02] SKIP solve random_40_seed3_r0 (already done)
+[2026-06-21 15:21:02] SKIP solve random_40_seed4_r0 (already done)
+[2026-06-21 15:21:02] SKIP solve random_40_seed5_r0 (already done)
+[2026-06-21 15:21:02] --- Solving random_60_seed1_r0 ---
+[2026-06-21 15:21:02] random_60_seed1_r0: MaxHS -> OPTIMUM FOUND (o=6) in 0.0876s
+[2026-06-21 15:21:02] random_60_seed1_r0: Kissat -> k_opt=6 total=0.0747s (calls=6)
+[2026-06-21 15:21:02] --- Solving random_60_seed2_r0 ---
+[2026-06-21 15:21:02] random_60_seed2_r0: MaxHS -> OPTIMUM FOUND (o=4) in 0.0441s
+[2026-06-21 15:21:03] random_60_seed2_r0: Kissat -> k_opt=4 total=0.0326s (calls=4)
+[2026-06-21 15:21:03] --- Solving random_60_seed3_r0 ---
+[2026-06-21 15:21:03] random_60_seed3_r0: MaxHS -> OPTIMUM FOUND (o=4) in 0.0432s
+[2026-06-21 15:21:03] random_60_seed3_r0: Kissat -> k_opt=4 total=0.0474s (calls=4)
+[2026-06-21 15:21:03] --- Solving random_60_seed4_r0 ---
+[2026-06-21 15:21:03] random_60_seed4_r0: MaxHS -> OPTIMUM FOUND (o=3) in 0.0385s
+[2026-06-21 15:21:03] random_60_seed4_r0: Kissat -> k_opt=3 total=0.0197s (calls=3)
+[2026-06-21 15:21:03] --- Solving random_60_seed5_r0 ---
+[2026-06-21 15:21:03] random_60_seed5_r0: MaxHS -> OPTIMUM FOUND (o=4) in 0.0395s
+[2026-06-21 15:21:03] random_60_seed5_r0: Kissat -> k_opt=4 total=0.0414s (calls=4)
+[2026-06-21 15:21:03] --- Solving random_100_seed1_r0 ---
+[2026-06-21 15:21:03] random_100_seed1_r0: MaxHS -> OPTIMUM FOUND (o=5) in 0.0406s
+[2026-06-21 15:21:03] random_100_seed1_r0: Kissat -> k_opt=5 total=0.1115s (calls=5)
+[2026-06-21 15:21:03] --- Solving random_100_seed2_r0 ---
+[2026-06-21 15:21:03] random_100_seed2_r0: MaxHS -> OPTIMUM FOUND (o=8) in 0.0392s
+[2026-06-21 15:21:03] random_100_seed2_r0: Kissat -> k_opt=8 total=0.1454s (calls=8)
+[2026-06-21 15:21:03] --- Solving random_100_seed3_r0 ---
+[2026-06-21 15:21:03] random_100_seed3_r0: MaxHS -> OPTIMUM FOUND (o=8) in 0.0381s
+[2026-06-21 15:21:03] random_100_seed3_r0: Kissat -> k_opt=8 total=0.1524s (calls=8)
+[2026-06-21 15:21:03] --- Solving random_100_seed4_r0 ---
+[2026-06-21 15:21:03] random_100_seed4_r0: MaxHS -> OPTIMUM FOUND (o=5) in 0.0367s
+[2026-06-21 15:21:03] random_100_seed4_r0: Kissat -> k_opt=5 total=0.1047s (calls=5)
+[2026-06-21 15:21:03] --- Solving random_100_seed5_r0 ---
+[2026-06-21 15:21:03] random_100_seed5_r0: MaxHS -> OPTIMUM FOUND (o=7) in 0.0395s
+[2026-06-21 15:21:04] random_100_seed5_r0: Kissat -> k_opt=7 total=0.1622s (calls=7)
+[2026-06-21 15:21:04] --- Solving random_150_seed1_r0 ---
+[2026-06-21 15:21:04] random_150_seed1_r0: MaxHS -> OPTIMUM FOUND (o=8) in 0.0405s
+[2026-06-21 15:21:04] random_150_seed1_r0: Kissat -> k_opt=8 total=0.1747s (calls=8)
+[2026-06-21 15:21:04] --- Solving random_150_seed2_r0 ---
+[2026-06-21 15:21:04] random_150_seed2_r0: MaxHS -> OPTIMUM FOUND (o=10) in 0.0393s
+[2026-06-21 15:21:04] random_150_seed2_r0: Kissat -> k_opt=10 total=0.1939s (calls=10)
+[2026-06-21 15:21:04] --- Solving random_150_seed3_r0 ---
+[2026-06-21 15:21:04] random_150_seed3_r0: MaxHS -> OPTIMUM FOUND (o=14) in 0.0537s
+[2026-06-21 15:21:04] random_150_seed3_r0: Kissat -> k_opt=14 total=0.3526s (calls=14)
+[2026-06-21 15:21:04] --- Solving random_150_seed4_r0 ---
+[2026-06-21 15:21:05] random_150_seed4_r0: MaxHS -> OPTIMUM FOUND (o=9) in 0.0468s
+[2026-06-21 15:21:05] random_150_seed4_r0: Kissat -> k_opt=9 total=0.2035s (calls=9)
+[2026-06-21 15:21:05] --- Solving random_150_seed5_r0 ---
+[2026-06-21 15:21:05] random_150_seed5_r0: MaxHS -> OPTIMUM FOUND (o=9) in 0.0404s
+[2026-06-21 15:21:05] random_150_seed5_r0: Kissat -> k_opt=9 total=0.1807s (calls=9)
+[2026-06-21 15:21:05] SKIP solve random_10_seed1_r1 (already done)
+[2026-06-21 15:21:05] SKIP solve random_10_seed2_r1 (already done)
+[2026-06-21 15:21:05] SKIP solve random_10_seed3_r1 (already done)
+[2026-06-21 15:21:05] SKIP solve random_10_seed4_r1 (already done)
+[2026-06-21 15:21:05] SKIP solve random_10_seed5_r1 (already done)
+[2026-06-21 15:21:05] SKIP solve random_20_seed1_r1 (already done)
+[2026-06-21 15:21:05] SKIP solve random_20_seed2_r1 (already done)
+[2026-06-21 15:21:05] SKIP solve random_20_seed3_r1 (already done)
+[2026-06-21 15:21:05] SKIP solve random_20_seed4_r1 (already done)
+[2026-06-21 15:21:05] SKIP solve random_20_seed5_r1 (already done)
+[2026-06-21 15:21:05] SKIP solve random_30_seed1_r1 (already done)
+[2026-06-21 15:21:05] SKIP solve random_30_seed2_r1 (already done)
+[2026-06-21 15:21:05] SKIP solve random_30_seed3_r1 (already done)
+[2026-06-21 15:21:05] SKIP solve random_30_seed4_r1 (already done)
+[2026-06-21 15:21:05] SKIP solve random_30_seed5_r1 (already done)
+[2026-06-21 15:21:05] SKIP solve random_40_seed1_r1 (already done)
+[2026-06-21 15:21:05] SKIP solve random_40_seed2_r1 (already done)
+[2026-06-21 15:21:05] SKIP solve random_40_seed3_r1 (already done)
+[2026-06-21 15:21:05] SKIP solve random_40_seed4_r1 (already done)
+[2026-06-21 15:21:05] SKIP solve random_40_seed5_r1 (already done)
+[2026-06-21 15:21:05] --- Solving random_60_seed1_r1 ---
+[2026-06-21 15:21:05] random_60_seed1_r1: MaxHS -> OPTIMUM FOUND (o=5) in 0.1118s
+[2026-06-21 15:21:06] random_60_seed1_r1: Kissat -> k_opt=5 total=0.7226s (calls=5)
+[2026-06-21 15:21:06] --- Solving random_60_seed2_r1 ---
+[2026-06-21 15:21:06] random_60_seed2_r1: MaxHS -> OPTIMUM FOUND (o=4) in 0.0667s
+[2026-06-21 15:21:06] random_60_seed2_r1: Kissat -> k_opt=4 total=0.0817s (calls=4)
+[2026-06-21 15:21:06] --- Solving random_60_seed3_r1 ---
+[2026-06-21 15:21:06] random_60_seed3_r1: MaxHS -> OPTIMUM FOUND (o=4) in 0.0684s
+[2026-06-21 15:21:06] random_60_seed3_r1: Kissat -> k_opt=4 total=0.2266s (calls=4)
+[2026-06-21 15:21:06] --- Solving random_60_seed4_r1 ---
+[2026-06-21 15:21:06] random_60_seed4_r1: MaxHS -> OPTIMUM FOUND (o=3) in 0.0785s
+[2026-06-21 15:21:06] random_60_seed4_r1: Kissat -> k_opt=3 total=0.0680s (calls=3)
+[2026-06-21 15:21:06] --- Solving random_60_seed5_r1 ---
+[2026-06-21 15:21:06] random_60_seed5_r1: MaxHS -> OPTIMUM FOUND (o=4) in 0.0698s
+[2026-06-21 15:21:07] random_60_seed5_r1: Kissat -> k_opt=4 total=0.3452s (calls=4)
+[2026-06-21 15:21:07] --- Solving random_100_seed1_r1 ---
+[2026-06-21 15:21:07] random_100_seed1_r1: MaxHS -> OPTIMUM FOUND (o=5) in 0.1188s
+[2026-06-21 15:21:08] random_100_seed1_r1: Kissat -> k_opt=5 total=0.9128s (calls=5)
+[2026-06-21 15:21:08] --- Solving random_100_seed2_r1 ---
+[2026-06-21 15:21:08] random_100_seed2_r1: MaxHS -> OPTIMUM FOUND (o=8) in 0.1205s
+[2026-06-21 15:22:22] random_100_seed2_r1: Kissat -> k_opt=8 total=73.7095s (calls=8)
+[2026-06-21 15:22:22] --- Solving random_100_seed3_r1 ---
+[2026-06-21 15:22:22] random_100_seed3_r1: MaxHS -> OPTIMUM FOUND (o=8) in 0.1959s
+[2026-06-21 15:23:13] random_100_seed3_r1: Kissat -> k_opt=8 total=51.1035s (calls=8)
+[2026-06-21 15:23:13] --- Solving random_100_seed4_r1 ---
+[2026-06-21 15:23:13] random_100_seed4_r1: MaxHS -> OPTIMUM FOUND (o=5) in 0.1928s
+[2026-06-21 15:23:15] random_100_seed4_r1: Kissat -> k_opt=5 total=2.1791s (calls=5)
+[2026-06-21 15:23:15] --- Solving random_100_seed5_r1 ---
+[2026-06-21 15:23:15] random_100_seed5_r1: MaxHS -> OPTIMUM FOUND (o=7) in 0.1200s
+[2026-06-21 15:24:02] random_100_seed5_r1: Kissat -> k_opt=7 total=46.0855s (calls=7)
+[2026-06-21 15:24:02] --- Solving random_150_seed1_r1 ---
+[2026-06-21 15:24:02] random_150_seed1_r1: MaxHS -> OPTIMUM FOUND (o=8) in 0.2851s
+[2026-06-21 15:26:22] random_150_seed1_r1: Kissat -> k_opt=None total=139.9040s (calls=7)
+[2026-06-21 15:26:22] --- Solving random_150_seed2_r1 ---
+[2026-06-21 15:26:22] random_150_seed2_r1: MaxHS -> OPTIMUM FOUND (o=10) in 0.2551s
+[2026-06-21 15:29:40] random_150_seed2_r1: Kissat -> k_opt=None total=197.9568s (calls=9)
+[2026-06-21 15:29:40] --- Solving random_150_seed3_r1 ---
+[2026-06-21 15:29:40] random_150_seed3_r1: MaxHS -> OPTIMUM FOUND (o=14) in 0.2496s
+[2026-06-21 15:32:10] random_150_seed3_r1: Kissat -> k_opt=None total=150.2247s (calls=8)
+[2026-06-21 15:32:10] --- Solving random_150_seed4_r1 ---
+[2026-06-21 15:32:11] random_150_seed4_r1: MaxHS -> OPTIMUM FOUND (o=9) in 0.2665s
+[2026-06-21 15:34:45] random_150_seed4_r1: Kissat -> k_opt=None total=154.6947s (calls=7)
+[2026-06-21 15:34:45] --- Solving random_150_seed5_r1 ---
+[2026-06-21 15:34:46] random_150_seed5_r1: MaxHS -> OPTIMUM FOUND (o=9) in 0.2514s
+[2026-06-21 15:38:26] random_150_seed5_r1: Kissat -> k_opt=None total=220.5164s (calls=8)
+[2026-06-21 15:38:26] SKIP solve random_10_seed1_r2 (already done)
+[2026-06-21 15:38:26] SKIP solve random_10_seed2_r2 (already done)
+[2026-06-21 15:38:26] SKIP solve random_10_seed3_r2 (already done)
+[2026-06-21 15:38:26] SKIP solve random_10_seed4_r2 (already done)
+[2026-06-21 15:38:26] SKIP solve random_10_seed5_r2 (already done)
+[2026-06-21 15:38:26] SKIP solve random_20_seed1_r2 (already done)
+[2026-06-21 15:38:26] SKIP solve random_20_seed2_r2 (already done)
+[2026-06-21 15:38:26] SKIP solve random_20_seed3_r2 (already done)
+[2026-06-21 15:38:26] SKIP solve random_20_seed4_r2 (already done)
+[2026-06-21 15:38:26] SKIP solve random_20_seed5_r2 (already done)
+[2026-06-21 15:38:26] SKIP solve random_30_seed1_r2 (already done)
+[2026-06-21 15:38:26] SKIP solve random_30_seed2_r2 (already done)
+[2026-06-21 15:38:26] SKIP solve random_30_seed3_r2 (already done)
+[2026-06-21 15:38:26] SKIP solve random_30_seed4_r2 (already done)
+[2026-06-21 15:38:26] SKIP solve random_30_seed5_r2 (already done)
+[2026-06-21 15:38:26] SKIP solve random_40_seed1_r2 (already done)
+[2026-06-21 15:38:26] SKIP solve random_40_seed2_r2 (already done)
+[2026-06-21 15:38:26] SKIP solve random_40_seed3_r2 (already done)
+[2026-06-21 15:38:26] SKIP solve random_40_seed4_r2 (already done)
+[2026-06-21 15:38:26] SKIP solve random_40_seed5_r2 (already done)
+[2026-06-21 15:38:26] --- Solving random_60_seed1_r2 ---
+[2026-06-21 15:38:27] random_60_seed1_r2: MaxHS -> OPTIMUM FOUND (o=5) in 0.5002s
+[2026-06-21 15:38:40] random_60_seed1_r2: Kissat -> k_opt=5 total=12.8636s (calls=5)
+[2026-06-21 15:38:40] --- Solving random_60_seed2_r2 ---
+[2026-06-21 15:38:40] random_60_seed2_r2: MaxHS -> OPTIMUM FOUND (o=4) in 0.4788s
+[2026-06-21 15:38:42] random_60_seed2_r2: Kissat -> k_opt=4 total=1.6374s (calls=4)
+[2026-06-21 15:38:42] --- Solving random_60_seed3_r2 ---
+[2026-06-21 15:38:42] random_60_seed3_r2: MaxHS -> OPTIMUM FOUND (o=4) in 0.5492s
+[2026-06-21 15:38:49] random_60_seed3_r2: Kissat -> k_opt=4 total=7.1617s (calls=4)
+[2026-06-21 15:38:49] --- Solving random_60_seed4_r2 ---
+[2026-06-21 15:38:50] random_60_seed4_r2: MaxHS -> OPTIMUM FOUND (o=3) in 0.7267s
+[2026-06-21 15:38:51] random_60_seed4_r2: Kissat -> k_opt=3 total=0.4201s (calls=3)
+[2026-06-21 15:38:51] --- Solving random_60_seed5_r2 ---
+[2026-06-21 15:38:51] random_60_seed5_r2: MaxHS -> OPTIMUM FOUND (o=4) in 0.4520s
+[2026-06-21 15:38:56] random_60_seed5_r2: Kissat -> k_opt=4 total=5.4689s (calls=4)
+[2026-06-21 15:38:56] SKIP solve random_100_seed1_r2: not cached — run preprocess first
+[2026-06-21 15:38:56] SKIP solve random_100_seed2_r2: not cached — run preprocess first
+[2026-06-21 15:38:56] SKIP solve random_100_seed3_r2: not cached — run preprocess first
+[2026-06-21 15:38:56] SKIP solve random_100_seed4_r2: not cached — run preprocess first
+[2026-06-21 15:38:56] SKIP solve random_100_seed5_r2: not cached — run preprocess first
+[2026-06-21 15:38:56] SKIP solve random_150_seed1_r2: not cached — run preprocess first
+[2026-06-21 15:38:56] SKIP solve random_150_seed2_r2: not cached — run preprocess first
+[2026-06-21 15:38:56] SKIP solve random_150_seed3_r2: not cached — run preprocess first
+[2026-06-21 15:38:56] SKIP solve random_150_seed4_r2: not cached — run preprocess first
+[2026-06-21 15:38:56] SKIP solve random_150_seed5_r2: not cached — run preprocess first
+[2026-06-21 15:38:56] SKIP solve random_10_seed1_r3 (already done)
+[2026-06-21 15:38:56] SKIP solve random_10_seed2_r3 (already done)
+[2026-06-21 15:38:56] SKIP solve random_10_seed3_r3 (already done)
+[2026-06-21 15:38:56] SKIP solve random_10_seed4_r3 (already done)
+[2026-06-21 15:38:56] SKIP solve random_10_seed5_r3 (already done)
+[2026-06-21 15:38:56] SKIP solve random_20_seed1_r3 (already done)
+[2026-06-21 15:38:56] SKIP solve random_20_seed2_r3 (already done)
+[2026-06-21 15:38:56] SKIP solve random_20_seed3_r3 (already done)
+[2026-06-21 15:38:56] SKIP solve random_20_seed4_r3 (already done)
+[2026-06-21 15:38:56] SKIP solve random_20_seed5_r3 (already done)
+[2026-06-21 15:38:56] SKIP solve random_30_seed1_r3 (already done)
+[2026-06-21 15:38:56] SKIP solve random_30_seed2_r3 (already done)
+[2026-06-21 15:38:56] SKIP solve random_30_seed3_r3 (already done)
+[2026-06-21 15:38:56] SKIP solve random_30_seed4_r3 (already done)
+[2026-06-21 15:38:56] SKIP solve random_30_seed5_r3 (already done)
+[2026-06-21 15:38:56] SKIP solve random_40_seed1_r3 (already done)
+[2026-06-21 15:38:56] SKIP solve random_40_seed2_r3 (already done)
+[2026-06-21 15:38:56] SKIP solve random_40_seed3_r3 (already done)
+[2026-06-21 15:38:56] SKIP solve random_40_seed4_r3 (already done)
+[2026-06-21 15:38:56] SKIP solve random_40_seed5_r3 (already done)
+[2026-06-21 15:38:56] SKIP solve random_60_seed1_r3: not cached — run preprocess first
+[2026-06-21 15:38:56] SKIP solve random_60_seed2_r3: not cached — run preprocess first
+[2026-06-21 15:38:56] SKIP solve random_60_seed3_r3: not cached — run preprocess first
+[2026-06-21 15:38:56] SKIP solve random_60_seed4_r3: not cached — run preprocess first
+[2026-06-21 15:38:56] SKIP solve random_60_seed5_r3: not cached — run preprocess first
+[2026-06-21 15:38:56] SKIP solve random_100_seed1_r3: not cached — run preprocess first
+[2026-06-21 15:38:56] SKIP solve random_100_seed2_r3: not cached — run preprocess first
+[2026-06-21 15:38:56] SKIP solve random_100_seed3_r3: not cached — run preprocess first
+[2026-06-21 15:38:56] SKIP solve random_100_seed4_r3: not cached — run preprocess first
+[2026-06-21 15:38:56] SKIP solve random_100_seed5_r3: not cached — run preprocess first
+[2026-06-21 15:38:56] SKIP solve random_150_seed1_r3: not cached — run preprocess first
+[2026-06-21 15:38:56] SKIP solve random_150_seed2_r3: not cached — run preprocess first
+[2026-06-21 15:38:56] SKIP solve random_150_seed3_r3: not cached — run preprocess first
+[2026-06-21 15:38:56] SKIP solve random_150_seed4_r3: not cached — run preprocess first
+[2026-06-21 15:38:56] SKIP solve random_150_seed5_r3: not cached — run preprocess first
+[2026-06-21 15:38:56] === SOLVE stage finished ===
+[2026-06-21 15:38:56] === Benchmark run complete ===
+[2026-06-21 22:06:28] === Benchmark run started (mode=all) ===
+[2026-06-21 22:06:28] === PREPROCESS stage: 111 instances, 0 already cached ===
+[2026-06-21 22:06:28] --- Preprocessing comb_6_r0 ---
+[2026-06-21 22:06:28] comb_6_r0: done in 0.3247s (24 candidates)
+[2026-06-21 22:06:28] --- Preprocessing comb_8_r0 ---
+[2026-06-21 22:06:28] comb_8_r0: done in 0.1376s (32 candidates)
+[2026-06-21 22:06:28] --- Preprocessing comb_10_r0 ---
+[2026-06-21 22:06:29] comb_10_r0: done in 0.1914s (40 candidates)
+[2026-06-21 22:06:29] SKIP comb_12_r0: data/comb_12.csv not found
+[2026-06-21 22:06:29] SKIP comb_14_r0: data/comb_14.csv not found
+[2026-06-21 22:06:29] SKIP comb_16_r0: data/comb_16.csv not found
+[2026-06-21 22:06:29] --- Preprocessing comb_18_r0 ---
+[2026-06-21 22:06:29] comb_18_r0: done in 0.8624s (72 candidates)
+[2026-06-21 22:06:29] --- Preprocessing comb_20_r0 ---
+[2026-06-21 22:06:31] comb_20_r0: done in 1.1777s (80 candidates)
+[2026-06-21 22:06:31] SKIP comb_22_r0: data/comb_22.csv not found
+[2026-06-21 22:06:31] SKIP comb_24_r0: data/comb_24.csv not found
+[2026-06-21 22:06:31] SKIP comb_26_r0: data/comb_26.csv not found
+[2026-06-21 22:06:31] SKIP comb_28_r0: data/comb_28.csv not found
+[2026-06-21 22:06:31] --- Preprocessing comb_30_r0 ---
+[2026-06-21 22:06:35] comb_30_r0: done in 4.7047s (120 candidates)
+[2026-06-21 22:06:35] --- Preprocessing comb_6_r1 ---
+[2026-06-21 22:06:35] comb_6_r1: done in 0.2178s (51 candidates)
+[2026-06-21 22:06:35] --- Preprocessing comb_8_r1 ---
+[2026-06-21 22:06:36] comb_8_r1: done in 0.3571s (69 candidates)
+[2026-06-21 22:06:36] --- Preprocessing comb_10_r1 ---
+[2026-06-21 22:06:36] comb_10_r1: done in 0.6291s (87 candidates)
+[2026-06-21 22:06:36] SKIP comb_12_r1: data/comb_12.csv not found
+[2026-06-21 22:06:36] SKIP comb_14_r1: data/comb_14.csv not found
+[2026-06-21 22:06:36] SKIP comb_16_r1: data/comb_16.csv not found
+[2026-06-21 22:06:36] --- Preprocessing comb_18_r1 ---
+[2026-06-21 22:06:40] comb_18_r1: done in 3.6712s (159 candidates)
+[2026-06-21 22:06:40] --- Preprocessing comb_20_r1 ---
+[2026-06-21 22:06:45] comb_20_r1: done in 5.0745s (177 candidates)
+[2026-06-21 22:06:45] SKIP comb_22_r1: data/comb_22.csv not found
+[2026-06-21 22:06:45] SKIP comb_24_r1: data/comb_24.csv not found
+[2026-06-21 22:06:45] SKIP comb_26_r1: data/comb_26.csv not found
+[2026-06-21 22:06:45] SKIP comb_28_r1: data/comb_28.csv not found
+[2026-06-21 22:06:45] --- Preprocessing comb_30_r1 ---
+[2026-06-21 22:07:04] comb_30_r1: done in 18.7569s (267 candidates)
+[2026-06-21 22:07:04] --- Preprocessing comb_6_r2 ---
+[2026-06-21 22:07:05] comb_6_r2: done in 0.8085s (121 candidates)
+[2026-06-21 22:07:05] --- Preprocessing comb_8_r2 ---
+[2026-06-21 22:07:07] comb_8_r2: done in 2.4805s (209 candidates)
+[2026-06-21 22:07:07] --- Preprocessing comb_10_r2 ---
+[2026-06-21 22:07:14] comb_10_r2: done in 6.7574s (321 candidates)
+[2026-06-21 22:07:14] SKIP comb_12_r2: data/comb_12.csv not found
+[2026-06-21 22:07:14] SKIP comb_14_r2: data/comb_14.csv not found
+[2026-06-21 22:07:14] SKIP comb_16_r2: data/comb_16.csv not found
+[2026-06-21 22:07:14] --- Preprocessing comb_18_r2 ---
+[2026-06-21 22:11:18] === Benchmark run started (mode=all) ===
+[2026-06-21 22:11:18] === PREPROCESS stage: 111 instances, 15 already cached ===
+[2026-06-21 22:11:18] SKIP preprocess comb_6_r0 (cached)
+[2026-06-21 22:11:18] SKIP preprocess comb_8_r0 (cached)
+[2026-06-21 22:11:18] SKIP preprocess comb_10_r0 (cached)
+[2026-06-21 22:11:18] --- Preprocessing comb_12_r0 ---
+[2026-06-21 22:11:18] comb_12_r0: done in 0.4006s (48 candidates)
+[2026-06-21 22:11:18] --- Preprocessing comb_14_r0 ---
+[2026-06-21 22:11:19] comb_14_r0: done in 0.3972s (56 candidates)
+[2026-06-21 22:11:19] --- Preprocessing comb_16_r0 ---
+[2026-06-21 22:11:19] comb_16_r0: done in 0.5743s (64 candidates)
+[2026-06-21 22:11:19] SKIP preprocess comb_18_r0 (cached)
+[2026-06-21 22:11:19] SKIP preprocess comb_20_r0 (cached)
+[2026-06-21 22:11:19] --- Preprocessing comb_22_r0 ---
+[2026-06-21 22:11:21] comb_22_r0: done in 1.6042s (88 candidates)
+[2026-06-21 22:11:21] --- Preprocessing comb_24_r0 ---
+[2026-06-21 22:11:23] comb_24_r0: done in 2.1672s (96 candidates)
+[2026-06-21 22:11:23] --- Preprocessing comb_26_r0 ---
+[2026-06-21 22:11:26] comb_26_r0: done in 2.8435s (104 candidates)
+[2026-06-21 22:11:26] --- Preprocessing comb_28_r0 ---
+[2026-06-21 22:11:30] comb_28_r0: done in 3.6831s (112 candidates)
+[2026-06-21 22:11:30] SKIP preprocess comb_30_r0 (cached)
+[2026-06-21 22:11:30] SKIP preprocess comb_6_r1 (cached)
+[2026-06-21 22:11:30] SKIP preprocess comb_8_r1 (cached)
+[2026-06-21 22:11:30] SKIP preprocess comb_10_r1 (cached)
+[2026-06-21 22:11:30] --- Preprocessing comb_12_r1 ---
+[2026-06-21 22:11:31] comb_12_r1: done in 1.0408s (105 candidates)
+[2026-06-21 22:11:31] --- Preprocessing comb_14_r1 ---
+[2026-06-21 22:11:32] comb_14_r1: done in 1.6502s (123 candidates)
+[2026-06-21 22:11:32] --- Preprocessing comb_16_r1 ---
+[2026-06-21 22:11:35] comb_16_r1: done in 2.4661s (141 candidates)
+[2026-06-21 22:11:35] SKIP preprocess comb_18_r1 (cached)
+[2026-06-21 22:11:35] SKIP preprocess comb_20_r1 (cached)
+[2026-06-21 22:11:35] --- Preprocessing comb_22_r1 ---
+[2026-06-21 22:11:42] comb_22_r1: done in 6.8127s (195 candidates)
+[2026-06-21 22:11:42] --- Preprocessing comb_24_r1 ---
+[2026-06-21 22:11:51] comb_24_r1: done in 9.1112s (213 candidates)
+[2026-06-21 22:11:51] --- Preprocessing comb_26_r1 ---
+[2026-06-21 22:12:02] comb_26_r1: done in 11.8079s (231 candidates)
+[2026-06-21 22:12:02] --- Preprocessing comb_28_r1 ---
+[2026-06-21 22:12:18] comb_28_r1: done in 15.1055s (249 candidates)
+[2026-06-21 22:12:18] SKIP preprocess comb_30_r1 (cached)
+[2026-06-21 22:12:18] SKIP preprocess comb_6_r2 (cached)
+[2026-06-21 22:12:18] SKIP preprocess comb_8_r2 (cached)
+[2026-06-21 22:12:18] SKIP preprocess comb_10_r2 (cached)
+[2026-06-21 22:12:18] --- Preprocessing comb_12_r2 ---
+[2026-06-21 22:12:34] comb_12_r2: done in 15.9686s (457 candidates)
+[2026-06-21 22:12:34] --- Preprocessing comb_14_r2 ---
+[2026-06-21 22:13:07] comb_14_r2: done in 33.6030s (617 candidates)
+[2026-06-21 22:13:07] --- Preprocessing comb_16_r2 ---
+[2026-06-21 22:14:09] comb_16_r2: done in 62.2394s (801 candidates)
+[2026-06-21 22:14:09] --- Preprocessing comb_18_r2 ---
+[2026-06-21 22:15:59] comb_18_r2: done in 109.7158s (1009 candidates)
+[2026-06-21 22:15:59] --- Preprocessing comb_20_r2 ---
+[2026-06-21 22:19:04] comb_20_r2: done in 184.5517s (1241 candidates)
+[2026-06-21 22:19:04] --- Preprocessing comb_22_r2 ---
+[2026-06-21 22:23:52] comb_22_r2: done in 288.7667s (1497 candidates)
+[2026-06-21 22:23:52] --- Preprocessing comb_24_r2 ---
+[2026-06-21 22:31:13] comb_24_r2: done in 440.5172s (1777 candidates)
+[2026-06-21 22:31:13] --- Preprocessing comb_26_r2 ---
+[2026-06-21 22:42:02] comb_26_r2: done in 649.1044s (2081 candidates)
+[2026-06-21 22:42:02] --- Preprocessing comb_28_r2 ---
+[2026-06-21 22:57:34] comb_28_r2: done in 932.3832s (2409 candidates)
+[2026-06-21 22:57:34] --- Preprocessing comb_30_r2 ---
+[2026-06-21 23:19:19] comb_30_r2: done in 1304.3071s (2761 candidates)
+[2026-06-21 23:19:19] --- Preprocessing random_20_seed1_r0 ---
+[2026-06-21 23:19:19] random_20_seed1_r0: done in 0.1568s (20 candidates)
+[2026-06-21 23:19:19] --- Preprocessing random_20_seed2_r0 ---
+[2026-06-21 23:19:19] random_20_seed2_r0: done in 0.1055s (20 candidates)
+[2026-06-21 23:19:19] --- Preprocessing random_20_seed3_r0 ---
+[2026-06-21 23:19:19] random_20_seed3_r0: done in 0.1036s (20 candidates)
+[2026-06-21 23:19:19] --- Preprocessing random_30_seed1_r0 ---
+[2026-06-21 23:19:19] random_30_seed1_r0: done in 0.1286s (30 candidates)
+[2026-06-21 23:19:19] --- Preprocessing random_30_seed2_r0 ---
+[2026-06-21 23:19:19] random_30_seed2_r0: done in 0.1278s (30 candidates)
+[2026-06-21 23:19:19] --- Preprocessing random_30_seed3_r0 ---
+[2026-06-21 23:19:20] random_30_seed3_r0: done in 0.1247s (30 candidates)
+[2026-06-21 23:19:20] --- Preprocessing random_40_seed1_r0 ---
+[2026-06-21 23:19:20] random_40_seed1_r0: done in 0.1715s (40 candidates)
+[2026-06-21 23:19:20] --- Preprocessing random_40_seed2_r0 ---
+[2026-06-21 23:19:20] random_40_seed2_r0: done in 0.1708s (40 candidates)
+[2026-06-21 23:19:20] --- Preprocessing random_40_seed3_r0 ---
+[2026-06-21 23:19:20] random_40_seed3_r0: done in 0.1664s (40 candidates)
+[2026-06-21 23:19:20] --- Preprocessing random_60_seed1_r0 ---
+[2026-06-21 23:19:20] random_60_seed1_r0: done in 0.3654s (60 candidates)
+[2026-06-21 23:19:20] --- Preprocessing random_60_seed2_r0 ---
+[2026-06-21 23:19:21] random_60_seed2_r0: done in 0.3607s (60 candidates)
+[2026-06-21 23:19:21] --- Preprocessing random_60_seed3_r0 ---
+[2026-06-21 23:19:21] random_60_seed3_r0: done in 0.3600s (60 candidates)
+[2026-06-21 23:19:21] --- Preprocessing random_80_seed1_r0 ---
+[2026-06-21 23:19:22] random_80_seed1_r0: done in 0.7224s (80 candidates)
+[2026-06-21 23:19:22] --- Preprocessing random_80_seed2_r0 ---
+[2026-06-21 23:19:23] random_80_seed2_r0: done in 0.7282s (80 candidates)
+[2026-06-21 23:19:23] --- Preprocessing random_80_seed3_r0 ---
+[2026-06-21 23:19:23] random_80_seed3_r0: done in 0.7192s (80 candidates)
+[2026-06-21 23:19:23] --- Preprocessing random_100_seed1_r0 ---
+[2026-06-21 23:19:25] random_100_seed1_r0: done in 1.3278s (100 candidates)
+[2026-06-21 23:19:25] --- Preprocessing random_100_seed2_r0 ---
+[2026-06-21 23:19:26] random_100_seed2_r0: done in 1.3315s (100 candidates)
+[2026-06-21 23:19:26] --- Preprocessing random_100_seed3_r0 ---
+[2026-06-21 23:19:27] random_100_seed3_r0: done in 1.3206s (100 candidates)
+[2026-06-21 23:19:27] --- Preprocessing random_120_seed1_r0 ---
+[2026-06-21 23:19:29] random_120_seed1_r0: done in 2.1892s (120 candidates)
+[2026-06-21 23:19:29] --- Preprocessing random_120_seed2_r0 ---
+[2026-06-21 23:19:32] random_120_seed2_r0: done in 2.1866s (120 candidates)
+[2026-06-21 23:19:32] --- Preprocessing random_120_seed3_r0 ---
+[2026-06-21 23:19:34] random_120_seed3_r0: done in 2.1812s (120 candidates)
+[2026-06-21 23:19:34] --- Preprocessing random_150_seed1_r0 ---
+[2026-06-21 23:19:38] random_150_seed1_r0: done in 4.1071s (150 candidates)
+[2026-06-21 23:19:38] --- Preprocessing random_150_seed2_r0 ---
+[2026-06-21 23:19:42] random_150_seed2_r0: done in 4.1297s (150 candidates)
+[2026-06-21 23:19:42] --- Preprocessing random_150_seed3_r0 ---
+[2026-06-21 23:19:46] random_150_seed3_r0: done in 4.1018s (150 candidates)
+[2026-06-21 23:19:46] --- Preprocessing random_20_seed1_r1 ---
+[2026-06-21 23:19:46] random_20_seed1_r1: done in 0.3088s (85 candidates)
+[2026-06-21 23:19:46] --- Preprocessing random_20_seed2_r1 ---
+[2026-06-21 23:19:47] random_20_seed2_r1: done in 0.3093s (84 candidates)
+[2026-06-21 23:19:47] --- Preprocessing random_20_seed3_r1 ---
+[2026-06-21 23:19:47] random_20_seed3_r1: done in 0.2859s (81 candidates)
+[2026-06-21 23:19:47] --- Preprocessing random_30_seed1_r1 ---
+[2026-06-21 23:19:48] random_30_seed1_r1: done in 1.0283s (147 candidates)
+[2026-06-21 23:19:48] --- Preprocessing random_30_seed2_r1 ---
+[2026-06-21 23:19:49] random_30_seed2_r1: done in 1.1048s (154 candidates)
+[2026-06-21 23:19:49] --- Preprocessing random_30_seed3_r1 ---
+[2026-06-21 23:19:50] random_30_seed3_r1: done in 1.1513s (157 candidates)
+[2026-06-21 23:19:50] --- Preprocessing random_40_seed1_r1 ---
+[2026-06-21 23:19:54] random_40_seed1_r1: done in 3.1597s (232 candidates)
+[2026-06-21 23:19:54] --- Preprocessing random_40_seed2_r1 ---
+[2026-06-21 23:19:56] random_40_seed2_r1: done in 2.8570s (221 candidates)
+[2026-06-21 23:19:56] --- Preprocessing random_40_seed3_r1 ---
+[2026-06-21 23:19:59] random_40_seed3_r1: done in 3.1013s (232 candidates)
+[2026-06-21 23:19:59] --- Preprocessing random_60_seed1_r1 ---
+[2026-06-21 23:20:11] random_60_seed1_r1: done in 11.0618s (364 candidates)
+[2026-06-21 23:20:11] --- Preprocessing random_60_seed2_r1 ---
+[2026-06-21 23:20:22] random_60_seed2_r1: done in 11.8354s (374 candidates)
+[2026-06-21 23:20:22] --- Preprocessing random_60_seed3_r1 ---
+[2026-06-21 23:20:34] random_60_seed3_r1: done in 11.4661s (368 candidates)
+[2026-06-21 23:20:34] --- Preprocessing random_80_seed1_r1 ---
+[2026-06-21 23:21:03] random_80_seed1_r1: done in 28.9497s (513 candidates)
+[2026-06-21 23:21:03] --- Preprocessing random_80_seed2_r1 ---
+[2026-06-21 23:21:36] random_80_seed2_r1: done in 32.7572s (540 candidates)
+[2026-06-21 23:21:36] --- Preprocessing random_80_seed3_r1 ---
+[2026-06-21 23:22:09] random_80_seed3_r1: done in 33.6542s (549 candidates)
+[2026-06-21 23:22:09] --- Preprocessing random_100_seed1_r1 ---
+[2026-06-21 23:23:14] random_100_seed1_r1: done in 64.4306s (686 candidates)
+[2026-06-21 23:23:14] --- Preprocessing random_100_seed2_r1 ---
+[2026-06-21 23:24:18] random_100_seed2_r1: done in 64.3216s (680 candidates)
+[2026-06-21 23:24:18] --- Preprocessing random_100_seed3_r1 ---
+[2026-06-21 23:25:25] random_100_seed3_r1: done in 67.1760s (699 candidates)
+[2026-06-21 23:25:25] --- Preprocessing random_120_seed1_r1 ---
+[2026-06-21 23:27:33] random_120_seed1_r1: done in 127.3598s (891 candidates)
+[2026-06-21 23:27:33] --- Preprocessing random_120_seed2_r1 ---
+[2026-06-21 23:29:46] random_120_seed2_r1: done in 133.2681s (907 candidates)
+[2026-06-21 23:29:46] --- Preprocessing random_120_seed3_r1 ---
+[2026-06-21 23:32:01] random_120_seed3_r1: done in 135.4600s (909 candidates)
+[2026-06-21 23:32:01] --- Preprocessing random_150_seed1_r1 ---
+[2026-06-21 23:36:31] random_150_seed1_r1: done in 270.2585s (1161 candidates)
+[2026-06-21 23:36:31] --- Preprocessing random_150_seed2_r1 ---
+[2026-06-21 23:40:39] random_150_seed2_r1: done in 247.1861s (1106 candidates)
+[2026-06-21 23:40:39] --- Preprocessing random_150_seed3_r1 ---
+[2026-06-21 23:45:28] random_150_seed3_r1: done in 288.9839s (1198 candidates)
+[2026-06-21 23:45:28] --- Preprocessing random_20_seed1_r2 ---
+[2026-06-21 23:45:30] random_20_seed1_r2: done in 1.8187s (211 candidates)
+[2026-06-21 23:45:30] --- Preprocessing random_20_seed2_r2 ---
+[2026-06-21 23:45:31] random_20_seed2_r2: done in 1.6112s (190 candidates)
+[2026-06-21 23:45:31] --- Preprocessing random_20_seed3_r2 ---
+[2026-06-21 23:45:33] random_20_seed3_r2: done in 1.5953s (200 candidates)
+[2026-06-21 23:45:33] --- Preprocessing random_30_seed1_r2 ---
+[2026-06-21 23:45:43] random_30_seed1_r2: done in 10.3895s (433 candidates)
+[2026-06-21 23:45:43] --- Preprocessing random_30_seed2_r2 ---
+[2026-06-21 23:45:55] random_30_seed2_r2: done in 12.2252s (484 candidates)
+[2026-06-21 23:45:55] --- Preprocessing random_30_seed3_r2 ---
+[2026-06-21 23:46:07] random_30_seed3_r2: done in 11.3020s (466 candidates)
+[2026-06-21 23:46:07] --- Preprocessing random_40_seed1_r2 ---
+[2026-06-21 23:46:52] random_40_seed1_r2: done in 45.1472s (818 candidates)
+[2026-06-21 23:46:52] --- Preprocessing random_40_seed2_r2 ---
+[2026-06-21 23:47:27] random_40_seed2_r2: done in 34.8381s (718 candidates)
+[2026-06-21 23:47:27] --- Preprocessing random_40_seed3_r2 ---
+[2026-06-21 23:48:02] random_40_seed3_r2: done in 35.0842s (724 candidates)
+[2026-06-21 23:48:02] --- Preprocessing random_60_seed1_r2 ---
+[2026-06-21 23:51:00] random_60_seed1_r2: done in 178.3100s (1354 candidates)
+[2026-06-21 23:51:00] --- Preprocessing random_60_seed2_r2 ---
+[2026-06-21 23:54:28] random_60_seed2_r2: done in 208.2836s (1471 candidates)
+[2026-06-21 23:54:28] --- Preprocessing random_60_seed3_r2 ---
+[2026-06-21 23:57:48] random_60_seed3_r2: done in 200.0451s (1445 candidates)
+[2026-06-21 23:57:48] --- Preprocessing random_80_seed1_r2 ---
+[2026-06-22 00:07:32] random_80_seed1_r2: done in 583.6556s (2147 candidates)
+[2026-06-22 00:07:32] --- Preprocessing random_80_seed2_r2 ---
+[2026-06-22 00:18:55] random_80_seed2_r2: done in 682.8137s (2320 candidates)
+[2026-06-22 00:18:55] --- Preprocessing random_80_seed3_r2 ---
+[2026-06-22 00:31:32] random_80_seed3_r2: done in 756.9719s (2464 candidates)
+[2026-06-22 00:31:32] --- Preprocessing random_100_seed1_r2 ---
+[2026-06-22 00:56:16] random_100_seed1_r2: done in 1484.1035s (3103 candidates)
+[2026-06-22 00:56:16] --- Preprocessing random_100_seed2_r2 ---
+[2026-06-22 01:23:17] random_100_seed2_r2: done in 1621.2545s (3235 candidates)
+[2026-06-22 01:23:17] --- Preprocessing random_100_seed3_r2 ---
+[2026-06-22 01:48:31] random_100_seed3_r2: done in 1513.4402s (3159 candidates)
+[2026-06-22 01:48:31] --- Preprocessing random_120_seed1_r2 ---
+[2026-06-22 02:46:56] random_120_seed1_r2: done in 3505.5334s (4442 candidates)
+[2026-06-22 02:46:56] --- Preprocessing random_120_seed2_r2 ---
+[2026-06-22 03:16:56] random_120_seed2_r2: PREPROCESS ERROR WCNF generation timed out after 1800s
+[2026-06-22 03:16:56] --- Preprocessing random_120_seed3_r2 ---
+[2026-06-22 03:46:56] random_120_seed3_r2: PREPROCESS ERROR WCNF generation timed out after 1800s
+[2026-06-22 03:46:56] --- Preprocessing random_150_seed1_r2 ---
+[2026-06-22 04:16:56] random_150_seed1_r2: PREPROCESS ERROR WCNF generation timed out after 1800s
+[2026-06-22 04:16:56] --- Preprocessing random_150_seed2_r2 ---
+[2026-06-22 04:46:57] random_150_seed2_r2: PREPROCESS ERROR WCNF generation timed out after 1800s
+[2026-06-22 04:46:57] --- Preprocessing random_150_seed3_r2 ---
+[2026-06-22 05:16:57] random_150_seed3_r2: PREPROCESS ERROR WCNF generation timed out after 1800s
+[2026-06-22 05:16:57] === PREPROCESS stage finished ===
+[2026-06-22 05:16:57] === SOLVE stage: 111 instances, 0 already done ===
+[2026-06-22 05:16:57] --- Solving comb_6_r0 ---
+[2026-06-22 05:16:57] comb_6_r0: MaxHS -> OPTIMUM FOUND (o=6) in 0.1935s
+[2026-06-22 05:16:57] comb_6_r0: Kissat -> k_opt=6 total=0.0310s (calls=6)
+[2026-06-22 05:16:57] --- Solving comb_8_r0 ---
+[2026-06-22 05:16:57] comb_8_r0: MaxHS -> OPTIMUM FOUND (o=8) in 0.0352s
+[2026-06-22 05:16:57] comb_8_r0: Kissat -> k_opt=8 total=0.0527s (calls=8)
+[2026-06-22 05:16:57] --- Solving comb_10_r0 ---
+[2026-06-22 05:16:57] comb_10_r0: MaxHS -> OPTIMUM FOUND (o=10) in 0.0346s
+[2026-06-22 05:16:57] comb_10_r0: Kissat -> k_opt=10 total=0.0893s (calls=10)
+[2026-06-22 05:16:57] --- Solving comb_12_r0 ---
+[2026-06-22 05:16:57] comb_12_r0: MaxHS -> OPTIMUM FOUND (o=12) in 0.0349s
+[2026-06-22 05:16:57] comb_12_r0: Kissat -> k_opt=12 total=0.1468s (calls=12)
+[2026-06-22 05:16:57] --- Solving comb_14_r0 ---
+[2026-06-22 05:16:57] comb_14_r0: MaxHS -> OPTIMUM FOUND (o=14) in 0.0353s
+[2026-06-22 05:16:57] comb_14_r0: Kissat -> k_opt=14 total=0.2255s (calls=14)
+[2026-06-22 05:16:57] --- Solving comb_16_r0 ---
+[2026-06-22 05:16:58] comb_16_r0: MaxHS -> OPTIMUM FOUND (o=16) in 0.0356s
+[2026-06-22 05:16:58] comb_16_r0: Kissat -> k_opt=16 total=0.2977s (calls=16)
+[2026-06-22 05:16:58] --- Solving comb_18_r0 ---
+[2026-06-22 05:16:58] comb_18_r0: MaxHS -> OPTIMUM FOUND (o=18) in 0.0362s
+[2026-06-22 05:16:58] comb_18_r0: Kissat -> k_opt=18 total=0.3712s (calls=18)
+[2026-06-22 05:16:58] --- Solving comb_20_r0 ---
+[2026-06-22 05:16:58] comb_20_r0: MaxHS -> OPTIMUM FOUND (o=20) in 0.0362s
+[2026-06-22 05:16:59] comb_20_r0: Kissat -> k_opt=20 total=0.4462s (calls=20)
+[2026-06-22 05:16:59] --- Solving comb_22_r0 ---
+[2026-06-22 05:16:59] comb_22_r0: MaxHS -> OPTIMUM FOUND (o=22) in 0.0367s
+[2026-06-22 05:16:59] comb_22_r0: Kissat -> k_opt=22 total=0.5050s (calls=22)
+[2026-06-22 05:16:59] --- Solving comb_24_r0 ---
+[2026-06-22 05:16:59] comb_24_r0: MaxHS -> OPTIMUM FOUND (o=24) in 0.0370s
+[2026-06-22 05:17:00] comb_24_r0: Kissat -> k_opt=24 total=0.5684s (calls=24)
+[2026-06-22 05:17:00] --- Solving comb_26_r0 ---
+[2026-06-22 05:17:00] comb_26_r0: MaxHS -> OPTIMUM FOUND (o=26) in 0.0377s
+[2026-06-22 05:17:01] comb_26_r0: Kissat -> k_opt=26 total=0.6471s (calls=26)
+[2026-06-22 05:17:01] --- Solving comb_28_r0 ---
+[2026-06-22 05:17:01] comb_28_r0: MaxHS -> OPTIMUM FOUND (o=28) in 0.0383s
+[2026-06-22 05:17:01] comb_28_r0: Kissat -> k_opt=28 total=0.7140s (calls=28)
+[2026-06-22 05:17:01] --- Solving comb_30_r0 ---
+[2026-06-22 05:17:01] comb_30_r0: MaxHS -> OPTIMUM FOUND (o=30) in 0.0387s
+[2026-06-22 05:17:02] comb_30_r0: Kissat -> k_opt=30 total=0.7823s (calls=30)
+[2026-06-22 05:17:02] --- Solving comb_6_r1 ---
+[2026-06-22 05:17:02] comb_6_r1: MaxHS -> OPTIMUM FOUND (o=6) in 0.0666s
+[2026-06-22 05:17:02] comb_6_r1: Kissat -> k_opt=6 total=0.0778s (calls=6)
+[2026-06-22 05:17:02] --- Solving comb_8_r1 ---
+[2026-06-22 05:17:03] comb_8_r1: MaxHS -> OPTIMUM FOUND (o=8) in 0.3026s
+[2026-06-22 05:17:03] comb_8_r1: Kissat -> k_opt=8 total=0.4138s (calls=8)
+[2026-06-22 05:17:03] --- Solving comb_10_r1 ---
+[2026-06-22 05:17:05] comb_10_r1: MaxHS -> OPTIMUM FOUND (o=10) in 1.7254s
+[2026-06-22 05:17:08] comb_10_r1: Kissat -> k_opt=10 total=2.7965s (calls=10)
+[2026-06-22 05:17:08] --- Solving comb_12_r1 ---
+[2026-06-22 05:17:47] comb_12_r1: MaxHS -> OPTIMUM FOUND (o=12) in 39.0663s
+[2026-06-22 05:18:12] comb_12_r1: Kissat -> k_opt=12 total=25.6616s (calls=12)
+[2026-06-22 05:18:12] --- Solving comb_14_r1 ---
+[2026-06-22 05:19:03] comb_14_r1: MaxHS -> OPTIMUM FOUND (o=14) in 50.5985s
+[2026-06-22 05:22:46] comb_14_r1: Kissat -> k_opt=None total=223.6529s (calls=13)
+[2026-06-22 05:22:46] --- Solving comb_16_r1 ---
+[2026-06-22 05:23:37] comb_16_r1: MaxHS -> OPTIMUM FOUND (o=16) in 50.7183s
+[2026-06-22 05:26:16] comb_16_r1: Kissat -> k_opt=None total=158.8500s (calls=13)
+[2026-06-22 05:26:16] --- Solving comb_18_r1 ---
+[2026-06-22 05:27:07] comb_18_r1: MaxHS -> OPTIMUM FOUND (o=18) in 50.7997s
+[2026-06-22 05:30:48] comb_18_r1: Kissat -> k_opt=None total=221.4117s (calls=14)
+[2026-06-22 05:30:48] --- Solving comb_20_r1 ---
+[2026-06-22 05:31:39] comb_20_r1: MaxHS -> OPTIMUM FOUND (o=20) in 50.8241s
+[2026-06-22 05:36:55] comb_20_r1: Kissat -> k_opt=None total=315.7149s (calls=15)
+[2026-06-22 05:36:55] --- Solving comb_22_r1 ---
+[2026-06-22 05:37:46] comb_22_r1: MaxHS -> OPTIMUM FOUND (o=22) in 50.8672s
+[2026-06-22 05:42:02] comb_22_r1: Kissat -> k_opt=None total=256.3777s (calls=15)
+[2026-06-22 05:42:02] --- Solving comb_24_r1 ---
+[2026-06-22 05:42:53] comb_24_r1: MaxHS -> OPTIMUM FOUND (o=24) in 50.9327s
+[2026-06-22 05:46:24] comb_24_r1: Kissat -> k_opt=None total=210.9386s (calls=15)
+[2026-06-22 05:46:24] --- Solving comb_26_r1 ---
+[2026-06-22 05:47:15] comb_26_r1: MaxHS -> OPTIMUM FOUND (o=26) in 50.9124s
+[2026-06-22 05:50:45] comb_26_r1: Kissat -> k_opt=None total=210.3538s (calls=15)
+[2026-06-22 05:50:45] --- Solving comb_28_r1 ---
+[2026-06-22 05:51:36] comb_28_r1: MaxHS -> OPTIMUM FOUND (o=28) in 50.9843s
+[2026-06-22 05:56:04] comb_28_r1: Kissat -> k_opt=None total=267.4898s (calls=16)
+[2026-06-22 05:56:04] --- Solving comb_30_r1 ---
+[2026-06-22 05:56:04] comb_30_r1: MaxHS -> OPTIMUM FOUND (o=30) in 0.1207s
+[2026-06-22 06:00:30] comb_30_r1: Kissat -> k_opt=None total=266.1241s (calls=16)
+[2026-06-22 06:00:30] --- Solving comb_6_r2 ---
+[2026-06-22 06:00:30] comb_6_r2: MaxHS -> OPTIMUM FOUND (o=6) in 0.2167s
+[2026-06-22 06:00:30] comb_6_r2: Kissat -> k_opt=6 total=0.1979s (calls=6)
+[2026-06-22 06:00:30] --- Solving comb_8_r2 ---
+[2026-06-22 06:00:33] comb_8_r2: MaxHS -> OPTIMUM FOUND (o=8) in 2.5543s
+[2026-06-22 06:00:35] comb_8_r2: Kissat -> k_opt=8 total=2.1908s (calls=8)
+[2026-06-22 06:00:35] --- Solving comb_10_r2 ---
+[2026-06-22 06:00:35] comb_10_r2: MaxHS -> OPTIMUM FOUND (o=10) in 0.0834s
+[2026-06-22 06:01:08] comb_10_r2: Kissat -> k_opt=10 total=33.1989s (calls=10)
+[2026-06-22 06:01:08] --- Solving comb_12_r2 ---
+[2026-06-22 06:01:08] comb_12_r2: MaxHS -> OPTIMUM FOUND (o=12) in 0.0703s
+[2026-06-22 06:04:48] comb_12_r2: Kissat -> k_opt=None total=219.2519s (calls=11)
+[2026-06-22 06:04:48] --- Solving comb_14_r2 ---
+[2026-06-22 06:04:48] comb_14_r2: MaxHS -> OPTIMUM FOUND (o=14) in 0.1576s
+[2026-06-22 06:08:04] comb_14_r2: Kissat -> k_opt=None total=195.7781s (calls=11)
+[2026-06-22 06:08:04] --- Solving comb_16_r2 ---
+[2026-06-22 06:08:04] comb_16_r2: MaxHS -> OPTIMUM FOUND (o=16) in 0.1987s
+[2026-06-22 06:11:34] comb_16_r2: Kissat -> k_opt=None total=209.8204s (calls=11)
+[2026-06-22 06:11:34] --- Solving comb_18_r2 ---
+[2026-06-22 06:11:34] comb_18_r2: MaxHS -> OPTIMUM FOUND (o=18) in 0.2651s
+[2026-06-22 06:14:45] comb_18_r2: Kissat -> k_opt=None total=191.1393s (calls=11)
+[2026-06-22 06:14:45] --- Solving comb_20_r2 ---
+[2026-06-22 06:14:45] comb_20_r2: MaxHS -> OPTIMUM FOUND (o=20) in 0.3232s
+[2026-06-22 06:19:37] comb_20_r2: Kissat -> k_opt=None total=291.7672s (calls=12)
+[2026-06-22 06:19:37] --- Solving comb_22_r2 ---
+[2026-06-22 06:19:38] comb_22_r2: MaxHS -> OPTIMUM FOUND (o=22) in 0.3767s
+[2026-06-22 06:24:06] comb_22_r2: Kissat -> k_opt=None total=268.9715s (calls=12)
+[2026-06-22 06:24:07] --- Solving comb_24_r2 ---
+[2026-06-22 06:24:07] comb_24_r2: MaxHS -> OPTIMUM FOUND (o=24) in 0.4928s
+[2026-06-22 06:28:37] comb_24_r2: Kissat -> k_opt=None total=270.0617s (calls=12)
+[2026-06-22 06:28:37] --- Solving comb_26_r2 ---
+[2026-06-22 06:28:38] comb_26_r2: MaxHS -> OPTIMUM FOUND (o=26) in 0.6582s
+[2026-06-22 06:33:02] comb_26_r2: Kissat -> k_opt=None total=264.1103s (calls=12)
+[2026-06-22 06:33:02] --- Solving comb_28_r2 ---
+[2026-06-22 06:33:03] comb_28_r2: MaxHS -> OPTIMUM FOUND (o=28) in 0.8162s
+[2026-06-22 06:37:11] comb_28_r2: Kissat -> k_opt=None total=248.1163s (calls=12)
+[2026-06-22 06:37:11] --- Solving comb_30_r2 ---
+[2026-06-22 06:37:12] comb_30_r2: MaxHS -> OPTIMUM FOUND (o=30) in 1.0803s
+[2026-06-22 06:41:28] comb_30_r2: Kissat -> k_opt=None total=256.4075s (calls=12)
+[2026-06-22 06:41:28] --- Solving random_20_seed1_r0 ---
+[2026-06-22 06:41:28] random_20_seed1_r0: MaxHS -> OPTIMUM FOUND (o=2) in 0.0678s
+[2026-06-22 06:41:28] random_20_seed1_r0: Kissat -> k_opt=2 total=0.0080s (calls=2)
+[2026-06-22 06:41:28] --- Solving random_20_seed2_r0 ---
+[2026-06-22 06:41:28] random_20_seed2_r0: MaxHS -> OPTIMUM FOUND (o=2) in 0.0339s
+[2026-06-22 06:41:28] random_20_seed2_r0: Kissat -> k_opt=2 total=0.0098s (calls=2)
+[2026-06-22 06:41:28] --- Solving random_20_seed3_r0 ---
+[2026-06-22 06:41:28] random_20_seed3_r0: MaxHS -> OPTIMUM FOUND (o=2) in 0.0350s
+[2026-06-22 06:41:28] random_20_seed3_r0: Kissat -> k_opt=2 total=0.0073s (calls=2)
+[2026-06-22 06:41:28] --- Solving random_30_seed1_r0 ---
+[2026-06-22 06:41:28] random_30_seed1_r0: MaxHS -> OPTIMUM FOUND (o=2) in 0.0345s
+[2026-06-22 06:41:28] random_30_seed1_r0: Kissat -> k_opt=2 total=0.0075s (calls=2)
+[2026-06-22 06:41:28] --- Solving random_30_seed2_r0 ---
+[2026-06-22 06:41:29] random_30_seed2_r0: MaxHS -> OPTIMUM FOUND (o=2) in 0.0346s
+[2026-06-22 06:41:29] random_30_seed2_r0: Kissat -> k_opt=2 total=0.0074s (calls=2)
+[2026-06-22 06:41:29] --- Solving random_30_seed3_r0 ---
+[2026-06-22 06:41:29] random_30_seed3_r0: MaxHS -> OPTIMUM FOUND (o=2) in 0.0348s
+[2026-06-22 06:41:29] random_30_seed3_r0: Kissat -> k_opt=2 total=0.0102s (calls=2)
+[2026-06-22 06:41:29] --- Solving random_40_seed1_r0 ---
+[2026-06-22 06:41:29] random_40_seed1_r0: MaxHS -> OPTIMUM FOUND (o=2) in 0.0347s
+[2026-06-22 06:41:29] random_40_seed1_r0: Kissat -> k_opt=2 total=0.0074s (calls=2)
+[2026-06-22 06:41:29] --- Solving random_40_seed2_r0 ---
+[2026-06-22 06:41:29] random_40_seed2_r0: MaxHS -> OPTIMUM FOUND (o=3) in 0.0349s
+[2026-06-22 06:41:29] random_40_seed2_r0: Kissat -> k_opt=3 total=0.0154s (calls=3)
+[2026-06-22 06:41:29] --- Solving random_40_seed3_r0 ---
+[2026-06-22 06:41:29] random_40_seed3_r0: MaxHS -> OPTIMUM FOUND (o=3) in 0.0345s
+[2026-06-22 06:41:29] random_40_seed3_r0: Kissat -> k_opt=3 total=0.0194s (calls=3)
+[2026-06-22 06:41:29] --- Solving random_60_seed1_r0 ---
+[2026-06-22 06:41:29] random_60_seed1_r0: MaxHS -> OPTIMUM FOUND (o=6) in 0.0354s
+[2026-06-22 06:41:29] random_60_seed1_r0: Kissat -> k_opt=6 total=0.0618s (calls=6)
+[2026-06-22 06:41:29] --- Solving random_60_seed2_r0 ---
+[2026-06-22 06:41:29] random_60_seed2_r0: MaxHS -> OPTIMUM FOUND (o=4) in 0.0348s
+[2026-06-22 06:41:29] random_60_seed2_r0: Kissat -> k_opt=4 total=0.0276s (calls=4)
+[2026-06-22 06:41:29] --- Solving random_60_seed3_r0 ---
+[2026-06-22 06:41:29] random_60_seed3_r0: MaxHS -> OPTIMUM FOUND (o=4) in 0.0354s
+[2026-06-22 06:41:29] random_60_seed3_r0: Kissat -> k_opt=4 total=0.0403s (calls=4)
+[2026-06-22 06:41:29] --- Solving random_80_seed1_r0 ---
+[2026-06-22 06:41:29] random_80_seed1_r0: MaxHS -> OPTIMUM FOUND (o=5) in 0.0362s
+[2026-06-22 06:41:29] random_80_seed1_r0: Kissat -> k_opt=5 total=0.0825s (calls=5)
+[2026-06-22 06:41:29] --- Solving random_80_seed2_r0 ---
+[2026-06-22 06:41:29] random_80_seed2_r0: MaxHS -> OPTIMUM FOUND (o=5) in 0.0359s
+[2026-06-22 06:41:29] random_80_seed2_r0: Kissat -> k_opt=5 total=0.0809s (calls=5)
+[2026-06-22 06:41:29] --- Solving random_80_seed3_r0 ---
+[2026-06-22 06:41:29] random_80_seed3_r0: MaxHS -> OPTIMUM FOUND (o=8) in 0.0368s
+[2026-06-22 06:41:29] random_80_seed3_r0: Kissat -> k_opt=8 total=0.1477s (calls=8)
+[2026-06-22 06:41:29] --- Solving random_100_seed1_r0 ---
+[2026-06-22 06:41:29] random_100_seed1_r0: MaxHS -> OPTIMUM FOUND (o=5) in 0.0367s
+[2026-06-22 06:41:30] random_100_seed1_r0: Kissat -> k_opt=5 total=0.1082s (calls=5)
+[2026-06-22 06:41:30] --- Solving random_100_seed2_r0 ---
+[2026-06-22 06:41:30] random_100_seed2_r0: MaxHS -> OPTIMUM FOUND (o=8) in 0.0378s
+[2026-06-22 06:41:30] random_100_seed2_r0: Kissat -> k_opt=8 total=0.1448s (calls=8)
+[2026-06-22 06:41:30] --- Solving random_100_seed3_r0 ---
+[2026-06-22 06:41:30] random_100_seed3_r0: MaxHS -> OPTIMUM FOUND (o=8) in 0.0365s
+[2026-06-22 06:41:30] random_100_seed3_r0: Kissat -> k_opt=8 total=0.1532s (calls=8)
+[2026-06-22 06:41:30] --- Solving random_120_seed1_r0 ---
+[2026-06-22 06:41:30] random_120_seed1_r0: MaxHS -> OPTIMUM FOUND (o=6) in 0.0365s
+[2026-06-22 06:41:30] random_120_seed1_r0: Kissat -> k_opt=6 total=0.1319s (calls=6)
+[2026-06-22 06:41:30] --- Solving random_120_seed2_r0 ---
+[2026-06-22 06:41:30] random_120_seed2_r0: MaxHS -> OPTIMUM FOUND (o=9) in 0.0375s
+[2026-06-22 06:41:30] random_120_seed2_r0: Kissat -> k_opt=9 total=0.1825s (calls=9)
+[2026-06-22 06:41:30] --- Solving random_120_seed3_r0 ---
+[2026-06-22 06:41:30] random_120_seed3_r0: MaxHS -> OPTIMUM FOUND (o=11) in 0.0378s
+[2026-06-22 06:41:31] random_120_seed3_r0: Kissat -> k_opt=11 total=0.2228s (calls=11)
+[2026-06-22 06:41:31] --- Solving random_150_seed1_r0 ---
+[2026-06-22 06:41:31] random_150_seed1_r0: MaxHS -> OPTIMUM FOUND (o=8) in 0.0406s
+[2026-06-22 06:41:31] random_150_seed1_r0: Kissat -> k_opt=8 total=0.1819s (calls=8)
+[2026-06-22 06:41:31] --- Solving random_150_seed2_r0 ---
+[2026-06-22 06:41:31] random_150_seed2_r0: MaxHS -> OPTIMUM FOUND (o=10) in 0.0389s
+[2026-06-22 06:41:31] random_150_seed2_r0: Kissat -> k_opt=10 total=0.1946s (calls=10)
+[2026-06-22 06:41:31] --- Solving random_150_seed3_r0 ---
+[2026-06-22 06:41:31] random_150_seed3_r0: MaxHS -> OPTIMUM FOUND (o=14) in 0.0517s
+[2026-06-22 06:41:31] random_150_seed3_r0: Kissat -> k_opt=14 total=0.3494s (calls=14)
+[2026-06-22 06:41:31] --- Solving random_20_seed1_r1 ---
+[2026-06-22 06:41:31] random_20_seed1_r1: MaxHS -> OPTIMUM FOUND (o=2) in 0.0404s
+[2026-06-22 06:41:31] random_20_seed1_r1: Kissat -> k_opt=2 total=0.0289s (calls=2)
+[2026-06-22 06:41:31] --- Solving random_20_seed2_r1 ---
+[2026-06-22 06:41:32] random_20_seed2_r1: MaxHS -> OPTIMUM FOUND (o=2) in 0.0358s
+[2026-06-22 06:41:32] random_20_seed2_r1: Kissat -> k_opt=2 total=0.0080s (calls=2)
+[2026-06-22 06:41:32] --- Solving random_20_seed3_r1 ---
+[2026-06-22 06:41:32] random_20_seed3_r1: MaxHS -> OPTIMUM FOUND (o=2) in 0.0369s
+[2026-06-22 06:41:32] random_20_seed3_r1: Kissat -> k_opt=2 total=0.0080s (calls=2)
+[2026-06-22 06:41:32] --- Solving random_30_seed1_r1 ---
+[2026-06-22 06:41:32] random_30_seed1_r1: MaxHS -> OPTIMUM FOUND (o=2) in 0.0377s
+[2026-06-22 06:41:32] random_30_seed1_r1: Kissat -> k_opt=2 total=0.0086s (calls=2)
+[2026-06-22 06:41:32] --- Solving random_30_seed2_r1 ---
+[2026-06-22 06:41:32] random_30_seed2_r1: MaxHS -> OPTIMUM FOUND (o=2) in 0.0389s
+[2026-06-22 06:41:32] random_30_seed2_r1: Kissat -> k_opt=2 total=0.0087s (calls=2)
+[2026-06-22 06:41:32] --- Solving random_30_seed3_r1 ---
+[2026-06-22 06:41:32] random_30_seed3_r1: MaxHS -> OPTIMUM FOUND (o=2) in 0.0496s
+[2026-06-22 06:41:32] random_30_seed3_r1: Kissat -> k_opt=2 total=0.0344s (calls=2)
+[2026-06-22 06:41:32] --- Solving random_40_seed1_r1 ---
+[2026-06-22 06:41:32] random_40_seed1_r1: MaxHS -> OPTIMUM FOUND (o=2) in 0.0414s
+[2026-06-22 06:41:32] random_40_seed1_r1: Kissat -> k_opt=2 total=0.0386s (calls=2)
+[2026-06-22 06:41:32] --- Solving random_40_seed2_r1 ---
+[2026-06-22 06:41:32] random_40_seed2_r1: MaxHS -> OPTIMUM FOUND (o=3) in 0.0463s
+[2026-06-22 06:41:32] random_40_seed2_r1: Kissat -> k_opt=3 total=0.0746s (calls=3)
+[2026-06-22 06:41:32] --- Solving random_40_seed3_r1 ---
+[2026-06-22 06:41:32] random_40_seed3_r1: MaxHS -> OPTIMUM FOUND (o=3) in 0.0438s
+[2026-06-22 06:41:32] random_40_seed3_r1: Kissat -> k_opt=3 total=0.0749s (calls=3)
+[2026-06-22 06:41:32] --- Solving random_60_seed1_r1 ---
+[2026-06-22 06:41:32] random_60_seed1_r1: MaxHS -> OPTIMUM FOUND (o=5) in 0.1009s
+[2026-06-22 06:41:33] random_60_seed1_r1: Kissat -> k_opt=5 total=0.6990s (calls=5)
+[2026-06-22 06:41:33] --- Solving random_60_seed2_r1 ---
+[2026-06-22 06:41:33] random_60_seed2_r1: MaxHS -> OPTIMUM FOUND (o=4) in 0.0647s
+[2026-06-22 06:41:33] random_60_seed2_r1: Kissat -> k_opt=4 total=0.0813s (calls=4)
+[2026-06-22 06:41:33] --- Solving random_60_seed3_r1 ---
+[2026-06-22 06:41:33] random_60_seed3_r1: MaxHS -> OPTIMUM FOUND (o=4) in 0.0660s
+[2026-06-22 06:41:33] random_60_seed3_r1: Kissat -> k_opt=4 total=0.2201s (calls=4)
+[2026-06-22 06:41:33] --- Solving random_80_seed1_r1 ---
+[2026-06-22 06:41:33] random_80_seed1_r1: MaxHS -> OPTIMUM FOUND (o=5) in 0.0899s
+[2026-06-22 06:41:34] random_80_seed1_r1: Kissat -> k_opt=5 total=0.3586s (calls=5)
+[2026-06-22 06:41:34] --- Solving random_80_seed2_r1 ---
+[2026-06-22 06:41:34] random_80_seed2_r1: MaxHS -> OPTIMUM FOUND (o=5) in 0.0865s
+[2026-06-22 06:41:34] random_80_seed2_r1: Kissat -> k_opt=5 total=0.5990s (calls=5)
+[2026-06-22 06:41:34] --- Solving random_80_seed3_r1 ---
+[2026-06-22 06:41:35] random_80_seed3_r1: MaxHS -> OPTIMUM FOUND (o=7) in 0.0869s
+[2026-06-22 06:41:43] random_80_seed3_r1: Kissat -> k_opt=7 total=8.6593s (calls=7)
+[2026-06-22 06:41:43] --- Solving random_100_seed1_r1 ---
+[2026-06-22 06:41:43] random_100_seed1_r1: MaxHS -> OPTIMUM FOUND (o=5) in 0.1155s
+[2026-06-22 06:41:44] random_100_seed1_r1: Kissat -> k_opt=5 total=0.8085s (calls=5)
+[2026-06-22 06:41:44] --- Solving random_100_seed2_r1 ---
+[2026-06-22 06:41:44] random_100_seed2_r1: MaxHS -> OPTIMUM FOUND (o=8) in 0.1103s
+[2026-06-22 06:42:57] random_100_seed2_r1: Kissat -> k_opt=8 total=72.4160s (calls=8)
+[2026-06-22 06:42:57] --- Solving random_100_seed3_r1 ---
+[2026-06-22 06:42:57] random_100_seed3_r1: MaxHS -> OPTIMUM FOUND (o=8) in 0.1748s
+[2026-06-22 06:43:48] random_100_seed3_r1: Kissat -> k_opt=8 total=50.9493s (calls=8)
+[2026-06-22 06:43:48] --- Solving random_120_seed1_r1 ---
+[2026-06-22 06:43:48] random_120_seed1_r1: MaxHS -> OPTIMUM FOUND (o=8) in 0.2347s
+[2026-06-22 06:46:34] random_120_seed1_r1: Kissat -> k_opt=None total=166.1134s (calls=7)
+[2026-06-22 06:46:34] --- Solving random_120_seed2_r1 ---
+[2026-06-22 06:46:34] random_120_seed2_r1: MaxHS -> OPTIMUM FOUND (o=9) in 0.2268s
+[2026-06-22 06:49:40] random_120_seed2_r1: Kissat -> k_opt=None total=186.0943s (calls=8)
+[2026-06-22 06:49:40] --- Solving random_120_seed3_r1 ---
+[2026-06-22 06:49:41] random_120_seed3_r1: MaxHS -> OPTIMUM FOUND (o=11) in 0.2236s
+[2026-06-22 06:53:56] random_120_seed3_r1: Kissat -> k_opt=None total=255.1131s (calls=9)
+[2026-06-22 06:53:56] --- Solving random_150_seed1_r1 ---
+[2026-06-22 06:53:56] random_150_seed1_r1: MaxHS -> OPTIMUM FOUND (o=8) in 0.2843s
+[2026-06-22 06:56:16] random_150_seed1_r1: Kissat -> k_opt=None total=140.1451s (calls=7)
+[2026-06-22 06:56:16] --- Solving random_150_seed2_r1 ---
+[2026-06-22 06:56:17] random_150_seed2_r1: MaxHS -> OPTIMUM FOUND (o=10) in 0.2819s
+[2026-06-22 06:59:34] random_150_seed2_r1: Kissat -> k_opt=None total=197.8912s (calls=9)
+[2026-06-22 06:59:34] --- Solving random_150_seed3_r1 ---
+[2026-06-22 06:59:35] random_150_seed3_r1: MaxHS -> OPTIMUM FOUND (o=14) in 0.2793s
+[2026-06-22 07:02:05] random_150_seed3_r1: Kissat -> k_opt=None total=150.2261s (calls=8)
+[2026-06-22 07:02:05] --- Solving random_20_seed1_r2 ---
+[2026-06-22 07:02:05] random_20_seed1_r2: MaxHS -> OPTIMUM FOUND (o=2) in 0.0798s
+[2026-06-22 07:02:05] random_20_seed1_r2: Kissat -> k_opt=2 total=0.0447s (calls=2)
+[2026-06-22 07:02:05] --- Solving random_20_seed2_r2 ---
+[2026-06-22 07:02:05] random_20_seed2_r2: MaxHS -> OPTIMUM FOUND (o=2) in 0.0424s
+[2026-06-22 07:02:05] random_20_seed2_r2: Kissat -> k_opt=2 total=0.0099s (calls=2)
+[2026-06-22 07:02:05] --- Solving random_20_seed3_r2 ---
+[2026-06-22 07:02:05] random_20_seed3_r2: MaxHS -> OPTIMUM FOUND (o=2) in 0.0439s
+[2026-06-22 07:02:05] random_20_seed3_r2: Kissat -> k_opt=2 total=0.0101s (calls=2)
+[2026-06-22 07:02:05] --- Solving random_30_seed1_r2 ---
+[2026-06-22 07:02:05] random_30_seed1_r2: MaxHS -> OPTIMUM FOUND (o=2) in 0.1203s
+[2026-06-22 07:02:05] random_30_seed1_r2: Kissat -> k_opt=2 total=0.0152s (calls=2)
+[2026-06-22 07:02:05] --- Solving random_30_seed2_r2 ---
+[2026-06-22 07:02:05] random_30_seed2_r2: MaxHS -> OPTIMUM FOUND (o=2) in 0.1077s
+[2026-06-22 07:02:05] random_30_seed2_r2: Kissat -> k_opt=2 total=0.0134s (calls=2)
+[2026-06-22 07:02:05] --- Solving random_30_seed3_r2 ---
+[2026-06-22 07:02:06] random_30_seed3_r2: MaxHS -> OPTIMUM FOUND (o=2) in 0.1086s
+[2026-06-22 07:02:06] random_30_seed3_r2: Kissat -> k_opt=2 total=0.0418s (calls=2)
+[2026-06-22 07:02:06] --- Solving random_40_seed1_r2 ---
+[2026-06-22 07:02:06] random_40_seed1_r2: MaxHS -> OPTIMUM FOUND (o=2) in 0.2041s
+[2026-06-22 07:02:06] random_40_seed1_r2: Kissat -> k_opt=2 total=0.0571s (calls=2)
+[2026-06-22 07:02:06] --- Solving random_40_seed2_r2 ---
+[2026-06-22 07:02:06] random_40_seed2_r2: MaxHS -> OPTIMUM FOUND (o=3) in 0.1681s
+[2026-06-22 07:02:06] random_40_seed2_r2: Kissat -> k_opt=3 total=0.1631s (calls=3)
+[2026-06-22 07:02:06] --- Solving random_40_seed3_r2 ---
+[2026-06-22 07:02:06] random_40_seed3_r2: MaxHS -> OPTIMUM FOUND (o=3) in 0.1901s
+[2026-06-22 07:02:07] random_40_seed3_r2: Kissat -> k_opt=3 total=0.1103s (calls=3)
+[2026-06-22 07:02:07] --- Solving random_60_seed1_r2 ---
+[2026-06-22 07:02:07] random_60_seed1_r2: MaxHS -> OPTIMUM FOUND (o=5) in 0.3928s
+[2026-06-22 07:02:20] random_60_seed1_r2: Kissat -> k_opt=5 total=12.8719s (calls=5)
+[2026-06-22 07:02:20] --- Solving random_60_seed2_r2 ---
+[2026-06-22 07:02:20] random_60_seed2_r2: MaxHS -> OPTIMUM FOUND (o=4) in 0.5625s
+[2026-06-22 07:02:22] random_60_seed2_r2: Kissat -> k_opt=4 total=1.6443s (calls=4)
+[2026-06-22 07:02:22] --- Solving random_60_seed3_r2 ---
+[2026-06-22 07:02:23] random_60_seed3_r2: MaxHS -> OPTIMUM FOUND (o=4) in 0.5541s
+[2026-06-22 07:02:30] random_60_seed3_r2: Kissat -> k_opt=4 total=7.1948s (calls=4)
+[2026-06-22 07:02:30] --- Solving random_80_seed1_r2 ---
+[2026-06-22 07:02:31] random_80_seed1_r2: MaxHS -> OPTIMUM FOUND (o=5) in 0.8569s
+[2026-06-22 07:02:48] random_80_seed1_r2: Kissat -> k_opt=5 total=17.3585s (calls=5)
+[2026-06-22 07:02:48] --- Solving random_80_seed2_r2 ---
+[2026-06-22 07:02:49] random_80_seed2_r2: MaxHS -> OPTIMUM FOUND (o=5) in 1.1006s
+[2026-06-22 07:03:24] random_80_seed2_r2: Kissat -> k_opt=5 total=34.9665s (calls=5)
+[2026-06-22 07:03:24] --- Solving random_80_seed3_r2 ---
+[2026-06-22 07:03:25] random_80_seed3_r2: MaxHS -> OPTIMUM FOUND (o=7) in 1.1467s
+[2026-06-22 07:05:36] random_80_seed3_r2: Kissat -> k_opt=None total=130.5406s (calls=5)
+[2026-06-22 07:05:36] --- Solving random_100_seed1_r2 ---
+[2026-06-22 07:05:37] random_100_seed1_r2: MaxHS -> OPTIMUM FOUND (o=5) in 1.7414s
+[2026-06-22 07:06:42] random_100_seed1_r2: Kissat -> k_opt=5 total=64.8137s (calls=5)
+[2026-06-22 07:06:42] --- Solving random_100_seed2_r2 ---
+[2026-06-22 07:06:44] random_100_seed2_r2: MaxHS -> OPTIMUM FOUND (o=8) in 1.9513s
+[2026-06-22 07:10:47] random_100_seed2_r2: Kissat -> k_opt=None total=243.0776s (calls=6)
+[2026-06-22 07:10:47] --- Solving random_100_seed3_r2 ---
+[2026-06-22 07:10:49] random_100_seed3_r2: MaxHS -> OPTIMUM FOUND (o=8) in 1.8510s
+[2026-06-22 07:13:04] random_100_seed3_r2: Kissat -> k_opt=None total=134.6956s (calls=5)
+[2026-06-22 07:13:04] --- Solving random_120_seed1_r2 ---
+[2026-06-22 07:13:07] random_120_seed1_r2: MaxHS -> OPTIMUM FOUND (o=8) in 3.5405s
+[2026-06-22 07:16:02] random_120_seed1_r2: Kissat -> k_opt=None total=174.9163s (calls=5)
+[2026-06-22 07:16:02] SKIP solve random_120_seed2_r2: not cached — run preprocess first
+[2026-06-22 07:16:02] SKIP solve random_120_seed3_r2: not cached — run preprocess first
+[2026-06-22 07:16:02] SKIP solve random_150_seed1_r2: not cached — run preprocess first
+[2026-06-22 07:16:02] SKIP solve random_150_seed2_r2: not cached — run preprocess first
+[2026-06-22 07:16:02] SKIP solve random_150_seed3_r2: not cached — run preprocess first
+[2026-06-22 07:16:02] === SOLVE stage finished ===
+[2026-06-22 07:16:02] === Benchmark run complete ===

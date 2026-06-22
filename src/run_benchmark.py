@@ -2,9 +2,9 @@
 Rounds comparison: MaxHS vs. iterative Kissat
 for the AGP SAT/MaxSAT pipeline, varying candidate generation rounds.
 Usage:
-    python3 run_benchmark_v3.py preprocess
-    python3 run_benchmark_v3.py solve
-    python3 run_benchmark_v3.py all
+    python3 run_benchmark.py preprocess
+    python3 run_benchmark.py solve
+    python3 run_benchmark.py all
 """
 
 import subprocess
@@ -32,24 +32,23 @@ LOG_FILE = Path("benchmark_rounds.log")
 
 INSTANCE_FAMILIES = {
     "comb": {
-        "sizes": [3, 4, 5, 6],
+        "sizes": [6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30],
         "seeds": [None],
         "rounds": [0, 1, 2],
     },
     "random": {
-        "sizes": [10, 20, 30, 40],
-        "seeds": [1, 2, 3, 4, 5],
-        "rounds": [0, 1, 2],          # round 2 explodes for random_30/40
+        "sizes": [20, 30, 40, 60, 80, 100, 120, 150],
+        "seeds": [1, 2, 3],
+        "rounds": [0, 1, 2],
     },
 }
 
-K_MAX = 20                  # upper bound; iterative search stops at SAT
+K_MAX = 35
 
 # Timeouts (seconds)
-PREPROCESS_TIMEOUT = 7200
-MAXHS_TIMEOUT = 600
-KISSAT_TIMEOUT = 600
-
+PREPROCESS_TIMEOUT = 1800
+MAXHS_TIMEOUT = 300
+KISSAT_TIMEOUT = 120
 TOTAL_BUDGET_SECONDS = 8 * 3600
 
 PREPROCESS_FIELDS = [
