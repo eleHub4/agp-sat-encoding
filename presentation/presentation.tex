@@ -341,24 +341,29 @@ Betreuer: Mathias Fleury}
     \]
     Mindestens ein Guard, der $p_j$ sieht, muss aktiv sein.
   \end{block}
-  \vspace{0.3em}
-  \begin{alertblock}{Coverage allein reicht nicht}
-    Triviale Lösung: alle $\guard{i}=1$ erfüllt alle Klauseln.
-    $\Rightarrow$ Kardinalitätsbeschränkung nötig.
-  \end{alertblock}
 \end{frame}
 
-\begin{frame}{Kardinalitätsbeschränkung: $\sum \guard{i} \leq k$}
-  \begin{itemize}
-    \item SAT kennt keine Summation — nur boolesche Disjunktionen
-    \item Die Schranke muss also über Klauseln simuliert werden
-  \end{itemize}
-  \vspace{0.6em}
-  \begin{block}{Sequential Counter Encoding}
-    Simuliert einen Zähler über Hilfsvariablen $\svar{i}{j}$.\\[0.3em]
-    $\mathcal{O}(n \cdot k)$ zusätzliche Variablen und Klauseln —
-    skaliert linear in $n$ und $k$, allgemein einsetzbar.
-  \end{block}
+\begin{frame}{Warum ein Sequential Counter?}
+
+\begin{block}{Problem}
+Coverage-Klauseln allein erlauben die triviale Lösung:
+\[
+g_1 = g_2 = \dots = g_n = 1
+\]
+Alle Witnesses sind überwacht, aber die Lösung ist nicht minimal.
+\end{block}
+\vspace{0.4em}
+\begin{block}{Ziel}
+Beschränke die Anzahl aktiver Guards:
+\[
+\sum_{i=1}^{n} g_i \le k
+\]
+\end{block}
+\vspace{0.4em}
+\begin{alertblock}{Herausforderung}
+SAT kennt nur Klauseln über boolesche Variablen.
+Die Zählbedingung muss daher als CNF kodiert werden.
+\end{alertblock}
 \end{frame}
 
 \begin{frame}{Sequential Counter: Hilfsvariable \& Initialisierung}
@@ -473,6 +478,29 @@ Betreuer: Mathias Fleury}
   \end{block}
 \end{frame}
 
+
+
+% ============================================================
+\section{Ergebnisse}
+% ============================================================
+ \begin{frame}{Beispiellösungen}
+
+\begin{center}
+\includegraphics[width=0.75\textwidth]{../plots/comb_3.pdf}
+\end{center}
+\small
+\texttt{comb\_3}: optimale Lösung mit $k_{\min}=3$ Guards
+\end{frame}
+
+\begin{frame}{Beispiellösungen}
+
+\begin{center}
+\includegraphics[width=0.75\textwidth]{../plots/random_20_seed1.pdf}
+\end{center}
+\small
+\texttt{random\_20\_seed1}: optimale Lösung mit $k_{\min}=2$ Guards
+\end{frame}
+
 % ============================================================
 \section{Evaluation}
 % ============================================================
@@ -507,26 +535,6 @@ Betreuer: Mathias Fleury}
 \end{frame}
 
 
-% ============================================================
-\section{Ergebnisse}
-% ============================================================
- \begin{frame}{Beispiellösungen}
-
-\begin{center}
-\includegraphics[width=0.75\textwidth]{../plots/comb_3.pdf}
-\end{center}
-\small
-\texttt{comb\_3}: optimale Lösung mit $k_{\min}=3$ Guards
-\end{frame}
-
-\begin{frame}{Beispiellösungen}
-
-\begin{center}
-\includegraphics[width=0.75\textwidth]{../plots/random_20_seed1.pdf}
-\end{center}
-\small
-\texttt{random\_20\_seed1}: optimale Lösung mit $k_{\min}=2$ Guards
-\end{frame}
  
 \begin{frame}{Laufzeit: \texttt{Random}}
   \begin{center}
@@ -630,13 +638,10 @@ SAT-Suche teuer. MaxHS skaliert deutlich besser.
 \begin{itemize}
   \item Zusätzliche Runden erhöhen die Kandidatenzahl stark
   \item Das Optimum verändert sich meist kaum
-  \item Kissat verliert Zeit in aufeinanderfolgenden
-        UNSAT-Nachweisen
+  \item Kissat verliert Zeit in aufeinanderfolgenden UNSAT-Nachweisen
   \item MaxHS vermeidet die iterative Suche nach $k$
 \end{itemize}
 \end{block}
-
-\vspace{0.4em}
 
 \begin{block}{Skalierung}
 \begin{itemize}
@@ -654,15 +659,15 @@ SAT-Suche teuer. MaxHS skaliert deutlich besser.
 % ============================================================
 
 \begin{frame}{Fazit \& Ausblick}
-  \begin{block}{Zusammenfassung}
-    \begin{itemize}
-        \item AGP erfolgreich als SAT und MaxSAT modelliert
-        \item Sequential Counter ermöglicht exakte Kardinalitätsbeschränkung
-        \item MaxHS vermeidet die iterative Suche über k
-        \item Zusätzliche Kandidatenrunden erhöhen die Instanzgröße stark
-        \item Kandidatengenerierung dominiert bei großen Instanzen
-    \end{itemize}
-  \end{block}
+    \begin{block}{Zusammenfassung}
+        \begin{itemize}
+            \item AGP erfolgreich als SAT und MaxSAT modelliert
+            \item Coverage-Bedingungen als SAT-Klauseln kodiert
+            \item Sequential Counter ermöglicht exakte Kardinalitätsbeschränkung
+            \item MaxSAT erlaubt die direkte Minimierung der Guard-Anzahl
+            \item Beide Ansätze liefern optimale Lösungen für den diskretisierten Kandidatensatz
+        \end{itemize}
+    \end{block}
   \begin{block}{Ausblick}
     \begin{itemize}
       \item \textbf{Kandidatengenerierung} ist Flaschenhals bei großen Instanzen
