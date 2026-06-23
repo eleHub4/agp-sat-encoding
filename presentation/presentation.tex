@@ -56,7 +56,7 @@
 \author{Elena Berschauer}
 \institute{Lehrstuhl für Rechnerarchitektur \\
 Betreuer: Mathias Fleury}
-\date{22. Juni 2026}
+\date{24. Juni 2026}
 
 \begin{document}
 
@@ -135,10 +135,10 @@ Betreuer: Mathias Fleury}
   \end{columns}
 \end{frame}
 
+
 % ============================================================
 \section{Diskretisierung \& Kandidaten}
 % ============================================================
-
 
 
 \begin{frame}{Vom kontinuierlichen AGP zur Diskretisierung}
@@ -421,7 +421,7 @@ Betreuer: Mathias Fleury}
     Implikation: $\svar{i-1}{k} \rightarrow \neg\guard{i}$
     \quad$\equiv$\quad $\neg(\svar{i-1}{k} \wedge \guard{i})$
     \[
-      \alert{\neg\svar{i-1}{k} \vee \neg\guard{i}}
+      \neg\svar{i-1}{k} \vee \neg\guard{i}
     \]
     Das ist die eigentliche Schranke $\sum_i \guard{i} \leq k$.
   \end{block}
@@ -469,7 +469,7 @@ Betreuer: Mathias Fleury}
     \]
     Jede verletzte Soft Clause ($\guard{i}=1$) kostet 1.\\
     Solver minimiert Kosten $=$ Anzahl aktiver Guards.\\
-    \alert{Keine Hilfsvariablen, kein iteratives $k$.}
+    \alert{Kein Sequential Counter, kein iteratives $k$.}
   \end{block}
 \end{frame}
 
@@ -515,10 +515,8 @@ Betreuer: Mathias Fleury}
 \begin{center}
 \includegraphics[width=0.75\textwidth]{../plots/comb_3.pdf}
 \end{center}
-
 \small
 \texttt{comb\_3}: optimale Lösung mit $k_{\min}=3$ Guards
-
 \end{frame}
 
 \begin{frame}{Beispiellösungen}
@@ -526,33 +524,23 @@ Betreuer: Mathias Fleury}
 \begin{center}
 \includegraphics[width=0.75\textwidth]{../plots/random_20_seed1.pdf}
 \end{center}
-
 \small
 \texttt{random\_20\_seed1}: optimale Lösung mit $k_{\min}=2$ Guards
+\end{frame}
+ 
+\begin{frame}{Laufzeit: \texttt{Random}}
+  \begin{center}
+    \includegraphics[width=0.90\textwidth]{../plots/random_all_rounds_timeouts.pdf}\\[0.2em]
+  \end{center}
+\end{frame}
+ 
+\begin{frame}{Laufzeit: \texttt{Comb}}
+  \begin{center}
+    \includegraphics[width=0.90\textwidth]{../plots/comb_all_rounds_timeouts.pdf}\\[0.2em]
 
-\end{frame}
- 
-\begin{frame}{Einfluss der Rundenzahl: \texttt{comb}}
-  \begin{center}
-    \includegraphics[width=0.92\textwidth]{../plots/comb_vs_rounds.pdf}\\[0.2em]
   \end{center}
 \end{frame}
- 
-\begin{frame}{Einfluss der Rundenzahl: \texttt{random}}
-  \begin{center}
-    \includegraphics[width=0.92\textwidth]{../plots/random_vs_rounds.pdf}\\[0.2em]
 
-  \end{center}
-\end{frame}
- 
-\begin{frame}{Ergebnisse: UNSAT-Explosion bei \texttt{comb}}
-  \begin{center}
-    \includegraphics[width=0.78\textwidth]{../plots/comb_per_k_r2.pdf}\\[0.3em]
-    {\footnotesize Kissat-Zeit pro $k$-Aufruf (log-Skala, \texttt{rounds=2}).
-    Bei \texttt{comb\_6} erreicht der UNSAT-Nachweis für $k{=}4$
-    bereits das Zeitlimit --- Optimum $k{=}6$ wird nie erreicht.}
-  \end{center}
-\end{frame}
  
 \iffalse
 \begin{frame}{Ergebnisse: Tabelle}
