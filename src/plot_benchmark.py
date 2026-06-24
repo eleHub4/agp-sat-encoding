@@ -138,7 +138,7 @@ def plot_all_rounds_one_diagram(rows, family):
     )
 
     plt.yscale("log")
-    plt.ylim(0.02, 300)
+    plt.ylim(0.005, 300)
 
     plt.xlabel("Polygon-Größe" if family == "random" else "Kandidatenzahl")
     plt.ylabel("Median-Zeit (s)")
